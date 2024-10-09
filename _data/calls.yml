@@ -1,7 +1,7 @@
 description: >
   The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) is the premier annual conference for
   presenting the latest research on the design, implementation, evaluation, and use of parallel and distributed systems for high-end
-  computing. The 33rd HPDC will take place in Pisa, Italy, June 3-7, 2024.
+  computing. The 34th HPDC will take place in Notre Dame, IN, USA, July 20-23, 2025.
 
 scope: >
   Submissions are welcomed on high-performance parallel and distributed computing (HPDC) topics including but not limited to: clouds,
@@ -47,12 +47,8 @@ pages_call:
     url: "./calls.html"
   - name: Papers
     url: "./calls-cfp.html"
-  - name: Workshops and Tutorials
+  - name: Workshops
     url: "./calls-wst.html"
-  - name: European Projects
-    url: "./calls-eu.html"
-  - name: PhD Symposium
-    url: "./calls-phd.html"
   - name: Posters
     url: "./calls-posters.html"
   - name: Award Nominations

@@ -31,27 +31,13 @@ slide_id: 4
         {% endif %}
         </p>
 
-        <div id="days" class="alert alert-info rounded mx-3">
-            <p class="h6">
-                June 3rd and June 4th are reserved for Workshops and Tutorials. <br>
-                Detailed schedules and information on workshops and tutorials can be found on their
-                <a href="./workshops.html" target="_blank" class="alert-link">respective pages</a>.
-            </p>
-        </div>
-
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <div id="days" class="alert alert-success rounded text-center mx-3">
                     {% for day in site.data.program.schedule %}
                     <a class="h6 alert-link" href="#day{{forloop.index}}">Day {{ forloop.index }}</a>
                     {% if forloop.last %} {% else %} | {% endif %}
                     {% endfor %}
-                </div>
-            </div>
-            <div class="col-6">
-                <div id="days" class="alert alert-info rounded text-center mx-3">
-                    <a class="h6 alert-link" href="./assets/images/maps/dept.pdf" target="_blank">Map of the
-                        Department</a>
                 </div>
             </div>
         </div>

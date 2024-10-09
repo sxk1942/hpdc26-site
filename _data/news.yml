@@ -1,27 +1,3 @@
-- date: 2024-05-27
-  text: <b>Registration site closed</b>
-  visible: True
-- date: 2024-04-16
-  text: Registration site opened
-  visible: True
-- date: 2024-03-06
-  text: 'Call for Nomination: "HPDC 2024 Achievement Award" has been published'
-  visible: True
-- date: 2023-12-21
-  text: The submission site for the main conference track is now open!
-  visible: True
-- date: 2023-12-09
-  text: Call for PhD Symposium Papers has been published
-  visible: True
-- date: 2023-11-03
-  text: Call for Posters has been published
-  visible: True
-- date: 2023-10-25
-  text: Call for Workshops and Tutorials has been published
-  visible: True
-- date: 2023-10-11
-  text: Call for Papers (Main Track) has been updated
-  visible: True
-- date: 2023-10-06
+- date: 2024-10-07
   text: Website is online
   visible: True

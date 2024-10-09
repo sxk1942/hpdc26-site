@@ -4,342 +4,80 @@ online:
   url:
 
 schedule:
-  - type: wst
-    location: Department of Computer Science
-    date: "2024-06-03"
-    dateReadable: June 3
+  - location: Morris Inn
+    date: "2025-07-20"
+    dateReadable: July 20
     timeslots:
-      - startTime: "8:15 AM"
-        endTime: "8:30 AM"
-        title: "Registration"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Workshops at Morris Inn"
         type: service
 
-      - startTime: "8:30 AM"
-        endTime: "10:30 AM"
-        rooms:
-          gerace: ---
-          riunioni_est: Ai4Sys
-          riunioni_ovest: ---
-          seminari_est: PECS
-          seminari_ovest: PERMAVOST
 
-      - startTime: "10:30 AM"
-        endTime: "11:00 AM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "11:00 AM"
-        endTime: "1:00 PM"
-
-        rooms:
-          gerace: ---
-          riunioni_est: Ai4Sys
-          riunioni_ovest: ---
-          seminari_est: PECS
-          seminari_ovest: PERMAVOST
-
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Lunch"
-        type: service
-
-      - startTime: "2:00 PM"
-        endTime: "4:00 PM"
-
-        rooms:
-          gerace: ---
-          riunioni_est: QUASAR
-          riunioni_ovest: HPQCI
-          seminari_est: FlexScience
-          seminari_ovest: SEATED
-
-      - startTime: "4:00 PM"
-        endTime: "4:30 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "4:30 PM"
-        endTime: "6:30 PM"
-        rooms:
-          gerace: ---
-          riunioni_est: QUASAR
-          riunioni_ovest: HPQCI
-          seminari_est: FlexScience
-          seminari_ovest: SEATED
-
-  - type: wst
-    location: Department of Computer Science
-    date: "2024-06-04"
-    dateReadable: June 4
+  - location: Duncan Hall 7th Floor
+    date: "2025-07-21"
+    dateReadable: July 21
     timeslots:
-      - startTime: "8:15 AM"
-        endTime: "8:30 AM"
-        title: "Registration"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Keynote"
         type: service
 
-      - startTime: "8:30 AM"
-        endTime: "10:30 AM"
-
-        rooms:
-          gerace: FRAME
-          riunioni_est: Tutorial 3 <br>(Zeydan, Mangues-Bafalluy, Baranda)
-          riunioni_ovest: Tutorial 2 <br>(Cicconetti)
-          seminari_est: SNTA
-          seminari_ovest: ---
-
-      - startTime: "10:30 AM"
-        endTime: "11:00 AM"
-        title: "Coffee Break"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Technical Sessions"
         type: service
 
-      - startTime: "11:00 AM"
-        endTime: "1:00 PM"
-
-        rooms:
-          gerace: FRAME
-          riunioni_est: Tutorial 3 <br>(Zeydan, Mangues-Bafalluy, Baranda)
-          riunioni_ovest: Tutorial 2 <br>(Cicconetti)
-          seminari_est: SNTA
-          seminari_ovest: ---
-
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Lunch"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Panel Discussion"
         type: service
 
-      - startTime: "2:00 PM"
-        endTime: "4:00 PM"
-
-        rooms:
-          gerace: FRAME
-          riunioni_est: Tutorial 4 <br>(Talia, Trunfio)
-          riunioni_ovest: Tutorial 1 <br>(Mastroianni, Vinci)
-          seminari_est: SNTA
-          seminari_ovest: ---
-
-      - startTime: "4:00 PM"
-        endTime: "4:30 PM"
-        title: "Coffee Break"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Evening Poster Session"
         type: service
 
-      - startTime: "4:30 PM"
-        endTime: "6:30 PM"
 
-        rooms:
-          gerace: FRAME
-          riunioni_est: Tutorial 4 <br>(Talia, Trunfio)
-          riunioni_ovest: Tutorial 1 <br>(Mastroianni, Vinci)
-          seminari_est: SNTA
-          seminari_ovest: ---
-
-      - startTime: "7:30 PM"
-        endTime: "9 PM"
-        title: "Welcome Cocktail & Poster Session (Conference Center 'Polo Piagge')"
-        type: social
-
-  - date: "2024-06-05"
-    dateReadable: June 5
-    location: Conference Center "Polo Piagge"
+  - date: "2025-07-22"
+    dateReadable: July 22
+    location: Duncan Hall 7th Floor
     timeslots:
-      - startTime: "8:30 AM"
-        endTime: "9:00 AM"
-        title: "Registration"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Keynote"
         type: service
 
-      - startTime: "9:00 AM"
-        endTime: "9:50 AM"
-        title: "Welcome"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Technical Sessions"
         type: service
 
-      - startTime: "9:50 AM"
-        endTime: "10:50 AM"
-        title: "Migratable Objects: The evolution and journey of an idea"
-        chair: "Rosa M. Badia"
-        speaker: Laxmikant (Sanjay) Kale
-        type: keynote
-
-      - startTime: "10:50 AM"
-        endTime: "11:20 AM"
-        title: "Coffee Break"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Panel Discussion"
         type: service
 
-      - startTime: "11:20 AM"
-        endTime: "1:00 PM"
-        title: Compression and AI
-        type: presentation
-        chair: "Domenico Talia"
-        submissions:
-          - 450
-          - 116
-          - 118
-          - 42
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Lunch"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Dinner Reception at Studebaker National Museum"
         type: service
 
-      - startTime: "2:00 PM"
-        endTime: "3:15 PM"
-        title: Resilience
-        type: presentation
-        chair: "Changhee Jung"
-        submissions:
-          - 283
-          - 114
-          - 292
-
-      - startTime: "3:15 PM"
-        endTime: "3:45 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "3:45 PM"
-        endTime: "5:15 PM"
-        title: "Industrial Panel"
-
-      - startTime: "6:15 PM"
-        endTime: ""
-        title: 'Guided Tour to <i>"Piazza Dei Miracoli"</i>'
-        type: social
-
-  - date: "2024-06-06"
-    dateReadable: June 6
-    location: Conference Center "Polo Piagge"
+  - date: "2025-07-23"
+    dateReadable: July 23
+    location: Duncan Hall 7th Floor
     timeslots:
-      - startTime: "8:30 AM"
-        endTime: "9:00 AM"
-        title: "Registration"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Keynote"
         type: service
 
-      - startTime: "9:00 AM"
-        endTime: "10:00 AM"
-        title: "Resource Consumption & Service Demand Forecasting"
-        speaker: "Theodora Varvarigou"
-        chair: Patrizio Dazzi
-        type: keynote
-
-      - startTime: "10:00 AM"
-        endTime: "11:15 AM"
-        title: "Serverless Computing"
-        type: presentation
-        chair: "Lixian Ma"
-        submissions:
-          - 115
-          - 273
-          - 179
-
-      - startTime: "11:15 AM"
-        endTime: "11:45 AM"
-        title: "Coffee Break"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Technical Sessions"
         type: service
 
-      - startTime: "11:45 AM"
-        endTime: "1:00 PM"
-        title: "Software Systems & Workflows"
-        type: presentation
-        chair: "Massimo Coppola"
-        submissions:
-          - 104
-          - 191
-          - 117
-
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Lunch"
+      - startTime: "TBA"
+        endTime: "TBA"
+        title: "Awards and Closing Remarks"
         type: service
-
-      - startTime: "2:00 PM"
-        endTime: "3:40 PM"
-        type: parallel
-        events:
-          - name: PhD Symposium
-            location: Conference Room
-
-          - name: EU Track
-            location: Aula H1 (1st floor)
-
-      - startTime: "3:40 PM"
-        endTime: "4:10 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "4:10 PM"
-        endTime: "5:25 PM"
-        title: "Performance modeling & LLMs"
-        type: presentation
-        chair: "Ignacio Laguna"
-        submissions:
-          - 96
-          - 308
-          - 296
-
-      - startTime: "8:00 PM"
-        endTime: "11.30 PM"
-        title: "Conference Dinner (Chiostro S.M. del Carmine)"
-        type: social
-
-  - date: "2024-06-07"
-    dateReadable: June 7
-    location: Conference Center "Polo Piagge"
-    timeslots:
-      - startTime: "8:30 AM"
-        endTime: "9:00 AM"
-        title: "Registration"
-        type: service
-
-      - startTime: "9:00 AM"
-        endTime: "10:00 AM"
-        title: "The Future of Parallel Code Development: Will AI Lead the Way?"
-        speaker: Abhinav Bhatele
-        chair: "Gabriele Mencagli"
-        type: keynote
-
-      - startTime: "10:00 AM"
-        endTime: "11:15 AM"
-        title: "Accelerators & Scientific applications"
-        type: presentation
-        chair: "Raffaele Montella"
-        submissions:
-          - 272
-          - 506
-          - 176
-
-      - startTime: "11:15 AM"
-        endTime: "11:45 AM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "11:45 AM"
-        endTime: "1:00 PM"
-        title: "Resource Management"
-        type: presentation
-        chair: "Kento Sato"
-        submissions:
-          - 303
-          - 77
-          - 19
-
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Lunch"
-        type: service
-
-      - startTime: "2:00 PM"
-        endTime: "3:40 PM"
-        title: "Communication & Storage"
-        type: presentation
-        chair: "Bogdan Nicolae"
-        submissions:
-          - 516
-          - 71
-          - 417
-          - 122
-
-      - startTime: "3:40 PM"
-        endTime: "4:10 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "4:10 PM"
-        endTime: "5:00 PM"
-        title: "Closing"

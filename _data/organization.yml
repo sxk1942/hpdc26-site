@@ -1,159 +1,84 @@
 - title: General Chairs
   column: 1
   members:
-    - name: Patrizio Dazzi
-      org: University of Pisa, Italy
-      homepage: "http://pages.di.unipi.it/dazzi/"
+    - name: Douglas Thain 
+      org: University of Notre Dame, USA
+      homepage: "https://engineering.nd.edu/faculty/douglas-thain/"
 
-    - name: Gabriele Mencagli
-      org: University of Pisa, Italy
-      homepage: "http://pages.di.unipi.it/mencagli/"
-
-- title: Program Chairs
-  column: 1
-  members:
-    - name: Rosa M. Badia
-      org: Barcelona Supercomputing Center, Spain
-      homepage: "https://www.bsc.es/badia-rosa-m"
-    - name: David K. Lowenthal
-      org: University of Arizona, USA
-      homepage: "https://dkl.cs.arizona.edu"
+    - name: Jarek Nabrzyski
+      org: University of Notre Dame, USA
+      homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
 
 - title: Local Arrangements Chair
   column: 1
   members:
-    - name: Emanuele Carlini
-      org: National Research Council of Italy (CNR)
-      homepage: "https://www.isti.cnr.it/en/about/people-detail/75/Emanuele_Carlini"
+    - name: Corrina Foggia
+      org: University of Notre Dame, USA
+      homepage: "https://crc.nd.edu/about/people/corrina-foggia/"
 
-- title: Workshop and Tutorials Chairs
+- title: Workshop Chair
   column: 1
   members:
-    - name: Matteo Mordacchini
-      org: National Research Council of Italy (CNR)
-      homepage: "https://www.iit.cnr.it/matteo.mordacchini/"
-    - name: Yue Cheng
-      org: University of Virginia, USA
-      homepage: "https://engineering.virginia.edu/faculty/yue-cheng"
-
-- title: PhD Symposium Chairs
-  column: 1
-  members:
-    - name: Marco Danelutto
-      org: University of Pisa, Italy
-      homepage: "http://calvados.di.unipi.it/paragroup/danelutto/"
-    - name: Valeria Cardellini
-      org: University of Roma Tor Vergata, Italy
-      homepage: "http://www.ce.uniroma2.it/~valeria/"
-
-- title: Liaisons with EU Projects Chairs
-  column: 1
-  members:
-    - name: Konstantinos Tserpes
-      org: Harkopio University of Athens, Greece
-      homepage: "https://dit.hua.gr/index.php/en/tserpes"
-    - name: Ana Juan Ferrer
-      org: European Commission
-      homepage: "https://be.linkedin.com/in/anajuan"
+    - name: Maciej Malawski
+      org: AGH University of Science and Technology, Poland
+      homepage: "https://home.agh.edu.pl/~malawski/"
 
 - title: Poster Chairs
   column: 1
   members:
-    - name: Janki Bhimani
-      org: Florida International University, USA
-      homepage: "https://www.cis.fiu.edu/faculty-staff/bhimani-janki/"
-    - name: Massimo Coppola
-      org: National Research Council of Italy (CNR)
-      homepage: "https://www.isti.cnr.it/it/chi-siamo/people-detail/71/Massimo_Coppola"
-    # - name: Huaicheng Li
-    #   org: Virginia Tech, USA
-    #   homepage: "https://www.cs.vt.edu/people/faculty/huaicheng-li.html"
-    # - name: Sarah Neuwirth
-    #   org: Johannes Gutenberg University Mainz, Germany
-    #   homepage: "https://researchprofiles.uni-mainz.de/19180-sarah-neuwirth"
-    # - name: Tiziano De Matteis
-    #   org: Vrije Universiteit Amsterdam, Netherlands
-    #   homepage: "https://tizianodematteis.github.io"
+    - name: Spyridon Mastorakis
+      org: University of Notre Dame, USA
+      homepage: "https://engineering.nd.edu/faculty/spyridon-mastorakis/"
 
-- title: Publication Chairs
+    - name: Tanzima Islam
+      org: Texas State University, USA
+      homepage: "https://www.tanzimaislam.com/"
+
+- title: Student Program and Awards Chairs
   column: 1
   members:
-    - name: Antonis Makris
-      org: Harkopio University of Athens, Greece
-      homepage: ""
-    - name: Rafael ferreira da Silva
-      org: Oak Ridge National Laboratory, TN, USA
-      homepage: ""
+    - name: Lavanya Ramakrishnan
+      org: Lawrence Berkeley National Laboratory, USA
+      homepage: "https://crd.lbl.gov/divisions/scidata/about-scidata/office-of-the-director/lavanya-ramakrishnan/"
 
-- title: Publicity Chairs
+    - name: Rafael da Silva
+      org: Oak Ridge National Laboratory, USA
+      homepage: "https://rafaelsilva.com/#about-me"
+
+- title: Achievement Award Chair
   column: 1
   members:
-    - name: Dalvan Griebler
-      org: PUCRS, Brazil
-      homepage: ""
-    - name: Maria Fazio
-      org: University of Messina, Italy
-      homepage: ""
-    - name: Minsu Jeon
-      org: KAIST, South Korea
-      homepage: ""
-    - name: Stefan Nastic
-      org: TUWIEN, Austria
-      homepage: ""
-    - name: Ali Anwar
-      org: University of Minnesota, USA
-      homepage: ""
-    - name: Alberto Ottimo
-      org: University of Pisa, Italy
-      homepage: ""
+    - name: Manish Parashar
+      org: University of Utah, USA
+      homepage: "https://www.manishparashar.org/"
 
-- title: Industrial Panel and Sponsorship Chairs
+- title: Publication Chair
   column: 1
   members:
-    - name: Maurizio Davini
-      org: University of Pisa, Italy
-      homepage: ""
-    - name: Raffaele Montella
-      org: University Parthenope of Naples, Italy
-      homepage: ""
+    - name: Jay Lofstead
+      org: Sandia National Laboratory, USA
+      homepage: "http://www.lofstead.org/"
 
-- title: Registration Chairs
+- title: Publicity Chair
   column: 1
   members:
-    - name: Luca Ferrucci
-      org: University of Pisa, Italy
-      homepage: ""
-    - name: Hanna Kavalionak
-      org: National Research Council of Italy (CNR)
-      homepage: ""
+    - name: Tyler Skluzarek
+      org: Oak Ridge National Laboratory, USA
+      homepage: "https://www.ornl.gov/staff-profile/tyler-j-skluzacek"
+    - name: Ana Varbanescu
+      org: University of Amsterdam, Netherlands
+      homepage: "https://www.uva.nl/en/profile/v/a/a.l.varbanescu/a.l.varbanescu.html?cb"
+    - name: Hiroshi Inoue
+      org: IBM Research, Japan
+      homepage: "https://research.ibm.com/people/hiroshi-inoue"
 
-- title: Travel Grant Chairs
-  column: 1
-  members:
-    - name: Azad Ariful
-      org: Indiana University Bloomington, USA
-      homepage: ""
-    - name: Li Dong
-      org: University of California Merced, USA
-      homepage: ""
-
-- title: Social Media Chairs
-  column: 1
-  members:
-    - name: Stefano Forti
-      org: University of Pisa, Italy
-      homepage: ""
-    - name: Lishan Yang
-      org: George Mason University, USA
-      homepage: ""
-
-- title: Web chair
+- title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
   column: 1
   members:
-    - name: Jacopo Massa
-      org: University of Pisa, Italy
-      homepage: "http://pages.di.unipi.it/massa"
+    - name: Thanh Son Phung
+      org: University of Notre Dame, USA
+      homepage: "https://www.linkedin.com/in/thanhsonphung/"
 
 - title: Steering Committee
   column: 1
@@ -204,243 +129,10 @@
       org: University of Delaware, USA
       homepage: #
     - name: Douglas Thain
-      org: University of Notre Dame, France
+      org: University of Notre Dame, USA
       homepage: #
 
 - title: Technical Program Committee
   column: 2
   members:
-    - name: Alfredo Goldman
-      org: USP, Brazil
-      homepage: #
-    - name: Ana-Lucia Varbanescu
-      org: University of Twente, Netherlands
-      homepage: #
-    - name: Antonio J. Peña
-      org: Barcelona Supercomputing Center, Spain
-      homepage: #
-    - name: Balazs Gerofi
-      org: Intel Corporation, USA
-      homepage: #
-    - name: Bogdan Nicolae
-      org: Argonne National Laboratory, USA
-      homepage: #
-    - name: Brian Kocoloski
-      org: Information Sciences Institute, USA
-      homepage: #
-    - name: Changhee Jung
-      org: Purdue University, USA
-      homepage: #
-    - name: Dejan Milojicic
-      org: Hewlett Packard Labs, USA
-      homepage: #
-    - name: Devesh Tiwari
-      org: Northeastern University, USA
-      homepage: #
-    - name: Douglas Thain
-      org: University of Notre Dame, USA
-      homepage: #
-    - name: Franck Cappello
-      org: Argonne National Laboratory, USA
-      homepage: #
-    - name: Jack Lange
-      org: Oak Ridge National Lab, USA
-      homepage: #
-    - name: Kyle Chard
-      org: Univ. of Chicago/Argonne National Laboratory, USA
-      homepage: #
-    - name: Martin Schulz
-      org: Technical University of Munich, Germany
-      homepage: #
-    - name: Michela Becchi
-      org: North Carolina State University, USA
-      homepage: #
-    - name: Min Si
-      org: Facebook, USA
-      homepage: #
-    - name: Ningfang Mi
-      org: Northeastern University, USA
-      homepage: #
-    - name: Olivier Beaumont
-      org: Inria, France
-      homepage: #
-    - name: Peter Dinda
-      org: Northwestern University, USA
-      homepage: #
-    - name: Rafael Ferreira da Silva
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Robert Wisniewski
-      org: Samsung, USA
-      homepage: #
-    - name: Samer Al-Kiswany
-      org: University of Waterloo, Canada
-      homepage: #
-    - name: Scott Levy
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Shirley Moore
-      org: University of Texas El Paso, USA
-      homepage: #
-    - name: Swaroop Pophale
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Tanzima Islam
-      org: Texas State University, USA
-      homepage: #
-    - name: Andrew Younge
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Kartik Gopalan
-      org: Binghamton University, USA
-      homepage: #
-    - name: Nikhil Jain
-      org: NVIDIA, USA
-      homepage: #
-    - name: Nathan Tallent
-      org: Pacific Northwest National Laboratory, USA
-      homepage: #
-    - name: Abhinav Bhatele
-      org: University of Maryland, USA
-      homepage: #
-    - name: Dimitris Nikolopoulos
-      org: Virginia Tech, USA
-      homepage: #
-    - name: Patrick Bridges
-      org: University of New Mexico, USA
-      homepage: #
-    - name: Kathryn Mohror
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Hartwig Anzt
-      org: University of Tennessee, USA
-      homepage: #
-    - name: Frederic Vivien
-      org: Inria, France
-      homepage: #
-    - name: David Abramson
-      org: Queensland University, Australia
-      homepage: #
-    - name: Radu Prodan
-      org: University of Klagenfurt, Austria
-      homepage: #
-    - name: Gabriel Antoniu
-      org: Inria, France
-      homepage: #
-    - name: Rio Yokota
-      org: Tokyo Institute of Technology, Japan
-      homepage: #
-    - name: Ignacio Laguna
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Esteban Meneses
-      org: Technical University Costa Rica, Costa Rica
-      homepage: #
-    - name: Costas Bekas
-      org: Citadel Securities, USA
-      homepage: #
-    - name: Karen Devine
-      org: (Retired),
-      homepage: #
-    - name: Hao Wang
-      org: Louisana State University, USA
-      homepage: #
-    - name: Tekin Bicer
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Paolo Trunfio
-      org: University of Calabria, Italy
-      homepage: #
-    - name: Raffaele Montella
-      org: University of Naples Parthenope, Italy
-      homepage: #
-    - name: Maria Carla Calzarossa
-      org: University di Pavia, Italy
-      homepage: #
-    - name: Aleksandar Ilic
-      org: University of Lisbon, Portugal
-      homepage: #
-    - name: Zhiling Lan
-      org: University of Illiinois at Chicago, USA
-      homepage: #
-    - name: Kirk Cameron
-      org: Virginia Tech Innovation Campus, USA
-      homepage: #
-    - name: Al Malony
-      org: University of Oregon, USA
-      homepage: #
-    - name: Ivy Peng
-      org: KTH Royal Institute of Technology, Sweden
-      homepage: #
-    - name: Taylor Groves
-      org: Lightmatter, USA
-      homepage: #
-    - name: Wenqian Dong
-      org: Florida International University, USA
-      homepage: #
-    - name: Gagan Agarwal
-      org: University of Georgia, USA
-      homepage: #
-    - name: Rocío Carratalá-Sáez
-      org: University of Valladolid, Spain
-      homepage: #
-    - name: Lúcia Drummond
-      org: Fluminense Federal University, Brazil
-      homepage: #
-    - name: Danilo Ardagna
-      org: University of Milan, Italy
-      homepage: #
-    - name: Umit Catalyurek
-      org: AWS and Georgia Institute of Technology, USA
-      homepage: #
-    - name: Silvina Caíno-Lores
-      org: Inria, France
-      homepage: #
-    - name: Jean Luca Bez
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Ivona Brandic
-      org: Vienna University of Technology, Austria
-      homepage: #
-    - name: Renato Figueiredo
-      org: University of Florida, USA
-      homepage: #
-    - name: Jay Lofstead
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Kyle Hale
-      org: Ill. Inst Technology, USA
-      homepage: #
-    - name: Frank Mueller
-      org: NCSU, USA
-      homepage: #
-    - name: Dong Li
-      org: UC Merced, USA
-      homepage: #
-    - name: Rong Ge
-      org: Clemson, USA
-      homepage: #
-    - name: Matthias Mueller
-      org: Aachen Univ., Germany
-      homepage: #
-    - name: Pedro Valero
-      org: Oak Ridge National Lab, USA
-      homepage: #
-    - name: Dingwen Tao
-      org: Indiana University, USA
-      homepage: #
-    - name: Weikuan Yu
-      org: Florida State University, USA
-      homepage: #
-    - name: Yue Cheng
-      org: George Mason University, USA
-      homepage: #
-    - name: Aniruddha Marathe
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Ozgur Kilic
-      org: Brookhaven National Laboratory, USA
-      homepage: #
-    - name: Antonino Tumeo
-      org: Pacific Northwest National Laboratory, USA
-      homepage: #
+    - name: TBA

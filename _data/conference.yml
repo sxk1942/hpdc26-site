@@ -6,20 +6,19 @@ description: > # this means to ignore newlines until "baseurl:"
   and the use of parallel and distributed systems for high-end computing.
 
 sub_description: >
-  HPDC 2024 is jointly hosted by the University of Pisa and the National Research Council of Italy. 
-  HPDC 2024 will take place in two different locations.
+  HPDC 2025 is hosted by the University of Notre Dame, USA. 
 
-email: "patrizio.dazzi@unipi.it, gabriele.mencagli@unipi.it"
+email: "dthain@nd.edu, naber@nd.edu"
 
-iteration: 33rd
-full_title: 33rd International Symposium on High-Performance Parallel and Distributed Computing
-short_title: HPDC 2024
+iteration: 34th
+full_title: 34th International Symposium on High-Performance Parallel and Distributed Computing
+short_title: HPDC 2025
 
-year: 2024
-date: June 3-7, 2024
+year: 2025
+date: July 20-23, 2025
 
-location: Pisa
-country: Italy
+location: Notre Dame, IN
+country: USA
 
 logo: "./assets/images/logo.png" #
 logosmall_path: "./assets/images/logosmall.png" #
@@ -27,9 +26,9 @@ calls: "/calls.html"
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/Pisa-acm.jpg #./assets/images/slideshow/0-auroville-beach.jpg
-    description: HPDC 2024
-    photographer_name: "Pisa, Italy"
+    image_path: ./assets/images/slideshow/spring-dome.jpg
+    description: HPDC 2025
+    photographer_name: "Notre Dame, IN, USA"
     photographer_link: ""
     active: True
 
@@ -50,21 +49,6 @@ navbar:
       - name: General Info
         url: "./calls.html"
         visible: True
-      - name: Papers
-        url: "./calls-cfp.html"
-        visible: True
-      - name: Workshops and Tutorials
-        url: "./calls-wst.html"
-        visible: True
-      - name: European Projects
-        url: "./calls-eu.html"
-        visible: True
-      - name: PhD Symposium
-        url: "./calls-phd.html"
-        visible: True
-      - name: Posters
-        url: "./calls-posters.html"
-        visible: True
       - name: Award Nominations
         url: "./calls-awards.html"
         visible: True
@@ -76,31 +60,7 @@ navbar:
       - name: Schedule
         url: "./program.html"
         visible: True
-      - name: EU Track
-        url: "./eu-track.html"
-        visible: True
-      - name: PhD Symposium
-        url: "./phd-symposium.html"
-        visible: True
-      - name: Keynotes
-        url: "./keynotes.html"
-        visible: True
-      - name: Workshops and Tutorials
-        url: "./workshops.html"
-        visible: True
-  - id: 5
-    label: HPDC Award
-    path: /award.html
-    visible: True
   - id: 6
-    label: Registration
-    path: /registration.html
-    visible: True
-  - id: 7
-    label: Travel Grant
-    path: /travel-grant.html
-    visible: True
-  - id: 8
     label: Venue
     path: /venue.html
     visible: True
@@ -109,44 +69,8 @@ sponsors:
   - name: by
     display: "Sponsored by:"
     list:
-      - name: SIGARCH
-        logo: ./assets/images/sponsors/sigarch-logo.png
-      - name: ACM
-        logo: ./assets/images/sponsors/acm-logo.png
-  - name: gold
-    display: "Gold Sponsors:"
-    list:
-      - name: E4
-        logo: ./assets/images/sponsors/e4-logo.svg
-      - name: Vast Data
-        logo: ./assets/images/sponsors/vastdata-logo.png
-      - name: Cornelis Networks
-        logo: ./assets/images/sponsors/cornelis-logo.png
-        shape: rectangle
-  - name: silver
-    display: "Silver Sponsors:"
-    list:
-      - name: NEC Laboratories America
-        logo: ./assets/images/sponsors/nec-logo.png
-  - name: cooperation
-    display: "In cooperation with:"
-    list:
-      - name: UNIPI
-        logo: ./assets/images/sponsors/unipi-large.png
-      - name: CNR
-        logo: ./assets/images/sponsors/cnr.png
-      - name: SIGHPC
-        logo: ./assets/images/sponsors/sighpc-logo.png
+      - name: TBA
 
-social_media:
-  - name: facebook
-    visible: False
-    icon:
-    link: fa fa-facebook-square
-  - name: twitter
-    visible: True
-    icon: fa-brands fa-square-x-twitter
-    url: https://x.com/ACM_HPDC?s=20
 previous_iterations:
   - name: HPDC Conference series
     year: website
