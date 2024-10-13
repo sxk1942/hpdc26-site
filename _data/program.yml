@@ -14,7 +14,7 @@ schedule:
         type: service
 
 
-  - location: Duncan Hall 7th Floor
+  - location: Duncan Student Center 7th Floor
     date: "2025-07-21"
     dateReadable: July 21
     timeslots:
@@ -41,7 +41,7 @@ schedule:
 
   - date: "2025-07-22"
     dateReadable: July 22
-    location: Duncan Hall 7th Floor
+    location: Duncan Student Center 7th Floor
     timeslots:
       - startTime: "TBA"
         endTime: "TBA"
@@ -65,7 +65,7 @@ schedule:
 
   - date: "2025-07-23"
     dateReadable: July 23
-    location: Duncan Hall 7th Floor
+    location: Duncan Student Center 7th Floor
     timeslots:
       - startTime: "TBA"
         endTime: "TBA"
