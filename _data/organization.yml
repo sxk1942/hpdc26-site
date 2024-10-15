@@ -71,6 +71,9 @@
     - name: Hiroshi Inoue
       org: IBM Research, Japan
       homepage: "https://research.ibm.com/people/hiroshi-inoue"
+    - name: Christina Clark
+      org: University of Notre Dame, USA
+      homepage: "https://research.nd.edu/people/christina-clark/"
 
 - title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
