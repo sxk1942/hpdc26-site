@@ -1,7 +1,7 @@
 deadline_timezone: AoE
 deadlines:
-  - date: TBA
-    text:
+  - date: December 9, 2024
+    text: Workshop and Tutorial Proposal Submissions
     pass_due: false
     type: WST
 

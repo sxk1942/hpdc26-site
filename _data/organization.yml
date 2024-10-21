@@ -75,6 +75,13 @@
       org: University of Notre Dame, USA
       homepage: "https://research.nd.edu/people/christina-clark/"
 
+- title: Sponsorship Chair
+  column: 1
+  members:
+    - name: Richard Knepper
+      org: Cornell University, USA
+      homepage: "https://www.cac.cornell.edu/knepper/"
+
 - title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
   column: 1

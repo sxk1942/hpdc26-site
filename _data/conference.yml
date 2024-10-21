@@ -49,6 +49,9 @@ navbar:
       - name: General Info
         url: "./calls.html"
         visible: True
+      - name: Workshops and Tutorials
+        url: "./calls-wst.html"
+        visible: True
       - name: Award Nominations
         url: "./calls-awards.html"
         visible: True
@@ -60,6 +63,10 @@ navbar:
       - name: Schedule
         url: "./program.html"
         visible: True
+  - id: 5
+    label: HPDC Award
+    path: /calls-awards.html
+    visible: True
   - id: 6
     label: Venue
     path: /venue.html
