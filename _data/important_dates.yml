@@ -1,7 +1,15 @@
 deadline_timezone: AoE
 deadlines:
+  - date: February 28, 2025
+    text: HPDC 2025 Achievement Award Nomination Deadline
+    pass_due: false
+    type: CFN
+  - date: December 16, 2024
+    text: Notification of Acceptance (Workshops and Tutorials)
+    pass_due: false
+    type: WST 
   - date: December 9, 2024
-    text: Workshop and Tutorial Proposal Submissions
+    text: Workshop and Tutorial Proposal Submission Deadline
     pass_due: false
     type: WST
 
