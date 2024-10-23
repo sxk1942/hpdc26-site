@@ -1,7 +1,7 @@
-full_name: International Symposium on High-Performance Parallel and Distributed Computing
+full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing
 short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
-  The International Symposium on High-Performance, Parallel and Distributed Computing (HPDC) 
+  The ACM International Symposium on High-Performance, Parallel and Distributed Computing (HPDC) 
   is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
   and the use of parallel and distributed systems for high-end computing.
 
@@ -11,7 +11,7 @@ sub_description: >
 email: "dthain@nd.edu, naber@nd.edu"
 
 iteration: 34th
-full_title: 34th International Symposium on High-Performance Parallel and Distributed Computing
+full_title: 34th ACM International Symposium on High-Performance Parallel and Distributed Computing
 short_title: HPDC 2025
 
 year: 2025
@@ -76,7 +76,12 @@ sponsors:
   - name: by
     display: "Sponsored by:"
     list:
-      - name: TBA
+      - name: SIGARCH
+        logo: ./assets/images/sponsors/sigarch-logo.png
+      - name: ACM
+        logo: ./assets/images/sponsors/acm-logo.png
+      - name: SIGHPC
+        logo: ./assets/images/sponsors/sighpc-logo.png
 
 previous_iterations:
   - name: HPDC Conference series

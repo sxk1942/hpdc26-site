@@ -9,6 +9,16 @@
       org: University of Notre Dame, USA
       homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
 
+- title: Program Chairs
+  column: 1
+  members:
+    - name: Ivona Brandić
+      org: Vienna University of Technology, Austria
+      homepage: "https://www.ec.tuwien.ac.at/~ivona/"
+    - name: Robert W. Wisniewski
+      org: Hewlett-Packard Enterprise, USA
+      homepage: "https://www.hpe.com/psnow/doc/a00142505enw"
+
 - title: Local Arrangements Chair
   column: 1
   members:
