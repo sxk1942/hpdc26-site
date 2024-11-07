@@ -21,7 +21,12 @@ topics:
   - Performance modeling, benchmarking, and engineering
   - Fault tolerance, reliability, and availability
   - Operational guarantees, risk assessment, and management
+  - Energy efficiency and sustainability
+  - AI topics, which must relate to parallel and distributed computing systems
   - Novel post-Moore computing technologies including neuromorphic, brain-inspired computing, and quantum computing
+
+scope_continued: >
+    HPDC welcomes submissions that utilize AI to enhance the above topics of interest or that utilize distributed systems to enhance AI frameworks, but we highlight that an HPDC submission must address and articulate its connection with parallel and distributed computing research.
 
 eu-topics:
   - Cloud-Edge Continuum

@@ -1,9 +1,29 @@
 deadline_timezone: AoE
 deadlines:
+  - date: April 17, 2025
+    text: Camera-ready Version (Technical Papers)
+    pass_due: false
+    type: CFP
+  - date: April 3, 2025
+    text: Notification of Acceptance (Posters)
+    pass_due: false
+    type: POS
+  - date: March 24, 2025
+    text: Notification of Acceptance (Technical Papers)
+    pass_due: false
+    type: CFP
+  - date: March 13, 2025
+    text: Poster Submission Deadline
+    pass_due: false
+    type: POS
   - date: February 28, 2025
     text: HPDC 2025 Achievement Award Nomination Deadline
     pass_due: false
     type: CFN
+  - date: January 23, 2025
+    text: Paper Submission Deadline (Technical Papers)
+    pass_due: false
+    type: CFP
   - date: December 16, 2024
     text: Notification of Acceptance (Workshops and Tutorials)
     pass_due: false

@@ -11,7 +11,6 @@
             {% if site.data.important_dates.deadlines %}
             {% for deadline in site.data.important_dates.deadlines %}
 
-            {% if deadline.type == page.mytype or page.mytype == "GEN" %}
 
             <li class="list-group-item bg-light text-muted">
                 {% if deadline.pass_due %}
@@ -29,7 +28,6 @@
                 {% endif %}
             </li>
 
-            {% endif %}
 
             {% endfor %}
             {% else %}

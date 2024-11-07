@@ -49,8 +49,14 @@ navbar:
       - name: General Info
         url: "./calls.html"
         visible: True
+      - name: Papers
+        url: "./calls-cfp.html"
+        visible: True
       - name: Workshops and Tutorials
         url: "./calls-wst.html"
+        visible: True
+      - name: Posters
+        url: "./calls-posters.html"
         visible: True
       - name: Award Nominations
         url: "./calls-awards.html"
