@@ -9,7 +9,7 @@ deadlines:
     pass_due: false
     type: WST
   - date: January 23, 2025
-    text: Paper Submission Deadline (Technical Papers)
+    text: (Firm) Paper Submission Deadline (Technical Papers)
     pass_due: false
     type: CFP
   - date: February 28, 2025
