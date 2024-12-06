@@ -13,7 +13,7 @@
   column: 1
   members:
     - name: Ivona Brandić
-      org: Technical University of Vienna, Austria
+      org: Technische Universität Wien (TU Wien), Austria
       homepage: "https://www.ec.tuwien.ac.at/~ivona/"
     - name: Robert Wisniewski
       org: Hewlett-Packard Enterprise, USA
@@ -131,7 +131,7 @@
       org: University of Pittsburgh and Oak Ridge National Laboratory USA
       homepage: #
     - name: Arthur "Barney" Maccabe
-      org: Oak Ridge National Lab, USA
+      org: University of Arizona, USA
       homepage: #
     - name: Kathryn Mohror
       org: Lawrence Berkeley National Lab, USA
