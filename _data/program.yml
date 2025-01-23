@@ -10,7 +10,7 @@ schedule:
     timeslots:
       - startTime: "TBA"
         endTime: "TBA"
-        title: "Workshops at Morris Inn"
+        title: "Workshops and Tutorials"
         type: service
 
 

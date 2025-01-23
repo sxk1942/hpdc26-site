@@ -1,82 +1,60 @@
 workshops:
+  - acronym: PERMAVOST
+    title: 5th Workshop on Performance EngineeRing, Modelling, Analysis, and VisualizatiOn STrategy
+    url: "https://permavost.github.io/"
+
+  - acronym: FlexScience
+    title: 15th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
+    url: "https://sites.google.com/view/flexscience"
+
   - acronym: AI4Sys
-    title: Workshop on AI For Systems
+    title: 3rd Workshop on AI For Systems
     url: "https://sites.google.com/view/ai4sys"
+
+  - acronym: FRAME
+    title: 5th Workshop on Flexible Resource and Application Management on the Edge
+    url: "https://www.accordion-project.eu/Frame2025/"
+
+  - acronym: QUASAR
+    title: 2nd Workshop on Quantum Algorithms, Software and Applied Research
+    url: "https://sites.google.com/view/quasar25"
 
   # - acronym: AITA
   #   title: Workshop on AI Training Acceleration
   #   url: "https://aita2024.github.io/"
 
-  - acronym: PECS
-    title: Workshop on Performance and Energy Efficiency in Concurrent and Distributed Systems
-    url: "https://pecs-workshop.github.io/"
+  #- acronym: PECS
+  #  title: Workshop on Performance and Energy Efficiency in Concurrent and Distributed Systems
+  #  url: "https://pecs-workshop.github.io/"
 
-  - acronym: FlexScience
-    title: Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
-    url: "https://sites.google.com/view/flexscience"
 
-  - acronym: FRAME
-    title: Workshop on Flexible Resource and Application Management on the Edge
-    url: "https://www.accordion-project.eu/Frame2024/"
 
-  - acronym: HPQCI
-    title: Workshop on High Performance and Quantum Computing Integration
-    url: "https://hpqci.github.io/cfp.html"
+  #- acronym: HPQCI
+  #  title: Workshop on High Performance and Quantum Computing Integration
+  #  url: "https://hpqci.github.io/cfp.html"
 
-  - acronym: PERMAVOST
-    title: Workshop on Performance Engineering, Modelling, Analysis, and Visualization Strategy
-    url: "https://permavost.github.io/"
 
-  - acronym: SNTA
-    title: Workshop on Systems and Network Telemetry and Analytics
-    url: "https://sntaworkshop.github.io/2024/"
+  #- acronym: SNTA
+  #  title: Workshop on Systems and Network Telemetry and Analytics
+  #  url: "https://sntaworkshop.github.io/2024/"
 
-  - acronym: SEATED
-    title: Workshop on Serverless at the Edge
-    url: "https://edgeless-project.eu/seated/"
+  #- acronym: SEATED
+  #  title: Workshop on Serverless at the Edge
+  #  url: "https://edgeless-project.eu/seated/"
 
-  - acronym: QUASAR
-    title: Workshop on Quantum Search and Information Retrieval
-    url: "https://www.dmi.unict.it/quasar/"
+  #- acronym: QUASAR
+  #  title: Workshop on Quantum Search and Information Retrieval
+  #  url: "https://www.dmi.unict.it/quasar/"
 
   # - acronym: FLEC
   #   title: Workshop on Federated Learning for Edge Computing
   #   url: "https://flec-workshop.github.io/2024/"
 
 tutorials:
-  - title: Variational Quantum Algorithms for Resource Management in Cloud/Edge Architectures
-    acronym: Qu4Edge
+  - title: Reproducible Performance Measurement and Analysis for High-Performance Computing Applications
+    acronym: Performance Analysis
     speakers:
-      - name: Carlo Mastroianni
-        affiliation: ICAR-CNR, Italy
-      - name: Andrea Vinci
-        affiliation: ICAR-CNR, Italy
+      - name: Dewi Yokelson
+        affiliation: Lawrence Livermore National Laboratory, USA
     description: >
-      The tutorial offers a practical introduction to the fascinating world of quantum computation and its application to optimization and machine learning. The participants will gain hands-on experience in developing hybrid “Variational Quantum Algorithms” (VQA), which combine classical and quantum computation, and in running them on simulators and real quantum hardware. As a concrete use-case, the tutorial will discuss the problem of the optimal assignment of resources on the different nodes and layers of a Cloud/Edge architecture. The participants will be driven, step-by-step, to the reformulation of this NP-hard problem in terms of an Ising problem, which is then solved through two VQA algorithms, i.e., Quantum Approximate Optimization Algorithm (QAOA) and Variational Quantum Eigensolver (VQE), by exploiting the libraries of IBM Qiskit and Xanadu Pennylane. The tutorial will discuss the perspectives on the use of quantum computation for optimization and machine learning, and the possible avenues for future academic research and industrial developments. The tutorial is thought for computer engineers and application developers who are curious about the concrete adoption of quantum computation in real-life scenarios.
-
-  - title: A Practical Introduction to Quantum Computing and Networking
-    speakers:
-      - name: Claudio Cicconetti
-        affiliation: IIT-CNR, Italy
-    description: >
-      Quantum computing addresses the construction and operation of quantum computers to solve more efficiently instances of specific problems that are difficult to tackle with classical computers. Even if we are currently in the so-called Noisy Intermediate Scale Quantum (NISQ), steady signs of progress are being made towards the realization of a fast and reliable quantum computer, materializing the basic building blocks of quantum circuits, i.e., quantum bits and gates. On the other hand, quantum communications cover the transmission of quantum states across distances. Recent advances in this context have led to the novel research area of quantum networking, which is set to define the programming interfaces and protocols for the practical operation of quantum communication and computing infrastructures. The tutorial has the objective of raising awareness about these emerging topics, i.e., quantum computing and quantum networking, in the research community by i) introducing briefly the latest technologies developed in each, then ii) providing hands-on examples of how to use them for simple use cases, and iii) finally sketching the more promising open research challenges.
-
-  - title: "Network Management and Orchestration with Data Engineering: A Practical Guide"
-    speakers:
-      - name: Engin Zeydan
-        affiliation: CTTC, Spain
-      - name: Josep Mangues-Bafalluy
-        affiliation: CTTC, Spain
-      - name: Jorge Baranda
-        affiliation: CTTC, Spain
-    description: >
-      The tutorial will cover an in-depth study of convergence of data engineering in network management and orchestration domain. The first part will be background information on data engineering and second part will be on application of those technologies to network management problems. In the second part, there will be a step-by-step demonstration of one of the demos during the second part of the tutorial. The participants do not need to have any prerequisite components. Application of data engineering concepts in the management and orchestration of telecommunication networks is an emerging topic and will be most important in the coming years as well. The attendees to this tutorial will have the chance to learn more about data engineering for networking and its applications from the perspective of telecommunication operators.
-
-  - title: Programming Tools for High Performance Data Analysis
-    speakers:
-      - name: Domenico Talia
-        affiliation: University of Calabria, Italy
-      - name: Paolo Trunfio
-        affiliation: University of Calabria, Italy
-    description: >
-      The goal of this tutorial is to present and compare the features of some of the most popular Big Data programming frameworks for HPC systems, such as Hadoop, Spark, Storm, Airflow, MPI, Hive, Pig and UPC++, by highlighting their models, features, advantages, and disadvantages in developing different classes of programs, such as batch, streaming, graph-based, and query-based applications. The tutorial will also discuss the main factors that can influence the choice of the most appropriate framework to process and analyze big data. These include the characteristics of input data, the class of application, the infrastructure scale, and many other factors that can determines, to some extent, the decisions of developers, including designer skills, tool community size, data privacy issues, security requirements, available budget, integrability, and interoperability.
+      Utilizing high-performance computing (HPC) resources efficiently is essential for scientific applications, but it is becoming more challenging as systems become increasingly heterogeneous. This hands-on half-day tutorial uses a suite of open-source tools to measure, understand, and reason about the performance of HPC applications across heterogeneous systems. These tools provide fine- and coarse-grained measurements and a flexible and easily extensible Python interface for analysis. The tutorial is structured into three modules addressing performance measurement with Caliper, performance analysis with Thicket, and reproducibility aspects with Benchpark. Attendees will learn how to conduct reproducible end-to-end performance measurement and analysis. They will gain hands-on experience generating performance profiles from source code, analyzing the output for performance trends, and running reproducible experiment and analysis workflows. The intended audience includes scientists, system administrators, and performance engineers.
