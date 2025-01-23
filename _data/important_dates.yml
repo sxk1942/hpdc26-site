@@ -6,7 +6,7 @@ deadlines:
     type: WST
   - date: December 16, 2024
     text: Notification of Acceptance (Workshops and Tutorials)
-    pass_due: false
+    pass_due: true
     type: WST
   - date: February 6, 2025
     text: (Firm) Paper Submission Deadline (Technical Papers)
