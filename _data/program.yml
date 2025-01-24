@@ -10,7 +10,7 @@ schedule:
     timeslots:
       - startTime: "TBA"
         endTime: "TBA"
-        title: "Workshops and Tutorials"
+        title: "Workshops and Tutorials<br><a href=\"https://sites.google.com/view/ai4sys\">AI4Sys</a> - <a href=\"https://www.accordion-project.eu/Frame2025/\">FRAME</a> - <a href=\"https://sites.google.com/view/flexscience\">FlexScience</a> - <a href=\"https://permavost.github.io/\">PERMAVOST</a> - <a href=\"https://sites.google.com/view/quasar25\">QUASAR</a>"
         type: service
 
 
