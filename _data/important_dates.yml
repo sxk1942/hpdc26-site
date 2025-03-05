@@ -10,11 +10,11 @@ deadlines:
     type: WST
   - date: February 6, 2025
     text: (Firm) Paper Submission Deadline (Technical Papers)
-    pass_due: false
+    pass_due: true
     type: CFP
   - date: February 28, 2025
     text: HPDC 2025 Achievement Award Nomination Deadline
-    pass_due: false
+    pass_due: true
     type: CFN
   - date: March 13, 2025
     text: Poster Submission Deadline
@@ -32,6 +32,14 @@ deadlines:
     text: Notification of Acceptance (Posters)
     pass_due: false
     type: POS
+  - date: April 13, 2025
+    text: Travel Grant Application Deadline
+    pass_due: false
+    type: TRA
+  - date: April 21, 2025
+    text: Notification of Awards (Travel Grant)
+    pass_due: false
+    type: TRA
   - date: May 1, 2025
     text: Camera-ready Version (Technical Papers)
     pass_due: false

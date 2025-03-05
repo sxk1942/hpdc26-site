@@ -2,37 +2,81 @@
 title: Travel Grant
 layout: page
 slide_id: 7
+mytype: TRA
 ---
 
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
     <div class="col text-justify conference">
         <div>
-            <h4>Travel Grant</h4>
-            {% if site.data.travel_grant.about %}
+
+            <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
+                {% include card-important-dates.html %}
+            </div>
+
+            <h4>Call for Travel Grant Applications</h4>
             <p>
-                {{site.data.travel_grant.about}}
+                The 34th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC 2025) is pleased to announce the availability of travel grants for students and early career professionals to attend the conference in July 2025.
             </p>
-            {% endif %}
             <br>
-            <h4>Travel Grant Chairs</h4>
+            
+            <h4>Travel Grant Details</h4>
             <p>
-                Ariful Azad, Indiana University Bloomington, USA<br>
-                Dong Li, University of California Merced, USA<br>
+            HPDC travel grants are generously sponsored by ACM's Special Interest Group on High Performance Computing (SIGHPC) and will provide:
             </p>
+            <ul>
+                <li>Up to four (4) Early Career travel grants</li>
+                <li>Up to four (4) Student travel grants</li>
+            </ul>
+            <h5>Award Amounts:</h5>
+            <ul>
+                <li>Up to $800 for domestic travelers (within the conference host country)</li>
+                <li>Up to $1,600 for international travelers</li>
+            </ul>
+            <h5>Eligible Expenses:</h5><p> Reimbursements are limited to:</p>
+            <ul>
+                <li>Hotel accommodations</li>
+                <li>Airfare</li>
+                <li>Local transportation</li>
+            </ul>
             <br>
-            <h4>Application Deadline</h4>
-            <p>{{ site.data.travel_grant.deadline }}</p>
+            
+            <h4>Eligibility Requirements</h4>
+            <h5>Student Applicants</h5>
+            <ul>
+                <li>Must be an undergraduate or early graduate student</li>
+                <li>Must be enrolled in an accredited university in any country</li>
+                <li>Must be a member of ACM SIGHPC</li>
+                <li>Do not need to be presenting at HPDC 2025, but must describe how they will benefit from attending</li>
+            </ul>
+            <h5>Early Career Professional Applicants</h5>
+            <ul>
+                <li>Must be working in the high-performance computing field in any country</li>
+                <li>Must have less than 7 years of full-time experience in the field</li>
+                <li>Must be a member of ACM SIGHPC</li>
+                <li>Do not need to be presenting at HPDC 2025, but must describe how they will benefit from attending</li>
+            </ul>
             <br>
-            <h5>Contact</h5>
-            <p class="text-left">
-                If you have any problems or questions, please contact us via e-mail at:
-                <a href="mailto:{{ site.data.registration.email }}">
-                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
-                    {{ site.data.travel_grant.email }}
-                </a>
-            </p>
+           
+            <h4>How to Apply</h4>
+            <ol>
+                <li>Ensure you are a member of ACM SIGHPC before applying</li>
+                <li>Complete the application form available at: <a href="https://tinyurl.com/hpdc2025-travel">https://tinyurl.com/hpdc2025-travel</a></li>
+                <li>In your application, clearly indicate which category of travel support you are requesting (Student or Early Career)</li>
+                <li>Include a compelling statement describing how attending HPDC 2025 will benefit your academic or professional development</li>
+            </ol>
             <br>
-            <h5>Application form</h5>
+
+            <h4>Selection Process</h4>
+            <p>Applications will be reviewed by the HPDC travel grant committee. Selection will be based on:</p>
+            <ol>
+                <li>Applicant's need for financial support</li>
+                <li>Potential benefit to the applicant's career or academic development</li>
+                <li>Contribution to the HPC community</li>
+                <li>Overall quality of the application</li>
+            </ol>
+            <br>
+
+            <h4>Application form</h4>
             Please click the button below to start the application process:
             <p>
                 <center>

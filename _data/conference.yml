@@ -61,6 +61,9 @@ navbar:
       - name: Award Nominations
         url: "./calls-awards.html"
         visible: True
+      - name: Travel Grant
+        url: "./travel-grant.html"
+        visible: True
   - id: 4
     label: Program
     path:
@@ -77,6 +80,10 @@ navbar:
     path: /calls-awards.html
     visible: True
   - id: 6
+    label: Travel Grant
+    path: /travel-grant.html
+    visible: True
+  - id: 7
     label: Venue
     path: /venue.html
     visible: True
@@ -95,4 +102,4 @@ sponsors:
 previous_iterations:
   - name: HPDC Conference series
     year: website
-    url: https://www.hpdc.org
+    url: https://hpdc.sci.utah.edu/
