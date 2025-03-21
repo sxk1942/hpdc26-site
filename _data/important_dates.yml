@@ -18,7 +18,7 @@ deadlines:
     type: CFN
   - date: March 13, 2025
     text: Poster Submission Deadline
-    pass_due: false
+    pass_due: true
     type: POS
   - date: March 21, 2025
     text: Notification for HPDC 2025 Achievement Award
