@@ -22,7 +22,7 @@ deadlines:
     type: POS
   - date: March 21, 2025
     text: Notification for HPDC 2025 Achievement Award
-    pass_due: false
+    pass_due: true
     type: CFN
   - date: April 4, 2025
     text: Notification of Acceptance (Technical Papers)
