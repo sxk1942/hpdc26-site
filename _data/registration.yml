@@ -1,30 +1,31 @@
 about: Please click on the button at the bottom of the page to register for the conference.
-closed: True
-
-visa: |
-  It will be possible to request the VISA Support letter during the registration process, 
-  after the corresponding payment will be completed.
+closed: False
+open_soon: False
+visa: | 
+  If you are travelling internationally to attend HPDC and require a "Visa Support Letter", please fill out the <a href="https://supportletters.acm.org">ACM Visa Support Letter Form</a>. Letters can be issued to authors of accepted papers, attendees who have completed registration, and conference committee members. Please allow 10 days for the letter to be completed. 
+  
 
 email: "luca.ferrucci@unipi.it, hanna.kavalionak@isti.cnr.it"
-url: "https://cvent.me/NexqYB"
+url: "https://web.cvent.com/event/02f08347-321b-43c1-acda-066a6efd97be/summary?tm=9k9AQRRGnwxoVTBEccsdfQCLfKd3EWjGN0KxXnZ2Tgw"
 
 deadline:
-  early: "May 10th, 2024"
-  late: "May 27th, 2024"
+  early: "May 15th, 2025"
+  late: "June 23rd, 2025"
 
 full:
-  - status: "Student Member"
-    early: "500"
-    late: "550"
-  - status: "Student Non-Member"
-    early: "550"
-    late: "600"
-  - status: "Member"
+  - status: "Regular ACM Member"
+    early: "700"
+    late: "800"
+  - status: "Regular Non-Member"
     early: "800"
     late: "900"
-  - status: "Non-Member"
-    early: "900"
-    late: "980"
+  - status: "Student ACM Member"
+    early: "400"
+    late: "500"
+  - status: "Student Non-Member"
+    early: "475"
+    late: "550"
+
 
 wtp:
   - status: "Member"
@@ -46,4 +47,4 @@ required_type:
   - paper_type: "PhD Symposium paper"
     required: "FULL conference STUDENT registration"
   - paper_type: "Workshops, tutorials and posters papers"
-    required: "WTP registration"
+    equired: "WTP registration"

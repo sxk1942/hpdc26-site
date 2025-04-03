@@ -12,6 +12,10 @@ slide_id: 6
             <div class="alert alert-danger rounded text-center mx-3 my-3">
                 <b class="h5">Registrations are closed.</b>
             </div>
+            {% elsif site.data.registration.open_soon %}
+            <div class="alert alert-danger rounded text-center mx-3 my-3">
+                <b class="h5">Registrations will open shortly.</b>
+            </div>
             {% else %}
             {% if site.data.registration.about %}
             <p>
@@ -20,43 +24,20 @@ slide_id: 6
             {% endif %}
             {% endif %}
 
-            <h4>What's included</h4>
-            <ul>
-                <li><strong>Full registration (ACM member/ non member):</strong> The registrants can attend the main
-                    conference and all satellite events (i.e., workshops, tutorials, posters session, and the PhD
-                    symposium). This registration type includes reception, all social events, social dinner, welcome
-                    cocktail, breakfast, lunch, and breaks. During the registration process, the registrant can add up
-                    to 4 additional tickets for his/her guests for the social events.</li>
-                <li><strong>Full STUDENT registration (ACM member/ non member):</strong> The registrants can attend the
-                    main conference and all satellite events (i.e., workshops, tutorials, poster session, and the PhD
-                    symposium). This registration type includes reception, all social events, social dinner, welcome
-                    cocktail, breakfast, lunch, and breaks. During the registration process, the registrant
-                    <strong>CANNOT</strong> add any additional tickets for his/her guests for the social events.
-                </li>
-                <li><strong>Workshops, Tutorials and Posters, WTP (ACM member/ non member):</strong> The registrant can
-                    attend ONLY workshops, tutorials, and the Posters session. This registration type includes
-                    reception, breakfast, lunch, and breaks in the days of the WTP events (3 and 4 June), plus the
-                    participation in the welcome cocktail on 4th June (with the Posters session). This registration type
-                    <strong>DOES NOT</strong> include entrance to the social events and the social dinner. During the
-                    registration process, the registrant <strong>CANNOT</strong> add any tickets for himself or his/her
-                    guests for the social events.
-                </li>
-            </ul>
+            <h4>What's Included in Registration</h4>
+            <p>Conference registration includes all of the workshops and tutorials, the main conference speakers and technical sessions, meals and coffee breaks, and the evening poster session and conference dinner at the Studebaker museum. </p>
             <br>
 
             <h4>Registration Deadlines</h4>
-            <p> Early: <b>{{site.data.registration.deadline.early}}</b>.<br>
-                Late: <b>{{site.data.registration.deadline.late}}</b>.<br>
-            <p><b class="text-warning">Important:</b>
+            <p> Early Registration Deadline: <b>{{site.data.registration.deadline.early}}</b>.<br>
+                Late Registration Deadline: <b>{{site.data.registration.deadline.late}}</b>.<br>
+            <p><b class="text-warning">Note:</b>
                 <b><i>We do not offer on-site registration.
                         All attendees must register online before the deadline.</i></b>
             </p>
             </p>
             <br>
-            <h4>Registration Prices</h4>
-            <p><u class="text-info"><b>All prices in the tables below are 22% VAT included.</b></u></p>
-
-            <h5>Full Registration</h5>
+            <h4>Registration Costs</h4>
             <table class="table table-bordered table-striped table-hover table-sm">
                 <tr>
                     <th>Status</th>
@@ -66,67 +47,34 @@ slide_id: 6
                 {% for r in site.data.registration.full %}
                 <tr>
                     <td>{{r.status}}</td>
-                    <td>{{r.early}} €</td>
-                    <td>{{r.late}} €</td>
+                    <td>{{r.early}} USD</td>
+                    <td>{{r.late}} USD</td>
                 </tr>
                 {% endfor %}
             </table>
+            <p><b class="text-warning">Note:</b>
+                <b><i>Each technical paper in the main track of the conference must be accompanied by at least one regular conference registration by one of the authors.</i></b>
+            </p>
             <br>
 
-            <h5>Workshops, Tutorials and Posters (WTP) Registration</h5>
-            <table class="table table-bordered table-striped table-hover table-sm">
-                <tr>
-                    <th>Status</th>
-                    <th>Early</th>
-                    <th>Late</th>
-                </tr>
-                {% for registration in site.data.registration.wtp %}
-                <tr>
-                    <td>{{registration.status}}</td>
-                    <td>{{registration.early}} €</td>
-                    <td>{{registration.late}} €</td>
-                </tr>
-                {% endfor %}
-            </table>
-            <br>
-
-            <h4>Required type of the registration based on the accepted paper</h4>
-            <table class="table table-bordered table-striped table-hover table-sm">
-                <tr>
-                    <th>Accepted paper type</th>
-                    <th>Minimum required registration</th>
-                </tr>
-                {% for registration in site.data.registration.required_type %}
-                <tr>
-                    <td>{{registration.paper_type}}</td>
-                    <td>{{registration.required}}</td>
-                </tr>
-                {% endfor %}
-            </table>
-            <br>
-
-            <h4>Visa</h4>
             {% if site.data.registration.visa %}
+            <h4>Visa</h4>
             <p>
                 {{site.data.registration.visa}}
             </p>
             {% endif %}
-            <br>
-            <h4>Contact</h4>
-            <p class="text-left">
-                If you have any problems or questions, please contact us via e-mail at:
-                <a href="mailto:{{ site.data.registration.email }}">
-                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
-                    {{ site.data.registration.email }}
-                </a>
-            </p>
             <br>
             <h4>Registration site</h4>
             {% if site.data.registration.closed %}
             <div class="alert alert-danger rounded text-center mx-3 my-5">
                 <b class="h5">Registrations are closed.</b>
             </div>
+            {% elsif site.data.registration.open_soon %}
+            <div class="alert alert-danger rounded text-center mx-3 my-3">
+                <b class="h5">Registrations will open shortly.</b>
+            </div>
             {% else %}
+            {% if site.data.registration.about %}
             Please click the button below to start the registration process:
             <p>
                 <center>
@@ -135,6 +83,8 @@ slide_id: 6
                 </center>
             </p>
             {% endif %}
+            {% endif %}      
+            
         </div>
     </div>
 </div>

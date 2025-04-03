@@ -79,6 +79,10 @@ navbar:
     label: HPDC Award
     path: /calls-awards.html
     visible: True
+  - id: 8
+    label: Registration
+    path: /registration.html
+    visible: True
   - id: 6
     label: Travel Grant
     path: /travel-grant.html
