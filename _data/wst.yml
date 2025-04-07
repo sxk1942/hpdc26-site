@@ -7,7 +7,7 @@ workshops:
   - acronym: FlexScience
     title: 15th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
     url: "https://sites.google.com/view/flexscience"
-    paperdeadline: April 01, 2025
+    paperdeadline: April 22, 2025
 
   - acronym: AI4Sys
     title: 3rd Workshop on AI For Systems
@@ -17,7 +17,7 @@ workshops:
   - acronym: FRAME
     title: 5th Workshop on Flexible Resource and Application Management on the Edge
     url: "https://www.accordion-project.eu/Frame2025/"
-    paperdeadline: April 09, 2025
+    paperdeadline: April 15, 2025
 
   - acronym: QUASAR
     title: 2nd Workshop on Quantum Algorithms, Software and Applied Research
