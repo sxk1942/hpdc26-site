@@ -176,5 +176,20 @@ slide_id: 4
             TBA
         </div>
         {% endif %}
+
+
+
+    <hr>
+    <br>
+    {% if site.data.program.showRawPaperList %}
+    <h3 style="color:black"> Tentative List of Accepted Papers</h3>
+    <p style="color:black"> We are happy to announce a tentative list of 25 accepted papers to the main conference! We are diligently working on program scheduling and will update this page with exact details as soon as possible. </p>
+    {% for paper in site.data.program.rawPaperList %}
+    <p style="color:black"> <b>{{paper.title}}</b> <br> 
+    <i><b>Authors:</b> {{paper.authors}} </i></p>
+    {% endfor %}
+    {% endif %}
+
+
     </div>
 </div>

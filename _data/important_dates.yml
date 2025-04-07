@@ -26,7 +26,7 @@ deadlines:
     type: CFN
   - date: April 4, 2025
     text: Notification of Acceptance (Technical Papers)
-    pass_due: false
+    pass_due: true
     type: CFP
   - date: April 7, 2025
     text: Notification of Acceptance (Posters)

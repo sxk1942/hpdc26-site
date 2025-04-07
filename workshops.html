@@ -25,12 +25,14 @@ slide_id: 3
 				<tr>
 					<th>Link</th>
 					<th>Title</th>
+                                        <th>Paper Submission Deadline (AoE)</th>
 				</tr>
 				{% assign sorted_workshops = site.data.wst.workshops | sort: 'acronym' %}
 				{% for workshop in sorted_workshops %}
 				<tr>
 					<td><a target="_blank" href="{{workshop.url}}">{{workshop.acronym}}</a></td>
 					<td>{{workshop.title}}</td>
+                                        <td>{{workshop.paperdeadline}}</td>
 				</tr>
 				{% endfor %}
 			</table>
