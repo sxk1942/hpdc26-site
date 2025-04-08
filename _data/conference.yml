@@ -93,15 +93,58 @@ navbar:
     visible: True
 
 sponsors:
-  - name: by
-    display: "Sponsored by:"
+  - name: platinum
+    display: "Platinum Sponsors:"
+    color: lightslategray
+    list:
+      - name: TBD
+        logo: 
+        link: ""
+        code: platinum
+  - name: gold
+    display: "Gold Sponsors:"
+    color: gold
+    list:
+      - name: ND Center for Research Computing
+        logo: ./assets/images/sponsors/CRC_Logo.png
+        link: "https://crc.nd.edu/"
+        code: gold
+  - name: silver
+    display: "Silver Sponsors:"
+    color: silver
+    list:
+      - name: US Research Software Engineer Association
+        logo: ./assets/images/sponsors/ussea_logo.png
+        link: "https://us-rse.org/"
+        code: silver
+      - name: ND Department of Computer Science and Engineering
+        logo: ./assets/images/sponsors/nd_logo.jpg
+        link: "https://cse.nd.edu/"
+        code: silver
+  - name: bronze
+    display: "Bronze Sponsors:"
+    color: saddlebrown
+    list:
+      - name: The Pier Group
+        logo: ./assets/images/sponsors/pier_logo.png
+        link: "https://www.piergroup.com/"
+        code: bronze
+  - name: profSoc
+    display: "Professional Society Sponsors:"
+    color: black
     list:
       - name: SIGARCH
         logo: ./assets/images/sponsors/sigarch-logo.png
+        link: "https://www.sigarch.org/"
+        code: profSoc
       - name: ACM
         logo: ./assets/images/sponsors/acm-logo.png
+        link: "https://www.acm.org/"
+        code: profSoc
       - name: SIGHPC
         logo: ./assets/images/sponsors/sighpc-logo.png
+        link: "https://www.sighpc.org/"
+        code: profSoc
 
 previous_iterations:
   - name: HPDC Conference series

@@ -6,16 +6,20 @@
     {% if forloop.index != 1 %}
     <br><br>
     {% endif %}
-    <p class="h6">{{ category.display }}</p>
+    <p class="h6" style="color:{{ category.color }}">{{ category.display }}</p>
     {% if category.list %}
     {% for sponsor in category.list %}
-    {% if sponsor.shape == "rectangle" %}
-    {% assign img_width = 35 %}
+    {% if sponsor.code == "gold" %}
+    {% assign img_width = 60 %}
+    {% elsif sponsor.code == "silver" %}
+    {% assign img_width = 30 %}
+    {% elsif sponsor.code == "bronze" %}
+    {% assign img_width = 25 %}
     {% else %}
-    {% assign img_width = 20 %}
+    {% assign img_width = 25 %}
     {% endif %}
-    <img class="mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
-        width="{{ img_width }}%" height="auto">
+    <a href="{{ sponsor.link }}"><img class="mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
+            width="{{ img_width }}%" height="auto"></a>
     {% endfor %}
     {% else %}
     {% include tba.html %}
