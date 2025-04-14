@@ -5,57 +5,179 @@ online:
 
 schedule:
   - location: Morris Inn
+    type: wst
     date: "2025-07-20"
     dateReadable: July 20
     timeslots:
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Workshops and Tutorials<br><a href=\"https://ai4sys.github.io/\">AI4Sys</a> - <a href=\"https://www.accordion-project.eu/Frame2025/\">FRAME</a> - <a href=\"https://sites.google.com/view/flexscience\">FlexScience</a> - <a href=\"https://permavost.github.io/\">PERMAVOST</a> - <a href=\"https://sites.google.com/view/quasar25\">QUASAR</a>"
+      - startTime: "8:00 AM"
+        endTime: "9:00 AM"
         type: service
+        title: "Registration Opens at Morris Inn"
+      - startTime: "9:00 AM"
+        endTime: "10:30 AM"
+        workshops:
+          - name: PERMAVOST
+            link: "https://permavost.github.io/"
+          - name: AI4SYS
+            link: "https://ai4sys.github.io/"
+          - name: FRAME
+            link: "https://www.accordion-project.eu/Frame2025/"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+      - startTime: "10:30 AM"
+        endTime: "11:00 AM"
+        type: service
+        title: "Coffee Break"
+      - startTime: "11:00 AM"
+        endTime: "12:30 PM"
+        workshops:
+          - name: PERMAVOST
+            link: "https://permavost.github.io/"
+          - name: AI4SYS
+            link: "https://ai4sys.github.io/"
+          - name: FRAME
+            link: "https://www.accordion-project.eu/Frame2025/"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+      - startTime: "12:30 PM"
+        endTime: "1:30 PM"
+        type: service
+        title: "(Lunch on Your Own)"
+      - startTime: "1:30 PM"
+        endTime: "3:00 PM"
+        workshops:
+          - name: Perf Analysis
+            link: "./workshops.html"
+          - name: FlexScience
+            link: "https://sites.google.com/view/flexscience"
+          - name: FRAME
+            link: "https://www.accordion-project.eu/Frame2025/"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+      - startTime: "3:00 PM"
+        endTime: "3:30 PM"
+        type: service
+        title: "Coffee Break"
+      - startTime: "3:30 PM"
+        endTime: "5:00 PM"
+        workshops:
+          - name: Perf Analysis
+            link: "./workshops.html"
+          - name: FlexScience
+            link: "https://sites.google.com/view/flexscience"
+          - name: FRAME
+            link: "https://www.accordion-project.eu/Frame2025/"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+
+
 
 
   - location: Duncan Student Center 7th Floor
     date: "2025-07-21"
     dateReadable: July 21
     timeslots:
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Keynote"
+      - startTime: "8:00 AM"
+        endTime: "8:45 AM"
+        title: "Registration Opens at Duncan Student Center 7th Floor"
+        type: service
+
+      - startTime: "8:45 AM"
+        endTime: "9:00 AM"
+        title: "Welcome and Introductions"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: "Keynote Talk"
+        type: service
+
+      - startTime: "10:00 AM"
+        endTime: "10:30 AM"
+        title: "Coffee Break"
+        type: service
+      
+      - startTime: "10:30 AM"
+        endTime: "12:15 PM"
+        title: "Technical Papers (4)"
+        type: service
+
+      - startTime: "12:15 PM"
+        endTime: "1:15 PM"
+        title: "Lunch - Duncan Student Center"
+        type: service
+
+      - startTime: "1:15 PM"
+        endTime: "3:00 PM"
+        title: "Technical Papers (4)"
+        type: service
+
+      - startTime: "3:00 PM"
+        endTime: "3:30 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "3:30 PM"
+        endTime: "4:45 PM"
+        title: "Technical Papers (3)"
         type: service
 
       - startTime: "TBA"
         endTime: "TBA"
-        title: "Technical Sessions"
+        title: "Evening Posters and Reception in Duncan Hall"
         type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Panel Discussion"
-        type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Evening Poster Session"
-        type: service
+
 
 
   - date: "2025-07-22"
     dateReadable: July 22
     location: Duncan Student Center 7th Floor
     timeslots:
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Keynote"
+      - startTime: "8:00 AM"
+        endTime: "9:00 AM"
+        title: "Registration in Duncan Student Center 7th Floor"
         type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Technical Sessions"
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: "Keynote Talk"
         type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
+      - startTime: "10:00 AM"
+        endTime: "10:30 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "10:30 AM"
+        endTime: "12:15 PM"
+        title: "Technical Papers (4)"
+        type: service
+
+      - startTime: "12:15 PM"
+        endTime: "1:00 PM"
+        title: "Lunch - Duncan Student Center"
+        type: service
+
+      - startTime: "1:00 PM"
+        endTime: "1:30 PM"
+        title: "Industry Talk"
+        type: service
+
+      - startTime: "1:30 PM"
+        endTime: "2:30 PM"
         title: "Panel Discussion"
+        type: service
+
+      - startTime: "2:30 PM"
+        endTime: "3:00 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "3:00 PM"
+        endTime: "4:20 PM"
+        title: "Technical Papers (3)"
         type: service
 
       - startTime: "TBA"
@@ -63,24 +185,58 @@ schedule:
         title: "Dinner Reception at Studebaker National Museum"
         type: service
 
+
   - date: "2025-07-23"
     dateReadable: July 23
     location: Duncan Student Center 7th Floor
     timeslots:
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Keynote"
+      - startTime: "8:00 AM"
+        endTime: "9:00 AM"
+        title: "Registration in Duncan Student Center 7th Floor"
         type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
-        title: "Technical Sessions"
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: "Keynote - HPDC Award Talk"
         type: service
 
-      - startTime: "TBA"
-        endTime: "TBA"
+      - startTime: "10:00 AM"
+        endTime: "10:30 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "10:30 AM"
+        endTime: "12:15 PM"
+        title: "Technical Papers (4)"
+        type: service
+
+      - startTime: "12:15 PM"
+        endTime: "1:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "1:00 PM"
+        endTime: "2:30 PM"
+        title: "Technical Papers (3)"
+        type: service
+
+      - startTime: "2:30 PM"
+        endTime: "3:00 PM"
         title: "Awards and Closing Remarks"
         type: service
+        items:
+          - title: "HPDC 2026 Announcement"
+          - title: "Best Poster Award"
+          - title: "Best Student Paper Award"
+          - title: "Best Paper Award"
+         
+
+
+
+
+
+
+
 
 showRawPaperList: true
 

@@ -6,31 +6,6 @@ slide_id: 4
 <br>
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col conference-text text-muted">
-        {% if site.data.program.online.record %}
-        <p>
-            The conference will be streamed live and recorded for each day.
-            <br>
-            The event can be accessed online at: <a
-                href="{{site.data.program.online.url}}">{{site.data.program.online.url}}</a>
-        </p>
-        {% endif %}
-        <p>
-            {% if site.data.program.online.streams %}
-        <table class="table">
-            <tr>
-                <th>Stream</th>
-                <th>Link</th>
-            </tr>
-            {% for stream in site.data.program.online.streams %}
-            <tr>
-                <td>{{stream.title}}</td>
-                <td><a target="_blank" href="{{stream.url}}">{{stream.url}}</a></td>
-            </tr>
-            {% endfor %}
-        </table>
-        {% endif %}
-        </p>
-
         <div class="row">
             <div class="col-12">
                 <div id="days" class="alert alert-success rounded text-center mx-3">
@@ -59,12 +34,7 @@ slide_id: 4
                 <thead>
                     <tr>
                         <th class="w-25"></th>
-                        <th class="bg-light text-center h6 align-middle">Aula Gerace</th>
-                        <th class="bg-light text-center h6 align-middle">Riunioni Est</th>
-                        <th class="bg-light text-center h6 align-middle">Riunioni Ovest</th>
-                        <th class="bg-light text-center h6 align-middle">Seminari Est</th>
-                        <th class="bg-light text-center h6 align-middle">Seminari Ovest</th>
-                        <th class="bg-light text-center h6 align-middle">Sala Demo</th>
+                        <th colspan="4" class="bg-light text-center h6 align-middle"><a href='./workshops.html'>Workshops and Tutorials</a></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -82,17 +52,12 @@ slide_id: 4
                             <h6 class="text-light mb-1 mt-1">{{timeslot.title}}</h6>
                         </td>
                         {% else %}
-                        <td class="text-center align-middle">{{ timeslot.rooms.gerace }} </td>
-                        <td class="text-center align-middle">{{ timeslot.rooms.riunioni_est }} </td>
-                        <td class="text-center align-middle">{{ timeslot.rooms.riunioni_ovest }} </td>
-                        <td class="text-center align-middle">{{ timeslot.rooms.seminari_est }} </td>
-                        <td class="text-center align-middle">{{ timeslot.rooms.seminari_ovest }} </td>
+                            {% for ws in timeslot.workshops %}
+                            <td colspan=1 width="18%" class="text-center align-middle"><a href="{{ ws.link }}">{{ ws.name }}</a> </td>
+                            {% endfor %}
+       
                         {% endif %}
-                        {% if forloop.first %}
-                        <td rowspan={{day.timeslots.size}} class="text-center h6 align-middle">
-                            Web, Mails,<br>Calls, Work,<br>Study room
-                        </td>
-                        {% endif %}
+
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -107,6 +72,22 @@ slide_id: 4
                         <th colspan="2" class="table-warning text-center align-middle">
                             <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
                         </th>
+                        {% elsif timeslot.type == "keynoteservice" %}
+                        <th colspan="2" class="table-success text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                        </th>
+                        {% elsif timeslot.type == "paperservice" %}
+                        <th colspan="2" class="table-info text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                        </th>
+                        {% elsif timeslot.type == "lastservice" %}
+                        <th colspan="2" class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                            <p>{% for item in timeslot.items %}
+                            {{item.title}}<br>
+                            {% endfor %}</p>
+                        </th>
+
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
                             <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
