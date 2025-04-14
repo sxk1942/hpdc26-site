@@ -93,14 +93,14 @@ navbar:
     visible: True
 
 sponsors:
-  - name: platinum
-    display: "Platinum Sponsors:"
-    color: lightslategray
-    list:
-      - name: TBD
-        logo: 
-        link: ""
-        code: platinum
+#  - name: platinum
+#    display: "Platinum Sponsors:"
+#    color: lightslategray
+#    list:
+#      - name: TBD
+#        logo: 
+#        link: ""
+#        code: platinum
   - name: gold
     display: "Gold Sponsors:"
     color: gold
@@ -108,6 +108,10 @@ sponsors:
       - name: ND Center for Research Computing
         logo: ./assets/images/sponsors/CRC_Logo.png
         link: "https://crc.nd.edu/"
+        code: gold
+      - name: Google Cloud
+        logo: ./assets/images/sponsors/google_cloud_logo.png
+        link: "https://cloud.google.com/"
         code: gold
   - name: silver
     display: "Silver Sponsors:"
