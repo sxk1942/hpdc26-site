@@ -113,6 +113,10 @@ sponsors:
         logo: ./assets/images/sponsors/google_cloud_logo.png
         link: "https://cloud.google.com/"
         code: gold
+      - name: VAST Data
+        logo: ./assets/images/sponsors/vastdata-logo.png
+        link: "https://www.vastdata.com/"
+        code: gold
   - name: silver
     display: "Silver Sponsors:"
     color: silver

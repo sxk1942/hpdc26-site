@@ -10,13 +10,13 @@
     {% if category.list %}
     {% for sponsor in category.list %}
     {% if sponsor.code == "gold" %}
-    {% assign img_width = 40 %}
-    {% elsif sponsor.code == "silver" %}
     {% assign img_width = 30 %}
+    {% elsif sponsor.code == "silver" %}
+    {% assign img_width = 25 %}
     {% elsif sponsor.code == "bronze" %}
     {% assign img_width = 25 %}
     {% else %}
-    {% assign img_width = 25 %}
+    {% assign img_width = 20 %}
     {% endif %}
     <a href="{{ sponsor.link }}"><img class="mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
             width="{{ img_width }}%" height="auto"></a>
