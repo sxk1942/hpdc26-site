@@ -85,12 +85,18 @@ schedule:
       - startTime: "8:45 AM"
         endTime: "9:00 AM"
         title: "Welcome and Introductions"
-        type: service
+        generalChairs: "Douglas Thain, Jarek Nabrzyski"
+        programChairs: "Bob Wisniewski, Ivona Brandic"
+        type: intro
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Keynote Talk"
-        type: service
+        title: "TBA"
+        speaker: "Fred Chong, University of Chicago"
+        chair: "Devesh Tiwari"
+        image: "./assets/images/keynotes/fred_chong.png"
+        altText: "Fred Chong image"
+        type: keynote
 
       - startTime: "10:00 AM"
         endTime: "10:30 AM"
@@ -99,8 +105,14 @@ schedule:
       
       - startTime: "10:30 AM"
         endTime: "12:15 PM"
-        title: "Technical Papers (4)"
-        type: service
+        title: "Numerical Methods"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 1
+          - 2
+          - 3
+          - 4
 
       - startTime: "12:15 PM"
         endTime: "1:15 PM"
@@ -109,8 +121,14 @@ schedule:
 
       - startTime: "1:15 PM"
         endTime: "3:00 PM"
-        title: "Technical Papers (4)"
-        type: service
+        title: "Model Training"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 5
+          - 6
+          - 7
+          - 8
 
       - startTime: "3:00 PM"
         endTime: "3:30 PM"
@@ -119,17 +137,18 @@ schedule:
 
       - startTime: "3:30 PM"
         endTime: "4:45 PM"
-        title: "Technical Papers (3)"
-        type: service
+        title: "Storage Systems"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 9
+          - 10
+          - 11
 
       - startTime: "TBA"
         endTime: "TBA"
         title: "Evening Posters and Reception in Duncan Hall"
-        type: service
-
-
-
-
+        type: social
 
   - date: "2025-07-22"
     dateReadable: July 22
@@ -142,7 +161,7 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Keynote Talk"
+        title: "Keynote Talk (TBA)"
         type: service
 
       - startTime: "10:00 AM"
@@ -152,8 +171,14 @@ schedule:
 
       - startTime: "10:30 AM"
         endTime: "12:15 PM"
-        title: "Technical Papers (4)"
-        type: service
+        title: "Efficiency and Sustainability"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 12
+          - 13
+          - 14
+          - 15
 
       - startTime: "12:15 PM"
         endTime: "1:00 PM"
@@ -163,12 +188,16 @@ schedule:
       - startTime: "1:00 PM"
         endTime: "1:30 PM"
         title: "Industry Talk"
-        type: service
+        type: indTalk
+        sponsors:
+          - VAST Data
+          - Google Cloud
 
       - startTime: "1:30 PM"
         endTime: "2:30 PM"
         title: "Panel Discussion"
-        type: service
+        chair: "Peter Kogge, University of Notre Dame"
+        type: panelservice
 
       - startTime: "2:30 PM"
         endTime: "3:00 PM"
@@ -177,13 +206,18 @@ schedule:
 
       - startTime: "3:00 PM"
         endTime: "4:20 PM"
-        title: "Technical Papers (3)"
-        type: service
+        title: "Clouds and FaaS"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 16
+          - 17
+          - 18
 
       - startTime: "TBA"
         endTime: "TBA"
         title: "Dinner Reception at Studebaker National Museum"
-        type: service
+        type: social
 
 
   - date: "2025-07-23"
@@ -197,8 +231,12 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Keynote - HPDC Award Talk"
-        type: service
+        title: "2025 HPDC Achievement Award"
+        speaker: "Michela Taufer, University of Tennessee, Knoxville"
+        chair: "TBA"
+        image: "./assets/images/keynotes/michela_taufer.jpg"
+        altText: "Michela Taufer image"
+        type: keynote
 
       - startTime: "10:00 AM"
         endTime: "10:30 AM"
@@ -207,8 +245,14 @@ schedule:
 
       - startTime: "10:30 AM"
         endTime: "12:15 PM"
-        title: "Technical Papers (4)"
-        type: service
+        title: "Tuning and Performance"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 19
+          - 20
+          - 21
+          - 22
 
       - startTime: "12:15 PM"
         endTime: "1:00 PM"
@@ -217,13 +261,18 @@ schedule:
 
       - startTime: "1:00 PM"
         endTime: "2:30 PM"
-        title: "Technical Papers (3)"
-        type: service
+        title: "Best Paper Nominees"
+        type: presentation
+        chair: TBA
+        submissions:
+          - 23
+          - 24
+          - 25
 
       - startTime: "2:30 PM"
         endTime: "3:00 PM"
         title: "Awards and Closing Remarks"
-        type: service
+        type: lastservice
         items:
           - title: "HPDC 2026 Announcement"
           - title: "Best Poster Award"
@@ -238,7 +287,7 @@ schedule:
 
 
 
-showRawPaperList: true
+showRawPaperList: false
 
 rawPaperList:
   - title: "FT2: First-Token-Inspired Online Fault Tolerance on Critical Layers for Generative Large Language Models"

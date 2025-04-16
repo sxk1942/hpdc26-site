@@ -72,32 +72,55 @@ slide_id: 4
                         <th colspan="2" class="table-warning text-center align-middle">
                             <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
                         </th>
+                        {% elsif timeslot.type == "intro" %}
+                        <th colspan="2" class="table-primary text-center align-middle">
+                            <h5 class="text-center">{{timeslot.title}}</h5>
+                            <p>General Chairs: <i>{{timeslot.generalChairs}}</i><br>
+                                Program Chairs: <i>{{timeslot.programChairs}}</i></p>
+                        </th>
                         {% elsif timeslot.type == "keynoteservice" %}
                         <th colspan="2" class="table-success text-center align-middle">
                             <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
                         </th>
-                        {% elsif timeslot.type == "paperservice" %}
+                        {% elsif timeslot.type == "indTalk" %}
                         <th colspan="2" class="table-info text-center align-middle">
-                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                            <h5 class="text-center mt-1 mb-1">{{timeslot.title}}</h5>
+                            <br>
+                            {% for sponsor in timeslot.sponsors %}
+                            <h6>{{sponsor}}</h6>
+                            {% endfor %}
+                            
                         </th>
                         {% elsif timeslot.type == "lastservice" %}
                         <th colspan="2" class="table-warning text-center align-middle">
-                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
-                            <p>{% for item in timeslot.items %}
-                            {{item.title}}<br>
-                            {% endfor %}</p>
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6> <br>
+                            {% for item in timeslot.items %}
+                            <p>{{item.title}}</p>
+                            {% endfor %}
                         </th>
 
+                        {% elsif timeslot.type == "panelservice" %}
+                        <th colspan="2" class="table-secondary text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                            <p>Chair: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
                             <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
                             <p>
-                                {% if timeslot.speaker %}
-                                Speaker: <i>{{timeslot.speaker}}</i>
-                                {% endif %}
-                                {% if timeslot.chair %}
-                                <br>Session chair: <i>{{timeslot.chair}}</i>
-                                {% endif %}
+
+                            <div display="flex" align-items="center" justify-content="center">
+                                <div>
+                                    <img width="20%" src="{{ timeslot.image }}" alt="{{ timeslot.altText }}">
+                                </div>
+                                <div>
+                                    {% if timeslot.speaker %}
+                                    Speaker: <i>{{timeslot.speaker}}</i>
+                                    {% endif %}
+                                    {% if timeslot.chair %}
+                                    <br>Session chair: <i>{{timeslot.chair}}</i>
+                                    {% endif %}
+                                </div>
+                       </div>
                             </p>
                         </th>
                         {% elsif timeslot.type == "social" %}
@@ -131,7 +154,7 @@ slide_id: 4
                         <td width="20%" style="border: none">
                         </td>
                         <td colspan="2">
-                            <p><b>(#{{submission.id}}) {{submission.title}}</b></p>
+                            <p><b>{{submission.title}}</b></p>
                             {% if submission.authors %}
                             <p>
                                 {% for author in submission.authors %}
