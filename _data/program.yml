@@ -46,7 +46,7 @@ schedule:
       - startTime: "1:30 PM"
         endTime: "3:00 PM"
         workshops:
-          - name: Perf Analysis
+          - name: "Tut.: Reproducible Perf Analysis"
             link: "./workshops.html"
           - name: FlexScience
             link: "https://sites.google.com/view/flexscience"
@@ -61,7 +61,7 @@ schedule:
       - startTime: "3:30 PM"
         endTime: "5:00 PM"
         workshops:
-          - name: Perf Analysis
+          - name: "Tut.: Reproducible Perf Analysis"
             link: "./workshops.html"
           - name: FlexScience
             link: "https://sites.google.com/view/flexscience"

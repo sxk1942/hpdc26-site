@@ -34,7 +34,7 @@ deadlines:
     type: POS
   - date: April 13, 2025
     text: Travel Grant Application Deadline
-    pass_due: false
+    pass_due: true
     type: TRA
   - date: April 21, 2025
     text: Notification of Awards (Travel Grant)
