@@ -86,7 +86,7 @@ schedule:
         endTime: "9:00 AM"
         title: "Welcome and Introductions"
         generalChairs: "Douglas Thain, Jarek Nabrzyski"
-        programChairs: "Bob Wisniewski, Ivona Brandic"
+        programChairs: "Robert Wisniewski, Ivona Brandic"
         type: intro
 
       - startTime: "9:00 AM"
