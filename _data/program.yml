@@ -94,7 +94,7 @@ schedule:
         title: "TBA"
         speaker: "Fred Chong, University of Chicago"
         chair: "Devesh Tiwari"
-        image: "./assets/images/keynotes/fred_chong.png"
+        image: "./assets/images/keynotes/fred_chong.jpg"
         altText: "Fred Chong image"
         type: keynote
 
@@ -186,26 +186,26 @@ schedule:
         type: service
 
       - startTime: "1:00 PM"
-        endTime: "1:30 PM"
+        endTime: "2:00 PM"
         title: "Industry Talk"
         type: indTalk
         sponsors:
           - VAST Data
           - Google Cloud
 
-      - startTime: "1:30 PM"
-        endTime: "2:30 PM"
+      - startTime: "2:00 PM"
+        endTime: "3:00 PM"
         title: "Panel Discussion"
         chair: "Peter Kogge, University of Notre Dame"
         type: panelservice
 
-      - startTime: "2:30 PM"
-        endTime: "3:00 PM"
+      - startTime: "3:00 PM"
+        endTime: "3:30 PM"
         title: "Coffee Break"
         type: service
 
-      - startTime: "3:00 PM"
-        endTime: "4:20 PM"
+      - startTime: "3:30 PM"
+        endTime: "4:50 PM"
         title: "Clouds and FaaS"
         type: presentation
         chair: TBA
@@ -233,7 +233,7 @@ schedule:
         endTime: "10:00 AM"
         title: "2025 HPDC Achievement Award"
         speaker: "Michela Taufer, University of Tennessee, Knoxville"
-        chair: "TBA"
+        chair: "Manish Parashar"
         image: "./assets/images/keynotes/michela_taufer.jpg"
         altText: "Michela Taufer image"
         type: keynote
