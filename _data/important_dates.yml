@@ -38,9 +38,9 @@ deadlines:
     type: TRA
   - date: April 21, 2025
     text: Notification of Awards (Travel Grant)
-    pass_due: false
+    pass_due: true
     type: TRA
   - date: May 1, 2025
     text: Camera-ready Version (Technical Papers)
-    pass_due: false
+    pass_due: true
     type: CFP

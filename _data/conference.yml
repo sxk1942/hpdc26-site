@@ -77,7 +77,8 @@ navbar:
         visible: True
   - id: 5
     label: HPDC Award
-    path: /calls-awards.html
+    #path: /calls-awards.html
+    path: /award.html
     visible: True
   - id: 8
     label: Registration

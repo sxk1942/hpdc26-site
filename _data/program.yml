@@ -18,12 +18,10 @@ schedule:
         workshops:
           - name: PERMAVOST
             link: "https://permavost.github.io/"
+            roomName: "Carmichael"
           - name: AI4SYS
             link: "https://ai4sys.github.io/"
-          - name: FRAME
-            link: "https://www.accordion-project.eu/Frame2025/"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
+            roomName: "Hesburgh"
       - startTime: "10:30 AM"
         endTime: "11:00 AM"
         type: service
@@ -33,12 +31,10 @@ schedule:
         workshops:
           - name: PERMAVOST
             link: "https://permavost.github.io/"
+            roomName: "Carmichael"
           - name: AI4SYS
             link: "https://ai4sys.github.io/"
-          - name: FRAME
-            link: "https://www.accordion-project.eu/Frame2025/"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
+            roomName: "Hesburgh"
       - startTime: "12:30 PM"
         endTime: "1:30 PM"
         type: service
@@ -48,12 +44,13 @@ schedule:
         workshops:
           - name: "Tut.: Reproducible Perf Analysis"
             link: "./workshops.html"
-          - name: FlexScience
+            roomName: "Carmichael"
+          - name: FlexScience (+ FRAME)
             link: "https://sites.google.com/view/flexscience"
-          - name: FRAME
-            link: "https://www.accordion-project.eu/Frame2025/"
+            roomName: "Hesburgh"
           - name: QUASAR
             link: "https://sites.google.com/view/quasar25"
+            roomName: "Joyce"
       - startTime: "3:00 PM"
         endTime: "3:30 PM"
         type: service
@@ -63,13 +60,13 @@ schedule:
         workshops:
           - name: "Tut.: Reproducible Perf Analysis"
             link: "./workshops.html"
-          - name: FlexScience
+            roomName: "Carmichael"
+          - name: FlexScience (+ FRAME)
             link: "https://sites.google.com/view/flexscience"
-          - name: FRAME
-            link: "https://www.accordion-project.eu/Frame2025/"
+            roomName: "Hesburgh"
           - name: QUASAR
             link: "https://sites.google.com/view/quasar25"
-
+            roomName: "Joyce"
 
 
 
@@ -91,11 +88,50 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "TBA"
+        title: "Physics-Aware, Full-Stack Software to Accelerate Practical Quantum Computing"
+        abstract: >-
+          Quantum software can be a force multiplier that can significantly
+          shorten the timeline for utility-scale results from quantum hardware.
+          In particular, several key research directions will help realize
+          practical quantum advantage. Physics-aware, cross-layer optimizations
+          will continue to yield important efficiencies to allow
+          applications to make the most of quantum resources. Software-directed
+          noise-aware optimization and error correction, in particular, will be key to increasing
+          gate depths and maintaining acceptable output fidelity.
+          Pulse-level optimizations and specialized native gates will
+          also be key enablers. Additionally, applications will be hybrid
+          computations involving high-performance classical resources
+          as well as quantum hardware serving as special-purpose accelerators.
+          Effectively partitioning computations between these
+          classical and quantum resources will be necessary to support
+          realistic applications. Additionally, deep compiler optimization
+          and classical simulation of Clifford and near-Clifford circuits
+          can also be important classical investments towards more
+          efficient quantum computations. Finally, defining abstractions
+          that control compiler complexity yet selectively expose key
+          physical machine properties will also be a key area of
+          research.
+        bio: >-
+          Fred Chong is the Seymour Goodman Professor in the Department of Computer
+          Science at the University of Chicago and the Chief Scientist for Quantum
+          Software at Infleqtion. Chong is a member of the National Quantum Advisory
+          Committee (NQIAC) which provides advice to the President on the National
+          Quantum Initiative Program. In 2020, he co-founded Super.tech, a quantum
+          software company, which was acquired by Infleqtion (formerly ColdQuanta) in
+          2022. Chong received his Ph.D. from MIT in 1996 and was a faculty member
+          and Chancellor's fellow at UC Davis from 1997-2005. He was also a Professor
+          of Computer Science, Director of Computer Engineering, and Director of the
+          Greenscale Center for Energy-Efficient Computing at UCSB from 2005-2015. He
+          is a fellow of the ACM and the IEEE, a recipient of the NSF CAREER award,
+          the Intel Outstanding Researcher Award, and 16 best paper awards. He is
+          also a recipient of the Quantrell Award, the oldest undergraduate teaching
+          award in the United States, as well as the University of Chicago's Graduate
+          Teaching and Mentoring Award.
         speaker: "Fred Chong, University of Chicago"
         chair: "Devesh Tiwari"
         image: "./assets/images/keynotes/fred_chong.jpg"
         altText: "Fred Chong image"
+        size: "20%"
         type: keynote
 
       - startTime: "10:00 AM"
@@ -161,8 +197,28 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Keynote Talk (TBA)"
-        type: service
+        title: "TBA"
+        abstract: >-
+          TBA
+        speaker: "Rick Stevens, University of Chicago"
+        bio: >-
+          Part quantum theorist, part AI strategist, and part national laboratory
+          futurist, Rick Stevens is a Professor of Computer Science at the University
+          of Chicago and the Associate Laboratory Director of the Computing,
+          Environment and Life Sciences (CELS) Directorate and Argonne Distinguished
+          Fellow at Argonne National Laboratory. His research spans the computational
+          and computer sciences from high-performance computing architecture to the
+          development of tools and methods for bioinformatics, cancer, infectious
+          disease, and other challenges in science and engineering — all in the
+          service of unlocking the next leap in scientific discovery. Moving
+          effortlessly between biology, materials science, supercomputing, and
+          macroeconomics, he spends his weekends camping under the stars… or
+          calculating optimal shielding for a fusion starship.
+        chair: "TBA"
+        image: "./assets/images/keynotes/rick_stevens.jpg"
+        altText: "Rick Stevens image"
+        size: "20%"
+        type: keynote
 
       - startTime: "10:00 AM"
         endTime: "10:30 AM"
@@ -190,8 +246,7 @@ schedule:
         title: "Industry Talk"
         type: indTalk
         sponsors:
-          - VAST Data
-          - Google Cloud
+          - TBA
 
       - startTime: "2:00 PM"
         endTime: "3:00 PM"
@@ -232,10 +287,26 @@ schedule:
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
         title: "2025 HPDC Achievement Award"
+        abstract: >-
+          TBA
         speaker: "Michela Taufer, University of Tennessee, Knoxville"
+        bio: >-
+          Dr. Michela Taufer, an American Association for the Advancement of Science
+          Fellow and Association for Computing Machinery Distinguished Scientist,
+          holds the Jack Dongarra Professorship in High-Performance Computing (HPC)
+          at the University of Tennessee, Knoxville. She earned her B.S. in Computer
+          Engineering (University of Padova, Italy) and Ph.D. in Computer Science
+          (ETH Zurich, Switzerland). A former postdoctoral fellow at the University
+          of California, San Diego and The Scripps Research Institute, Dr. Taufer is
+          dedicated to multidisciplinary research, connecting computational and
+          experimental sciences. Her work focuses on designing HPC, cloud, and
+          volunteer computing solutions, applying artificial intelligence/machine
+          learning to scientific applications, and advancing algorithms and workflows
+          with a solid commitment to reproducibility and transparency in research.
         chair: "Manish Parashar"
         image: "./assets/images/keynotes/michela_taufer.jpg"
         altText: "Michela Taufer image"
+        size: "30%"
         type: keynote
 
       - startTime: "10:00 AM"
