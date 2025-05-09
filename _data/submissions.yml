@@ -94,7 +94,7 @@ all:
       - name: "Heewoo Kim"
       - name: "Joseph Izraelevitz"
       - name: " Steven Swanson"
-  - title: "On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
+  - title: "DPU-KV: On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
     id: 11
     authors:
       - name: "Arjun Kashyap"
