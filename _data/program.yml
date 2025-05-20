@@ -22,6 +22,9 @@ schedule:
           - name: AI4SYS
             link: "https://ai4sys.github.io/"
             roomName: "Hesburgh"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+            roomName: "Joyce"
       - startTime: "10:30 AM"
         endTime: "11:00 AM"
         type: service
@@ -35,6 +38,9 @@ schedule:
           - name: AI4SYS
             link: "https://ai4sys.github.io/"
             roomName: "Hesburgh"
+          - name: QUASAR
+            link: "https://sites.google.com/view/quasar25"
+            roomName: "Joyce"
       - startTime: "12:30 PM"
         endTime: "1:30 PM"
         type: service
