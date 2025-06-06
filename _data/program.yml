@@ -94,49 +94,13 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Physics-Aware, Full-Stack Software to Accelerate Practical Quantum Computing"
-        abstract: >-
-          Quantum software can be a force multiplier that can significantly
-          shorten the timeline for utility-scale results from quantum hardware.
-          In particular, several key research directions will help realize
-          practical quantum advantage. Physics-aware, cross-layer optimizations
-          will continue to yield important efficiencies to allow
-          applications to make the most of quantum resources. Software-directed
-          noise-aware optimization and error correction, in particular, will be key to increasing
-          gate depths and maintaining acceptable output fidelity.
-          Pulse-level optimizations and specialized native gates will
-          also be key enablers. Additionally, applications will be hybrid
-          computations involving high-performance classical resources
-          as well as quantum hardware serving as special-purpose accelerators.
-          Effectively partitioning computations between these
-          classical and quantum resources will be necessary to support
-          realistic applications. Additionally, deep compiler optimization
-          and classical simulation of Clifford and near-Clifford circuits
-          can also be important classical investments towards more
-          efficient quantum computations. Finally, defining abstractions
-          that control compiler complexity yet selectively expose key
-          physical machine properties will also be a key area of
-          research.
-        bio: >-
-          Fred Chong is the Seymour Goodman Professor in the Department of Computer
-          Science at the University of Chicago and the Chief Scientist for Quantum
-          Software at Infleqtion. Chong is a member of the National Quantum Advisory
-          Committee (NQIAC) which provides advice to the President on the National
-          Quantum Initiative Program. In 2020, he co-founded Super.tech, a quantum
-          software company, which was acquired by Infleqtion (formerly ColdQuanta) in
-          2022. Chong received his Ph.D. from MIT in 1996 and was a faculty member
-          and Chancellor's fellow at UC Davis from 1997-2005. He was also a Professor
-          of Computer Science, Director of Computer Engineering, and Director of the
-          Greenscale Center for Energy-Efficient Computing at UCSB from 2005-2015. He
-          is a fellow of the ACM and the IEEE, a recipient of the NSF CAREER award,
-          the Intel Outstanding Researcher Award, and 16 best paper awards. He is
-          also a recipient of the Quantrell Award, the oldest undergraduate teaching
-          award in the United States, as well as the University of Chicago's Graduate
-          Teaching and Mentoring Award.
-        speaker: "Fred Chong, University of Chicago"
-        chair: "Devesh Tiwari"
-        image: "./assets/images/keynotes/fred_chong.jpg"
-        altText: "Fred Chong image"
+        title: "#1"
+        #abstract: "" 
+        bio: "" 
+        speaker: ""
+        chair: ""
+        image: ""
+        altText: ""
         size: "20%"
         type: keynote
 
@@ -203,26 +167,49 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "TBA"
+        title: ": Physics-Aware, Full-Stack Software to Accelerate Practical Quantum Computing"
         abstract: >-
-          TBA
-        speaker: "Rick Stevens, University of Chicago"
+          Quantum software can be a force multiplier that can significantly
+          shorten the timeline for utility-scale results from quantum hardware.
+          In particular, several key research directions will help realize
+          practical quantum advantage. Physics-aware, cross-layer optimizations
+          will continue to yield important efficiencies to allow
+          applications to make the most of quantum resources. Software-directed
+          noise-aware optimization and error correction, in particular, will be key to increasing
+          gate depths and maintaining acceptable output fidelity.
+          Pulse-level optimizations and specialized native gates will
+          also be key enablers. Additionally, applications will be hybrid
+          computations involving high-performance classical resources
+          as well as quantum hardware serving as special-purpose accelerators.
+          Effectively partitioning computations between these
+          classical and quantum resources will be necessary to support
+          realistic applications. Additionally, deep compiler optimization
+          and classical simulation of Clifford and near-Clifford circuits
+          can also be important classical investments towards more
+          efficient quantum computations. Finally, defining abstractions
+          that control compiler complexity yet selectively expose key
+          physical machine properties will also be a key area of
+          research.
         bio: >-
-          Part quantum theorist, part AI strategist, and part national laboratory
-          futurist, Rick Stevens is a Professor of Computer Science at the University
-          of Chicago and the Associate Laboratory Director of the Computing,
-          Environment and Life Sciences (CELS) Directorate and Argonne Distinguished
-          Fellow at Argonne National Laboratory. His research spans the computational
-          and computer sciences from high-performance computing architecture to the
-          development of tools and methods for bioinformatics, cancer, infectious
-          disease, and other challenges in science and engineering — all in the
-          service of unlocking the next leap in scientific discovery. Moving
-          effortlessly between biology, materials science, supercomputing, and
-          macroeconomics, he spends his weekends camping under the stars… or
-          calculating optimal shielding for a fusion starship.
-        chair: "TBA"
-        image: "./assets/images/keynotes/rick_stevens.jpg"
-        altText: "Rick Stevens image"
+          Fred Chong is the Seymour Goodman Professor in the Department of Computer
+          Science at the University of Chicago and the Chief Scientist for Quantum
+          Software at Infleqtion. Chong is a member of the National Quantum Advisory
+          Committee (NQIAC) which provides advice to the President on the National
+          Quantum Initiative Program. In 2020, he co-founded Super.tech, a quantum
+          software company, which was acquired by Infleqtion (formerly ColdQuanta) in
+          2022. Chong received his Ph.D. from MIT in 1996 and was a faculty member
+          and Chancellor's fellow at UC Davis from 1997-2005. He was also a Professor
+          of Computer Science, Director of Computer Engineering, and Director of the
+          Greenscale Center for Energy-Efficient Computing at UCSB from 2005-2015. He
+          is a fellow of the ACM and the IEEE, a recipient of the NSF CAREER award,
+          the Intel Outstanding Researcher Award, and 16 best paper awards. He is
+          also a recipient of the Quantrell Award, the oldest undergraduate teaching
+          award in the United States, as well as the University of Chicago's Graduate
+          Teaching and Mentoring Award.
+        speaker: "Fred Chong, University of Chicago"
+        chair: "Devesh Tiwari"
+        image: "./assets/images/keynotes/fred_chong.jpg"
+        altText: "Fred Chong image"
         size: "20%"
         type: keynote
 
@@ -252,7 +239,23 @@ schedule:
         title: "Industry Talk"
         type: indTalk
         sponsors:
-          - TBA
+          - title_id: "Talk #1: "
+            title: "The HPC Revolution: Accelerating the Future of Science and AI"
+            abstract: "High-Performance Computing (HPC) is not just a service we offer; it is part of Google's foundational DNA. This presentation explores the deep history of HPC within Google, from the early days of massive-scale indexing and distributed computing with technologies like MapReduce and Borg, to the sophisticated infrastructure that powers our global services today. We will trace this unique evolutionary path, demonstrating how decades of internal innovation in running planetary-scale workloads have directly informed the architecture and capabilities of Google Cloud's HPC offerings.
+
+Attendees will learn how this heritage translates into a robust and flexible cloud ecosystem designed to support the most demanding research challenges. Furthermore, we will delve into how Generative AI is revolutionizing the very methods of HPC development and management. We will discuss how services like Gemini Code Assist are accelerating the creation of complex simulation code and simplifying workflow scripting, while platforms like Google Colab provide an accessible environment for prototyping and analysis.
+
+Through real-world case studies in fields such as genomics and climate science, we will highlight how our infrastructure, now augmented by AI-powered tools, is empowering researchers to push the boundaries of discovery. Finally, we will look to the future, discussing how Google is continuing to democratize access to world-class HPC, fostering innovation, and helping the scientific community solve the grand challenges of tomorrow."
+            speaker: Charles Elliot
+            bio: "Charles Elliott is a Head of Industry at Google Cloud, leading initiatives that transform education through the power of technology, particularly generative AI. Building on a successful consulting career focused on Big Data, Analytics, and AI, Charles now leverages his extensive expertise to guide educational institutions and ed-tech companies in realizing the potential of personalized learning at scale. With over 14 years of experience, he specializes in bridging cutting-edge cloud solutions with the specific needs of the education sector. As a trusted advisor, he empowers organizations to enhance learning experiences, improve accessibility, and drive measurable educational outcomes. His work spans early childhood education, machine learning applications, and strategic cloud implementation, with a focus on leveraging generative AI to unlock new possibilities in personalized learning. Charles continues to contribute to Google's Customer Advisory Boards, fostering innovation across the industry."
+            image: "./assets/images/sponsors/CharlesElliotPhoto.jpg"
+            size: "30%"
+            altText: "Sponsor image"
+          - title_id: "Talk #2: "
+            title: "TBA"
+            abstract: 
+            speaker: 
+            bio: ""
 
       - startTime: "2:00 PM"
         endTime: "3:00 PM"
@@ -292,7 +295,7 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "2025 HPDC Achievement Award"
+        title: ": 2025 HPDC Achievement Award"
         abstract: >-
           TBA
         speaker: "Michela Taufer, University of Tennessee, Knoxville"

@@ -87,7 +87,26 @@ slide_id: 4
                             <h5 class="text-center mt-1 mb-1">{{timeslot.title}}</h5>
                             <br>
                             {% for sponsor in timeslot.sponsors %}
-                            <h6>{{sponsor}}</h6>
+                            <h5 class="text-center">{{sponsor.title_id}}{{sponsor.title}}</i></h5>
+                            {% if sponsor.abstract %}
+                            <details>
+                                        <summary>Abstract</summary>
+                                        {{sponsor.abstract}}
+                            </details>
+                            <div display="flex" align-items="center" justify-content="center">
+                                <div>
+                                    <img width="{{ sponsor.size }}" src="{{ sponsor.image }}" alt="{{ sponsor.altText }}">
+                                </div>
+                                <div>
+                                    Speaker: <i>{{sponsor.speaker}}</i>
+                                    <details>
+                                        <summary>Biography</summary>
+                                        {{sponsor.bio}}
+                                    </details>
+                                </div>
+                            </div>
+                            {% endif %}
+                            <br>
                             {% endfor %}
                             
                         </th>
@@ -105,13 +124,12 @@ slide_id: 4
                             <p>Chair: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
-                            <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
+                            <h5 class="text-center">Keynote <i>{{timeslot.title}}</i></h5>
                             {% if timeslot.abstract %}
                                     <details>
                                         <summary>Abstract</summary>
                                         {{timeslot.abstract}}
                                       </details>
-                                    {% endif %}
                             <p>
 
                             <div display="flex" align-items="center" justify-content="center">
@@ -135,6 +153,7 @@ slide_id: 4
                                 </div>
                        </div>
                             </p>
+                                    {% endif %}
                         </th>
                         {% elsif timeslot.type == "social" %}
                         <th colspan="2" class="table-dark text-center align-middle">
