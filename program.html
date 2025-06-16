@@ -48,9 +48,18 @@ slide_id: 4
                             <h6 class="text-center mb-1 mt-1">{{timeslot.title}}</h6>
                         </td>
                         {% elsif timeslot.type == "social" %}
+                        <tr>
                         <td colspan=5 class="table-dark text-center align-middle">
                             <h6 class="text-light mb-1 mt-1">{{timeslot.title}}</h6>
+                            {% if timeslot.text %}
+                            <td width="20%" style="border: none">
+                            </td>
+                            <td colspan="2">
+                                <p>timeslot.text</p>
+                            </td>
+                            {% endif %}
                         </td>
+                        </tr>
                         {% else %}
                             {% for ws in timeslot.workshops %}
                             <td colspan=1 width="27%" class="text-center align-middle"><a href="{{ ws.link }}">{{ ws.name }}</a><br> Room: {{ ws.roomName }} </td>
@@ -200,6 +209,16 @@ slide_id: 4
 
                     </tr>
                     {% endfor %}
+                </tbody>
+                {% elsif timeslot.text %}
+                    <tbody>
+                    <tr>
+                        <td width="20%" style="border: none">
+                        </td>
+                        <td colspan="2">
+                            <p>{{timeslot.text}}</p>
+                        </td>
+                    </tr>
                 </tbody>
                 {% endif %}
                 {% endfor %}

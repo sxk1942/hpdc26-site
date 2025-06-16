@@ -153,8 +153,9 @@ schedule:
 
       - startTime: "TBA"
         endTime: "TBA"
-        title: "Evening Posters and Reception in Duncan Hall"
+        title: "Evening Posters and Reception in Duncan Student Center"
         type: social
+        text: "The conference opening reception will be held in the <em><a href=\"https://experience.nd.edu/gather/venues/dahnke-ballroom-duncan-student-center/\">Dahnke Ballroom</a></em> on the 7th floor of the <em><a href=\"https://duncanstudentcenter.nd.edu/\">Duncan Student Center</a></em>, overlooking the historic football stadium. (This is the same area as the conference main sessions.) A buffet dinner will be served, with meat, vegan, and gluten free options. The conference posters will be presented at this evening event, please use the opportunity to mingle and learn more.<br><br> Poster presentations will include the refereed poster submissions, posters from workshop papers, and posters from summer students at Notre Dame. All poster presenters are requested to set up their posters by 6:00PM, and then stand by their posters to present them from 6:30 to 7:30, after which you are free to mingle.<br><br> Presenters should print and bring their own posters, maximum of 48x36 inches. There is a FedEx Office <a href=\"https://local.fedex.com/en-us/in/notre-dame/office-5037\">location on campus</a> where posters can be printed and picked up. The conference will provide easels, poster board, and tacks to mount posters."
 
   - date: "2025-07-22"
     dateReadable: July 22
@@ -282,6 +283,7 @@ Through real-world case studies in fields such as genomics and climate science, 
         endTime: "9:30 PM"
         title: "Dinner Reception at Studebaker National Museum"
         type: social
+        text: "Join us for an evening dinner reception at the <em><a href=\"https://studebakermuseum.org/\">Studebaker National Museum</a></em> in downtown South Bend. Conference attendees will be free to explore the entire museum full of classic vehicles and exhibits of South Bend history. A buffet dinner will be served.<br><br> Buses will leave the <b>Morris Inn</b> at 5:30pm, 5:45pm, 6:00pm, 6:15pm, 6:30pm, pickup people from the <b>Inn at St Marys</b> and the <b>Hilton Garden Inn</b>, and then arrive at the Studebaker Museum.<br><br> Appetizers are served from 6:00pm to 7:00pm. The buffet dinner is served from 7:00pm to 8:30pm, followed by dessert. Both meat, vegan, and gluten-free choices are available. We also serve an open bar with a selection of beer, wine, and soft drinks.<br><br> Buses will depart from the museum between 7:30pm and 10:00pm every 30 minutes, return to the <b>Hilton Garden Inn</b>, the <b>Inn at St Marys</b>, and finally the <b>Morris Inn</b>."
 
 
   - date: "2025-07-23"
@@ -297,7 +299,8 @@ Through real-world case studies in fields such as genomics and climate science, 
         endTime: "10:00 AM"
         title: ": 2025 HPDC Achievement Award"
         abstract: >-
-          TBA
+          Today, scientific computing workflows are increasingly operating at scales where nondeterminism, opaque AI decisions, and rising energy demands are no longer exceptions—they have become the norm. In this talk, I will present the concrete methods we are using to address these challenges within the scientific discovery process. Specifically, I will demonstrate how graph-based analysis can reveal sources of nondeterminism in large High-Performance Computing (HPC) simulations, how fine-grained provenance frameworks can enhance transparency in AI-driven workflows, and how predictive engines can eliminate redundant computations in neural architecture search, thereby significantly reducing energy costs.<br> Beyond individual solutions, I will outline a broader vision for computing that integrates data, experiments, and computation into comprehensive scientific ecosystems, exemplified by the National Science Data Fabric (NSDF). The talk will connect technical advancements to the larger goal of producing scientific results that are trustworthy, explainable, and efficiently generated at scale.
+
         speaker: "Michela Taufer, University of Tennessee, Knoxville"
         bio: >-
           Dr. Michela Taufer, an American Association for the Advancement of Science
@@ -341,7 +344,7 @@ Through real-world case studies in fields such as genomics and climate science, 
 
       - startTime: "1:00 PM"
         endTime: "2:30 PM"
-        title: "Best Paper Nominees"
+        title: "Best Paper and Best Student Paper Nominees"
         type: presentation
         chair: TBA
         submissions:
