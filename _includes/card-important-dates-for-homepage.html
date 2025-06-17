@@ -20,7 +20,7 @@
                         {% if deadline.timezone %}
                         {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
                         {% else %}
-                        <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
+                        <strong>{{ deadline.date }}</strong>
                         {% endif %} {{ deadline.text }}
                     </p>
                     {% if deadline.pass_due %}

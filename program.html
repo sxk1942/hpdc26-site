@@ -133,7 +133,7 @@ slide_id: 4
                             <p>Chair: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
-                            <h5 class="text-center">Keynote <i>{{timeslot.title}}</i></h5>
+                            <h5 class="text-center">{% if timeslot.prefixKeynote %}<u>{{timeslot.prefixKeynote}}</u> {% endif %}Keynote <i>{{timeslot.title}}</i></h5>
                             {% if timeslot.abstract %}
                                     <details>
                                         <summary>Abstract</summary>

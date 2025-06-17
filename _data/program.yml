@@ -151,8 +151,8 @@ schedule:
           - 10
           - 11
 
-      - startTime: "TBA"
-        endTime: "TBA"
+      - startTime: "6:00 PM"
+        endTime: "9:00 PM"
         title: "Evening Posters and Reception in Duncan Student Center"
         type: social
         text: "The conference opening reception will be held in the <em><a href=\"https://experience.nd.edu/gather/venues/dahnke-ballroom-duncan-student-center/\">Dahnke Ballroom</a></em> on the 7th floor of the <em><a href=\"https://duncanstudentcenter.nd.edu/\">Duncan Student Center</a></em>, overlooking the historic football stadium. (This is the same area as the conference main sessions.) A buffet dinner will be served, with meat, vegan, and gluten free options. The conference posters will be presented at this evening event, please use the opportunity to mingle and learn more.<br><br> Poster presentations will include the refereed poster submissions, posters from workshop papers, and posters from summer students at Notre Dame. All poster presenters are requested to set up their posters by 6:00PM, and then stand by their posters to present them from 6:30 to 7:30, after which you are free to mingle.<br><br> Presenters should print and bring their own posters, maximum of 48x36 inches. There is a FedEx Office <a href=\"https://local.fedex.com/en-us/in/notre-dame/office-5037\">location on campus</a> where posters can be printed and picked up. The conference will provide easels, poster board, and tacks to mount posters."
@@ -297,7 +297,8 @@ Through real-world case studies in fields such as genomics and climate science, 
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: ": 2025 HPDC Achievement Award"
+        prefixKeynote: "2025 HPDC Achievement Award"
+        title: ": Designing for Trust, Transparency, and Efficiency in Scientific Computing"
         abstract: >-
           Today, scientific computing workflows are increasingly operating at scales where nondeterminism, opaque AI decisions, and rising energy demands are no longer exceptions—they have become the norm. In this talk, I will present the concrete methods we are using to address these challenges within the scientific discovery process. Specifically, I will demonstrate how graph-based analysis can reveal sources of nondeterminism in large High-Performance Computing (HPC) simulations, how fine-grained provenance frameworks can enhance transparency in AI-driven workflows, and how predictive engines can eliminate redundant computations in neural architecture search, thereby significantly reducing energy costs.<br> Beyond individual solutions, I will outline a broader vision for computing that integrates data, experiments, and computation into comprehensive scientific ecosystems, exemplified by the National Science Data Fabric (NSDF). The talk will connect technical advancements to the larger goal of producing scientific results that are trustworthy, explainable, and efficiently generated at scale.
 
