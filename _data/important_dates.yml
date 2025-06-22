@@ -46,17 +46,17 @@ deadlines:
     type: CFP
   - date: June 20, 2025
     text: Hotel Booking Deadline
-    pass-due: true
+    pass_due: true
     type: EXT
   - date: June 23, 2025
     text: Late Registration Deadline
-    pass-due: false
+    pass_due: false
     type: EXT
   - date: July 20, 2025
     text: HPDC Workshops
-    pass-due: false
+    pass_due: false
     type: EXT
   - date: July 21-23, 2025
     text: HPDC Main Conference
-    pass-due: false
+    pass_due: false
     type: EXT
