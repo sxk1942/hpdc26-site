@@ -98,7 +98,7 @@ schedule:
         abstract: "TBA" 
         bio: "TBA" 
         speaker: "Andrew Jones, Microsoft"
-        chair: "TBA"
+        chair: "Robert Wisniewski"
         image: ""
         altText: ""
         size: "20%"
@@ -113,7 +113,7 @@ schedule:
         endTime: "12:15 PM"
         title: "Numerical Methods"
         type: presentation
-        chair: TBA
+        chair: "Jay Lofstead"
         submissions:
           - 1
           - 2
@@ -129,7 +129,7 @@ schedule:
         endTime: "3:00 PM"
         title: "Model Training"
         type: presentation
-        chair: TBA
+        chair: "Ali Jannesari"
         submissions:
           - 5
           - 6
@@ -145,7 +145,7 @@ schedule:
         endTime: "4:45 PM"
         title: "Storage Systems"
         type: presentation
-        chair: TBA
+        chair: "Hariharan Devarajan"
         submissions:
           - 9
           - 10
@@ -223,7 +223,7 @@ schedule:
         endTime: "12:15 PM"
         title: "Efficiency and Sustainability"
         type: presentation
-        chair: TBA
+        chair: "Jarek Nabrzyski"
         submissions:
           - 12
           - 13
@@ -239,6 +239,7 @@ schedule:
         endTime: "2:00 PM"
         title: "Industry Talk"
         type: indTalk
+        chair: "Jarek Nabrzyski"
         sponsors:
           - title_id: "Talk #1: "
             title: "The HPC Revolution: Accelerating the Future of Science and AI"
@@ -261,8 +262,13 @@ Through real-world case studies in fields such as genomics and climate science, 
       - startTime: "2:00 PM"
         endTime: "3:00 PM"
         title: "Panel Discussion"
+        subtitle: "Tomorrow’s HPC/HPDC: Golden Age, Cambrian Explosion, Both, Something Else?"
         chair: "Peter Kogge, University of Notre Dame"
         type: panelservice
+        abstract: >-
+          In their 2017 Turing Lecture, Hennessy and Patterson declared that we were entering a “Golden Age” of computer architecture, and in fact it seems that high end computing using advanced architecture has become central to everything we now do daily. Multi-core chips and GPUs rule unchallenged but were virtually unheard of 20 years ago. New 100MW data centers appear daily. However, it is becoming clear that we may need to consider rebooting what we mean by “computation,” especially at the high end. It took 7 years longer to get from classical “petascale” computation to “exascale” than it did from “terascale” to “petascale.” Is another 1000X (“zettascale”) even possible?<br>At the same time radically new computational “lifeforms” are crawling onshore. To suggest a few, photonics already rules all but nearest neighbor networking, novel technologies are emerging that allow “memory” to do computation that breaks the von Neumann bottleneck, and quantum totally changes what it means to do computation. AI seems poised to invade every aspect, even classical “scientific” computation. The rise of social media means that we are dealing with graph-like structures with billions of vertices and trillions of edges. Networking everything means that computation now occurs “everywhere.”<br>This panel will discuss these phenomena and what that means we might see featured at HPDC five and ten years from now.
+
+        
 
       - startTime: "3:00 PM"
         endTime: "3:30 PM"
@@ -273,7 +279,7 @@ Through real-world case studies in fields such as genomics and climate science, 
         endTime: "4:50 PM"
         title: "Clouds and FaaS"
         type: presentation
-        chair: TBA
+        chair: "Hao Wang"
         submissions:
           - 16
           - 17
@@ -331,7 +337,7 @@ Through real-world case studies in fields such as genomics and climate science, 
         endTime: "12:15 PM"
         title: "Tuning and Performance"
         type: presentation
-        chair: TBA
+        chair: "Jay Lofstead"
         submissions:
           - 19
           - 20
@@ -347,7 +353,7 @@ Through real-world case studies in fields such as genomics and climate science, 
         endTime: "2:30 PM"
         title: "Best Paper and Best Student Paper Nominees"
         type: presentation
-        chair: TBA
+        chair: "Robert Wisniewski"
         submissions:
           - 23
           - 24

@@ -117,7 +117,7 @@ slide_id: 4
                             {% endif %}
                             <br>
                             {% endfor %}
-                            
+                            <p>Chair: <i>{{timeslot.chair}}</i></p>
                         </th>
                         {% elsif timeslot.type == "lastservice" %}
                         <th colspan="2" class="table-warning text-center align-middle">
@@ -129,7 +129,14 @@ slide_id: 4
 
                         {% elsif timeslot.type == "panelservice" %}
                         <th colspan="2" class="table-secondary text-center align-middle">
-                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
+                            <h5 class="text-center mt-1 mb-1">{{timeslot.title}}</h5>
+                            <br>
+                            <h5 class="text-center mt-1 mb-1">{{timeslot.subtitle}}</h5>
+                            <details>
+                                <summary>Abstract</summary>
+                                {{timeslot.abstract}}
+                            </details>
+                            <br>
                             <p>Chair: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
