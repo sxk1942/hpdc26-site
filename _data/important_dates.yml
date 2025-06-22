@@ -46,7 +46,7 @@ deadlines:
     type: CFP
   - date: June 20, 2025
     text: Hotel Booking Deadline
-    pass-due: false
+    pass-due: true
     type: EXT
   - date: June 23, 2025
     text: Late Registration Deadline
