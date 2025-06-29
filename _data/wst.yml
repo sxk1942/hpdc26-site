@@ -61,5 +61,9 @@ tutorials:
     speakers:
       - name: Dewi Yokelson
         affiliation: Lawrence Livermore National Laboratory, USA
+      - name: David Boehme
+        affiliation: Lawrence Livermore National Laboratory, USA
+      - name: Ian Lumsden
+        affiliation: University of Tennessee - Knoxville, USA
     description: >
       Utilizing high-performance computing (HPC) resources efficiently is essential for scientific applications, but it is becoming more challenging as systems become increasingly heterogeneous. This hands-on half-day tutorial uses a suite of open-source tools to measure, understand, and reason about the performance of HPC applications across heterogeneous systems. These tools provide fine- and coarse-grained measurements and a flexible and easily extensible Python interface for analysis. The tutorial is structured into three modules addressing performance measurement with Caliper, performance analysis with Thicket, and reproducibility aspects with Benchpark. Attendees will learn how to conduct reproducible end-to-end performance measurement and analysis. They will gain hands-on experience generating performance profiles from source code, analyzing the output for performance trends, and running reproducible experiment and analysis workflows. The intended audience includes scientists, system administrators, and performance engineers.

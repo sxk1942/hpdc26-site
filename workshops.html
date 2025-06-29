@@ -60,7 +60,7 @@ slide_id: 3
 						<p>
 							{% for speaker in tutorial.speakers %}
 							{% if forloop.first %}<b>Speakers:</b> {% else %}, {% endif %}
-							<i>{{speaker.name}} ({{speaker.affiliation}})</i>
+                                                        <i><u>{{speaker.name}}</u> ({{speaker.affiliation}})</i>
 							{% endfor %}
 						</p>
 					</td>
