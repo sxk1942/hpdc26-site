@@ -50,7 +50,7 @@ deadlines:
     type: EXT
   - date: June 23, 2025
     text: Late Registration Deadline
-    pass_due: false
+    pass_due: true
     type: EXT
   - date: July 20, 2025
     text: HPDC Workshops
