@@ -75,6 +75,9 @@ navbar:
       - name: Workshops and Tutorials
         url: "./workshops.html"
         visible: True
+      - name: Speaker Instructions
+        url: "./speaker_ins.html"
+        visible: True
   - id: 5
     label: HPDC Award
     #path: /calls-awards.html
