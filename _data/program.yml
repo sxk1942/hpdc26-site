@@ -94,13 +94,15 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "#1"
-        abstract: "TBA" 
-        bio: "TBA" 
+        title: "#1: Has HPC Changed Forever? And What Is Next?"
+        abstract: >-
+          This keynote will discuss how the world of HPC has changed in recent years, including the impact of large investments in supercomputing by the AI sector, and other themes such as GPUs, cloud, maturity, skills, etc. The speaker will share some observations from planning and operating the world’s largest supercomputers, comparing with experiences of HPC for “everyday scale” use cases, and will speculate on possible futures for the world of HPC.
+        bio: >-
+          Andrew Jones leads the Future Capabilities for Supercomputing and AI within Microsoft Azure Engineering. He joined Microsoft in early 2020, following nearly 25 years of experience with scientific computing and supercomputing. He was initially a computational science researcher using HPC, later focusing on HPC technology research and performance evaluation, and then a HPC service architect and manager, and finally an impartial consultant with specialism in HPC strategy, technology evaluation, metrics, and cost/risk/value models. Known for his impartial advice, Andrew regularly shares insights on supercomputing, AI, cloud infrastructure, and related topics via social media @hpcnotes.
         speaker: "Andrew Jones, Microsoft"
         chair: "Robert Wisniewski"
-        image: ""
-        altText: ""
+        #image: "./assets/images/keynotes/andrew_jones.jpg"
+        #altText: "Andrew Jones' image"
         size: "20%"
         type: keynote
 
