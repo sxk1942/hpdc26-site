@@ -101,8 +101,8 @@ schedule:
           Andrew Jones leads the Future Capabilities for Supercomputing and AI within Microsoft Azure Engineering. He joined Microsoft in early 2020, following nearly 25 years of experience with scientific computing and supercomputing. He was initially a computational science researcher using HPC, later focusing on HPC technology research and performance evaluation, and then a HPC service architect and manager, and finally an impartial consultant with specialism in HPC strategy, technology evaluation, metrics, and cost/risk/value models. Known for his impartial advice, Andrew regularly shares insights on supercomputing, AI, cloud infrastructure, and related topics via social media @hpcnotes.
         speaker: "Andrew Jones, Microsoft"
         chair: "Robert Wisniewski"
-        #image: "./assets/images/keynotes/andrew_jones.jpg"
-        #altText: "Andrew Jones' image"
+        image: "./assets/images/keynotes/andrew_jones.jpg"
+        altText: "Andrew Jones' image"
         size: "20%"
         type: keynote
 
