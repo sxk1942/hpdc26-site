@@ -52,6 +52,10 @@ deadlines:
     text: Late Registration Deadline
     pass_due: true
     type: EXT
+  - date: July 18, 2025
+    text: <a href="./speaker_ins.html">Slide and Poster PDF Submissions</a>
+    pass_due: false
+    type: EXT
   - date: July 20, 2025
     text: HPDC Workshops
     pass_due: false
