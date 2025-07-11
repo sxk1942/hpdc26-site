@@ -253,13 +253,15 @@ Through real-world case studies in fields such as genomics and climate science, 
             speaker: "Charles Elliot, Google"
             bio: "Charles Elliott is a Head of Industry at Google Cloud, leading initiatives that transform education through the power of technology, particularly generative AI. Building on a successful consulting career focused on Big Data, Analytics, and AI, Charles now leverages his extensive expertise to guide educational institutions and ed-tech companies in realizing the potential of personalized learning at scale. With over 14 years of experience, he specializes in bridging cutting-edge cloud solutions with the specific needs of the education sector. As a trusted advisor, he empowers organizations to enhance learning experiences, improve accessibility, and drive measurable educational outcomes. His work spans early childhood education, machine learning applications, and strategic cloud implementation, with a focus on leveraging generative AI to unlock new possibilities in personalized learning. Charles continues to contribute to Google's Customer Advisory Boards, fostering innovation across the industry."
             image: "./assets/images/sponsors/CharlesElliotPhoto.jpg"
-            size: "30%"
+            size: "28%"
             altText: "Sponsor image"
           - title_id: "Talk #2: "
             title: "TBA"
-            abstract: 
-            speaker: 
-            bio: ""
+            abstract: "TBA"
+            speaker: "Kyle Lamb, VAST Data"
+            bio: "Kyle Lamb has over 25 years of experience in computing, with 15 years specifically focused on HPC.  His most recent role is as the Field CTO for HPC at VAST Data, where he has been since November 2020. Previously, he managed federal systems engineering at DDN Storage and was a Senior Staff Engineer at Seagate Government Solutions. His significant tenure at Los Alamos National Laboratory as a Computer Engineer included roles such as HPC Storage Team Lead and Architect. Kyle began his career as a Computer Engineer with the US Army, where he worked for over a decade. His expertise spans high-performance computing, AI/ML, systems architecture, and engineering support for critical government and military infrastructure."
+            image: "./assets/images/sponsors/kyle_lamb.jpeg"
+            size: "23%"
 
       - startTime: "2:00 PM"
         endTime: "3:00 PM"
