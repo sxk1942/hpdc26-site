@@ -137,6 +137,10 @@ sponsors:
         logo: ./assets/images/sponsors/nd_logo.jpg
         link: "https://cse.nd.edu/"
         code: silver
+      - name: Lenovo/AMD
+        logo: ./assets/images/sponsors/lenovo-amd.png
+        link: ""
+        code: silver
   - name: bronze
     display: "Bronze Sponsors:"
     color: saddlebrown
