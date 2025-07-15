@@ -97,22 +97,22 @@ navbar:
     visible: True
 
 sponsors:
-#  - name: platinum
-#    display: "Platinum Sponsors:"
-#    color: lightslategray
-#    list:
-#      - name: TBD
-#        logo: 
-#        link: ""
-#        code: platinum
+  - name: platinum
+    display: "Platinum Sponsors:"
+    color: lightslategray
+    list:
+      - name: Notre Dame Research
+        logo: ./assets/images/sponsors/ndresearch.png
+        link: "https://research.nd.edu/"
+        code: platinum
   - name: gold
     display: "Gold Sponsors:"
     color: gold
     list:
-      - name: ND Center for Research Computing
-        logo: ./assets/images/sponsors/CRC_Logo.png
-        link: "https://crc.nd.edu/"
-        code: gold
+#      - name: ND Center for Research Computing
+#        logo: ./assets/images/sponsors/CRC_Logo.png
+#        link: "https://crc.nd.edu/"
+#        code: gold
       - name: Google Cloud
         logo: ./assets/images/sponsors/google_cloud_logo.png
         link: "https://cloud.google.com/"
