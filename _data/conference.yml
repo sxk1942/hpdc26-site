@@ -109,10 +109,10 @@ sponsors:
     display: "Gold Sponsors:"
     color: gold
     list:
-#      - name: ND Center for Research Computing
-#        logo: ./assets/images/sponsors/CRC_Logo.png
-#        link: "https://crc.nd.edu/"
-#        code: gold
+      - name: ND Center for Research Computing
+        logo: ./assets/images/sponsors/CRC_Logo.png
+        link: "https://crc.nd.edu/"
+        code: gold
       - name: Google Cloud
         logo: ./assets/images/sponsors/google_cloud_logo.png
         link: "https://cloud.google.com/"

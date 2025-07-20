@@ -54,7 +54,7 @@ deadlines:
     type: EXT
   - date: July 18, 2025
     text: <a href="./speaker_ins.html">Slide and Poster PDF Submissions</a>
-    pass_due: false
+    pass_due: true 
     type: EXT
   - date: July 20, 2025
     text: HPDC Workshops

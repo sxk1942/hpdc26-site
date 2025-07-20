@@ -159,6 +159,7 @@ all:
     authors:
       - name: "Vishal Rao"
       - name: "Nikhil Ram Shashidhar"
+      - name: "Suyeon Lee"
       - name: "Ada Gavrilovska"
   - title: "HYPERF: End-to-End Autotuning Framework for High-Performance Computing"
     id: 20

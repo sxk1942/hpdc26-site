@@ -85,13 +85,15 @@
       org: University of Notre Dame, USA
       homepage: "https://research.nd.edu/people/christina-clark/"
 
-- title: Sponsorship Chair
+- title: Sponsorship Chairs
   column: 1
   members:
     - name: Richard Knepper
       org: Cornell University, USA
       homepage: "https://www.cac.cornell.edu/knepper/"
-
+    - name: Jarek Nabrzyski
+      org: University of Notre Dame, USA
+      homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
 - title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
   column: 1
