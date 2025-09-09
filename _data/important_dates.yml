@@ -58,9 +58,9 @@ deadlines:
     type: EXT
   - date: July 20, 2025
     text: HPDC Workshops
-    pass_due: false
+    pass_due: true
     type: EXT
   - date: July 21-23, 2025
     text: HPDC Main Conference
-    pass_due: false
+    pass_due: true
     type: EXT

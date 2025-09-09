@@ -155,9 +155,9 @@ schedule:
 
       - startTime: "6:00 PM"
         endTime: "9:00 PM"
-        title: "Evening Posters and Reception in Duncan Student Center"
+        title: "<a href=\"./workshops.html#posters\">Evening Posters</a> and Reception in Duncan Student Center"
         type: social
-        text: "The conference opening reception will be held in the <em><a href=\"https://experience.nd.edu/gather/venues/dahnke-ballroom-duncan-student-center/\">Dahnke Ballroom</a></em> on the 7th floor of the <em><a href=\"https://duncanstudentcenter.nd.edu/\">Duncan Student Center</a></em>, overlooking the historic football stadium. (This is the same area as the conference main sessions.) A buffet dinner will be served, with meat, vegan, and gluten free options. The conference posters will be presented at this evening event, please use the opportunity to mingle and learn more.<br><br> Poster presentations will include the refereed poster submissions, posters from workshop papers, and posters from summer students at Notre Dame. All poster presenters are requested to set up their posters by 6:00PM, and then stand by their posters to present them from 6:30 to 7:30, after which you are free to mingle.<br><br> Presenters should print and bring their own posters, maximum of 48x36 inches. There is a FedEx Office <a href=\"https://local.fedex.com/en-us/in/notre-dame/office-5037\">location on campus</a> where posters can be printed and picked up. The conference will provide easels, poster board, and tacks to mount posters."
+        text: "The conference opening reception will be held in the <em><a href=\"https://experience.nd.edu/gather/venues/dahnke-ballroom-duncan-student-center/\">Dahnke Ballroom</a></em> on the 7th floor of the <em><a href=\"https://duncanstudentcenter.nd.edu/\">Duncan Student Center</a></em>, overlooking the historic football stadium. (This is the same area as the conference main sessions.) A buffet dinner will be served, with meat, vegan, and gluten free options. The conference posters will be presented at this evening event, please use the opportunity to mingle and learn more.<br><br> <a href=\"./workshops.html#posters\">Poster presentations</a> will include the refereed poster submissions, posters from workshop papers, and posters from summer students at Notre Dame. All poster presenters are requested to set up their posters by 6:00PM, and then stand by their posters to present them from 6:30 to 7:30, after which you are free to mingle.<br><br> Presenters should print and bring their own posters, maximum of 48x36 inches. There is a FedEx Office <a href=\"https://local.fedex.com/en-us/in/notre-dame/office-5037\">location on campus</a> where posters can be printed and picked up. The conference will provide easels, poster board, and tacks to mount posters."
 
   - date: "2025-07-22"
     dateReadable: July 22
@@ -212,6 +212,7 @@ schedule:
         speaker: "Fred Chong, University of Chicago"
         chair: "Devesh Tiwari"
         image: "./assets/images/keynotes/fred_chong.jpg"
+        url: "./assets/slides/main_session/chong.pdf"
         altText: "Fred Chong image"
         size: "20%"
         type: keynote
@@ -261,6 +262,7 @@ Through real-world case studies in fields such as genomics and climate science, 
             speaker: "Kyle Lamb, VAST Data"
             bio: "Kyle Lamb has over 25 years of experience in computing, with 15 years specifically focused on HPC.  His most recent role is as the Field CTO for HPC at VAST Data, where he has been since November 2020. Previously, he managed federal systems engineering at DDN Storage and was a Senior Staff Engineer at Seagate Government Solutions. His significant tenure at Los Alamos National Laboratory as a Computer Engineer included roles such as HPC Storage Team Lead and Architect. Kyle began his career as a Computer Engineer with the US Army, where he worked for over a decade. His expertise spans high-performance computing, AI/ML, systems architecture, and engineering support for critical government and military infrastructure."
             image: "./assets/images/sponsors/kyle_lamb.jpeg"
+            url: "./assets/slides/main_session/lamb.pdf"
             size: "23%"
 
       - startTime: "2:00 PM"

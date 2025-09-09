@@ -96,7 +96,7 @@ slide_id: 4
                             <h5 class="text-center mt-1 mb-1">{{timeslot.title}}</h5>
                             <br>
                             {% for sponsor in timeslot.sponsors %}
-                            <h5 class="text-center">{{sponsor.title_id}}{{sponsor.title}}</i></h5>
+                            <h5 class="text-center">{{sponsor.title_id}}{% if sponsor.url %}<a href={{sponsor.url}}>{{sponsor.title}}</a>{% else %}{{sponsor.title}}{% endif %}</i></h5>
                             {% if sponsor.abstract %}
                             <details>
                                         <summary>Abstract</summary>
@@ -142,7 +142,7 @@ slide_id: 4
                             <p>Chair: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
-                            <h5 class="text-center">{% if timeslot.prefixKeynote %}<u>{{timeslot.prefixKeynote}}</u> {% endif %}Keynote <i>{{timeslot.title}}</i></h5>
+                            <h5 class="text-center">{% if timeslot.prefixKeynote %}<u>{{timeslot.prefixKeynote}}</u> {% endif %}Keynote {% if timeslot.url %} <i><a href={{timeslot.url}}>{{timeslot.title}}</a></i>{% else %}<i>{{timeslot.title}}</i>{% endif %}</h5>
                             {% if timeslot.abstract %}
                                     <details>
                                         <summary>Abstract</summary>
@@ -204,7 +204,11 @@ slide_id: 4
                         <td width="20%" style="border: none">
                         </td>
                         <td colspan="2">
+                            {% if submission.url %}
+                            <p><a href={{submission.url}}><b>{{submission.title}}</b></a></p>
+                            {% else %}
                             <p><b>{{submission.title}}</b></p>
+                            {% endif %}
                             {% if submission.authors %}
                             <p>
                                 {% for author in submission.authors %}

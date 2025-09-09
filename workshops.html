@@ -79,4 +79,47 @@ slide_id: 3
 		{% include tba.html %}
 		{% endif %}
 	</div>
+	<div>
+		<h6>Archived Slides</h6>
+		<p class="conference-text text-muted">
+	        Please find the archived slidedecks of relevant sessions as listed below.
+		</p>
+                <ul>
+                    <li> <a href="./workshops.html">Workshops</a>
+                        <ul>
+			    {% assign sorted_workshops = site.data.wst.workshops | sort: 'acronym' %}
+                            {% for workshop in sorted_workshops %}
+                            <li><a href={{workshop.url}}>{{workshop.acronym}}</a>
+                                <ul>
+                                {% for slidedeck in workshop.slidedecks %}
+                                    {% if slidedeck.url %}
+                                    <li><a href={{slidedeck.url}}>{{slidedeck.name}}</a></li>
+                                    {% else %}
+                                    <li>{{slidedeck.name}}</li>
+                                    {% endif %}
+                                {% endfor %}
+                                </ul>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li> <a href="./workshops.html">Tutorials</a>
+                        <ul>
+                            <li> <a href="./assets/slides/tutorials/reprod.pdf">Reproducible Performance Measurement and Analysis for High-Performance Computing Applications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="posters"> <a href="#posters">Posters</a>
+                        <ul>
+                            {% for poster in site.data.wst.posters %}
+                            {% if poster.url %}
+                            <li><a href={{poster.url}}>{{poster.title}}</a></li>
+                            {% else %}
+                            <li>{{poster.title}}</li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+	</div>
 </div>

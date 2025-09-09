@@ -1,18 +1,21 @@
 all:
   - title: "Virtualization So Light, it Floats! Accelerating Floating Point Virtualization"
     id: 1
+    url: "./assets/slides/main_session/wanninger.pdf"
     authors:
       - name: "Nicholas Wanninger"
       - name: "Nadharm Dhiantravan"
       - name: "Peter Dinda"
   - title: "FloatGuard: Efficient Whole-Program Detection of Floating-Point Exceptions in AMD GPUs"
     id: 2
+    url: "./assets/slides/main_session/miao.pdf"
     authors:
       - name: "Dolores Miao"
       - name: "Ignacio Laguna"
       - name: "Cindy Rubio-González"
   - title: "LiteForm: Lightweight and Automatic Format Composition for Sparse Matrix-Matrix Multiplication on GPUs"
     id: 3
+    url: "./assets/slides/main_session/peng.pdf"
     authors:
       - name: "Zhen Peng"
       - name: "Polykarpos Thomadakis"
@@ -20,6 +23,7 @@ all:
       - name: "Gokcen Kestor"
   - title: "Optimization of GNN Training Through Half-precision"
     id: 4
+    url: "./assets/slides/main_session/tarafder.pdf"
     authors:
       - name: "Arnab Tarafder"
       - name: "Yidong Gong"
@@ -27,6 +31,7 @@ all:
 
   - title: "SAFusion: Efficient Tensor Fusion with Sparsification Ahead for High-Performance Distributed DNN Training"
     id: 5
+    url: "./assets/slides/main_session/ming.pdf"
     authors:
       - name: "Zhangqiang Ming"
       - name: "Yuchong Hu"
@@ -35,6 +40,7 @@ all:
       - name: "Dan Feng"
   - title: "ModelX: A Novel Transfer Learning Approach Across Heterogeneous Datasets"
     id: 6
+    url: "./assets/slides/main_session/dey.pdf"
     authors:
       - name: "Arunavo Dey"
       - name: "Neil Antony"
@@ -45,6 +51,7 @@ all:
       - name: "Tanzima Islam"
   - title: "FT2: First-Token-Inspired Online Fault Tolerance on Critical Layers for Generative Large Language Models"
     id: 7
+    url: "./assets/slides/main_session/sun.pdf"
     authors:
       - name: "Yu Sun"
       - name: "Zhu Zhu"
@@ -55,6 +62,7 @@ all:
       - name: "Lishan Yang"
   - title: "Optimizing Data Distribution and Kernel Performance for Efficient Training of Chemistry Foundation Models: A Case Study with MACE"
     id: 8
+    url: "./assets/slides/main_session/firoz.pdf"
     authors:
       - name: "Jesun Sahariar Firoz"
       - name: "Franco Pellegrini"
@@ -78,6 +86,7 @@ all:
       - name: "Sutanay Choudhury"
   - title: "TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System"
     id: 9
+    url: "./assets/slides/main_session/wei.pdf"
     authors:
       - name: "Zheng Wei"
       - name: "Jing Xing"
@@ -88,6 +97,7 @@ all:
       - name: "Dingwen Tao"
   - title: "AutoSSD: CXL-Enhanced Autonomous SSDs for Low Tail Latency"
     id: 10
+    url: "./assets/slides/main_session/shen.pdf"
     authors:
       - name: "Mingyao Shen"
       - name: "Suyash Mahar"
@@ -96,12 +106,14 @@ all:
       - name: " Steven Swanson"
   - title: "DPU-KV: On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
     id: 11
+    url: "./assets/slides/main_session/kashyap.pdf"
     authors:
       - name: "Arjun Kashyap"
       - name: "Yuke Li"
       - name: "Xiaoyi Lu"
   - title: "CarbonEdge: Leveraging Mesoscale Spatial Carbon-Intensity Variations for Low Carbon Edge Computing"
     id: 12
+    url: "./assets/slides/main_session/wu.pdf"
     authors:
       - name: "Li Wu"
       - name: "Walid Hanafy"
@@ -113,6 +125,7 @@ all:
       - name: "Prashant Shenoy"
   - title: "Advancing Scientific Data Compression via Cross-Field Prediction"
     id: 13
+    url: "./assets/slides/main_session/liu.pdf"
     authors:
       - name: "Youyuan Liu"
       - name: "Wenqi Jia"
@@ -122,6 +135,7 @@ all:
       - name: "Sian Jin"
   - title: "Parameterized Algorithms for Non-uniform All-to-all"
     id: 14
+    url: "./assets/slides/main_session/fan.pdf"
     authors:
       - name: "Ke Fan"
       - name: "Jens Domke"
@@ -129,6 +143,7 @@ all:
       - name: "Sidharth Kumar"
   - title: "Top-Down SBP: Turning Graph Clustering Upside Down"
     id: 15
+    url: "./assets/slides/main_session/wayne.pdf"
     authors:
       - name: "Frank Wanye"
       - name: "Vitaliy Gleyzer"
@@ -136,6 +151,7 @@ all:
       - name: "Wu-chun Feng"
   - title: "F3: An FPGA-accelerated FaaS Framework"
     id: 16
+    url: "./assets/slides/main_session/koshiba.pdf"
     authors:
       - name: "Charalampos Mainas"
       - name: "Martin Lambeck"
@@ -145,17 +161,20 @@ all:
       - name: "Pramod Bhatotia"
   - title: "PathFence: Reducing Cross-Path Dependencies in Microservices"
     id: 17
+    url: "./assets/slides/main_session/gu.pdf"
     authors:
       - name: "Xuhang Gu"
       - name: "Qingyang Wang"
   - title: "FluidFaaS: A Dynamic Pipelined Solution for Serverless Computing with Strong Isolation-based GPU Sharing"
     id: 18
+    url: "./assets/slides/main_session/hui.pdf"
     authors:
       - name: "Xinning Hui"
       - name: "Yuanchao Xu"
       - name: "Xipeng Shen"
   - title: "Grudon: A System for Deploying Graph Workloads on Disaggregated Architectures with Near-Data Processing"
     id: 19
+    url: "./assets/slides/main_session/rao.pdf"
     authors:
       - name: "Vishal Rao"
       - name: "Nikhil Ram Shashidhar"
@@ -163,6 +182,7 @@ all:
       - name: "Ada Gavrilovska"
   - title: "HYPERF: End-to-End Autotuning Framework for High-Performance Computing"
     id: 20
+    url: "./assets/slides/main_session/park.pdf"
     authors:
       - name: "Juseong Park"
       - name: "Yongwon Shin"
@@ -173,6 +193,7 @@ all:
       - name: "Hyojin Sung"
   - title: "Privacy-preserving of HPC Traces for Data Sharing and Analysis"
     id: 21
+    url: "./assets/slides/main_session/solorzano.pdf"
     authors:
       - name: "Ana Luisa Veroneze Solórzano"
       - name: "Rohan Basu Roy"
@@ -182,11 +203,12 @@ all:
       - name: "Jim M. Brandt"
   - title: "Weight-Sharing NAS with Architecture-Agnostic Intermediate Representation"
     id: 22
+    url: "./assets/slides/main_session/yu.pdf"
     authors:
       - name: "Sixing Yu"
       - name: "Arya Mazaheri"
       - name: "Ali Jannesari"
-  - title: "Out-of-Core Parallel Spatial Join Outperforming In-Memory Systems: A BFS-DFS Hybrid Approach"
+  - title: "<i><u>[BEST PAPER]</u></i> Out-of-Core Parallel Spatial Join Outperforming In-Memory Systems: A BFS-DFS Hybrid Approach"
     id: 23
     authors:
       - name: "Lyuheng Yuan"
@@ -197,6 +219,7 @@ all:
       - name: "Yang Zhou"
   - title: "IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications"
     id: 24
+    url: "./assets/slides/main_session/yang.pdf"
     authors:
       - name: "Zhuoxun Yang"
       - name: "Sheng Di"
@@ -207,8 +230,9 @@ all:
       - name: "Jinyang Liu"
       - name: "Franck Cappello"
       - name: "Kai Zhao"
-  - title: "LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data"
+  - title: "<i><u>[BEST STUDENT PAPER]</u></i> LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data"
     id: 25
+    url: "./assets/slides/main_session/guo.pdf"
     authors:
       - name: "Chang Guo"
       - name: "Ning Yan"

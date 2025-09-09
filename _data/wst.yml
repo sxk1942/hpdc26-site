@@ -3,26 +3,61 @@ workshops:
     title: 5th Workshop on Performance EngineeRing, Modelling, Analysis, and VisualizatiOn STrategy
     url: "https://permavost.github.io/"
     paperdeadline: April 22, 2025
+    slidedecks:
+      - name: "Dataflow under the von Neumann Machine: A New Paradigm for Computing Systems"
+        url: "https://permavost.github.io/files/hpdc25-s.pdf"
+      - name: "Towards a Workflow for Analytic Performance, Power, and Energy Models"
+        url: "https://permavost.github.io/files/2025-07-20_PERMAVOST_GHa_modeling.pdf"
+      - name: "Assigning Cartesian Grid Area to Processes"
+      - name: "Performance Evaluation of Machine Learning Applications Using WebAssembly Across Different Programming Languages"
+      - name: "Factors Impacting I/O Time Proportion in AI Workloads"
+      - name: "Thicket Workflow for Classifying Parallel Sorting Algorithms"
 
   - acronym: FlexScience
     title: 15th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
     url: "https://sites.google.com/view/flexscience"
     paperdeadline: April 22, 2025
+    slidedecks:
+      - name: "Rusty-Cracker: A Multi-core Connected Components Library in Rust"
+      - name: "Towards a Federated Approach to Complex Digital Twins"
+      - name: "RAPTOR: Reconfigurable Advanced Platform for Transdisciplinary Open Research"
+      - name: "Building Flexible Physics-Informed Neural Networks with Fast Fourier Transform Analysis"
+      - name: "Efficient and Cost-Effective HPC on the Cloud"
+        url: "./assets/slides/workshops/flexscience_frame/kale.pdf"
 
   - acronym: AI4Sys
     title: 3rd Workshop on AI For Systems
     url: "https://ai4sys.github.io/"
     paperdeadline: April 18, 2025
+    slidedecks:
+      - name: "Can Large Language Models Predict Parallel Code Performance?"
+        url: "./assets/slides/workshops/AI4Sys/bolet.pdf"
+      - name: "Data Management Challenges in the Age of Agentic AI"
+      - name: "XPF: Agentic AI System for Business Workflow Automation"
+      - name: "BanditWare: A Contextual Bandit-based Framework for Hardware Prediction"
+      - name: "Building an AI-Driven Storage Ecosystem and Beyond"
+
 
   - acronym: FRAME
     title: 5th Workshop on Flexible Resource and Application Management on the Edge
     url: "https://www.accordion-project.eu/Frame2025/"
     paperdeadline: April 23, 2025
+    slidedecks:
+      - name: "Jointly organized with FlexScience!"
 
   - acronym: QUASAR
     title: 2nd Workshop on Quantum Algorithms, Software and Applied Research
     url: "https://sites.google.com/view/quasar25"
     paperdeadline: April 22, 2025
+    slidedecks:
+      - name: "Quantum Computing for Mere Mortals"
+      - name: "High-level quantum algorithm programming using Silq"
+      - name: "Qutes: A High-Level Quantum Programming Language for Simplified Quantum Computing"
+      - name: "A Quantum Virtual Machine for Execution of Oracles"
+      - name: "Optimized Quantum Error Management in the Near Term and Beyond"
+      - name: "Scaling Grover’s Search for Large Solution Spaces"
+      - name: "Quantum-Based SMT Solving for String Theory"
+      - name: "On Matching in Multipartite Quantum Routers"
 
   # - acronym: AITA
   #   title: Workshop on AI Training Acceleration
@@ -55,9 +90,53 @@ workshops:
   #   title: Workshop on Federated Learning for Edge Computing
   #   url: "https://flec-workshop.github.io/2024/"
 
+posters:
+  - title: "Scaling Up Throughput-oriented SLM Inference Applications on Opportunistic GPU Clusters with Pervasive Context Management"
+    url: "./assets/slides/posters/phung.pdf"
+  - title: "Understanding Error Sensitivity in Checkpointing for Linear System Solvers"
+    url: "./assets/slides/posters/zhang.pdf"
+  - title: "Developing High-Performance Computing Agents for Resource Management"
+    url: "./assets/slides/posters/honale.pdf"
+  - title: "PLEDGE: Accelerating Data Intensive Scientific Applications with Consistency Contracts"
+    url: "./assets/slides/posters/iglesias.pdf"
+  - title: "Investigating Greenhouse Gas Emissions and Biogeochemical Processes in the St. Joseph River"
+    url: "./assets/slides/posters/perez.pdf"
+  - title: "Floability: Enabling Portable Scientific Workflows Across HPC Facilities"
+    url: "./assets/slides/posters/islam.pdf"
+  - title: "Effectively Exploiting Node-Local Storage for Data-Intensive Scientific Workflows"
+    url: "./assets/slides/posters/zhou.pdf"
+  - title: "Multi-agent LLM System for Robot Coordination and Communication"
+    url: "./assets/slides/posters/lopez_leanos.pdf"
+  - title: "Few-Shot Learning for Chemical Property Prediction"
+    url: "./assets/slides/posters/misra.pdf"
+  - title: "Quantum-Based SMT Solving for String Theory"
+    url: "./assets/slides/posters/casey.pdf"
+  - title: "Task Graph Restructuring via Function Based Annotation For Large-Scale Scientific Applications"
+    url: "./assets/slides/posters/sly_delgado.pdf"
+  - title: "Can Large Language Models Predict Parallel Code Performance?"
+    url: "./assets/slides/posters/bolet.pdf"
+  - title: "Optimizing CMS Physics Workflow Construction Across Heterogeneous Worldwide Resources"
+    url: "./assets/slides/posters/rodrigues.pdf"
+  - title: "Multi-Node Spot Instances Availability Score Collection System"
+    url: "./assets/slides/posters/cheon.pdf"
+  - title: "SibylOpt: Managing Green Data Centers Using Off-Online Deep Reinforcement Learning"
+    url: "./assets/slides/posters/nguyen.pdf"
+  - title: "Adaptive GPU Power Capping: Balancing Energy Efficiency, Thermal Control and Performance"
+    url: "./assets/slides/posters/desai.pdf"
+  - title: "SpeedLLM: An FPGA Co-design of Large Language Model Inference Accelerator"
+    url: "./assets/slides/posters/wang.pdf"
+  - title: "xGFabric: Coupling Sensor Networks and HPC Facilities with 5G Wireless Networks for Real-Time Digital Agriculture"
+    url: "./assets/slides/posters/hartung.pdf"
+  - title: "refactoring TEZip: Integrating Python-Based Predictive Compression into an HPC C++/LibTorch Environment"
+    url: "./assets/slides/posters/yousef.pdf"
+  - title: "Advancing the GEOtiled Framework Through Scalable Terrain Parameter Computation"
+    url: "./assets/slides/posters/laboy.pdf"
+
 tutorials:
   - title: Reproducible Performance Measurement and Analysis for High-Performance Computing Applications
     acronym: Performance Analysis
+    slidedeck:
+      - url: "./assets/slides/tutorials/reprod.pdf"
     speakers:
       - name: Stephanie Brink 
         affiliation: Lawrence Livermore National Laboratory, USA
