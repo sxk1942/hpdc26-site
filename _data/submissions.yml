@@ -2,6 +2,7 @@ all:
   - title: "Virtualization So Light, it Floats! Accelerating Floating Point Virtualization"
     id: 1
     url: "./assets/slides/main_session/wanninger.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731584"
     authors:
       - name: "Nicholas Wanninger"
       - name: "Nadharm Dhiantravan"
@@ -9,6 +10,7 @@ all:
   - title: "FloatGuard: Efficient Whole-Program Detection of Floating-Point Exceptions in AMD GPUs"
     id: 2
     url: "./assets/slides/main_session/miao.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731586"
     authors:
       - name: "Dolores Miao"
       - name: "Ignacio Laguna"
@@ -16,6 +18,7 @@ all:
   - title: "LiteForm: Lightweight and Automatic Format Composition for Sparse Matrix-Matrix Multiplication on GPUs"
     id: 3
     url: "./assets/slides/main_session/peng.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731574"
     authors:
       - name: "Zhen Peng"
       - name: "Polykarpos Thomadakis"
@@ -24,6 +27,7 @@ all:
   - title: "Optimization of GNN Training Through Half-precision"
     id: 4
     url: "./assets/slides/main_session/tarafder.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731575"
     authors:
       - name: "Arnab Tarafder"
       - name: "Yidong Gong"
@@ -32,6 +36,7 @@ all:
   - title: "SAFusion: Efficient Tensor Fusion with Sparsification Ahead for High-Performance Distributed DNN Training"
     id: 5
     url: "./assets/slides/main_session/ming.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731581"
     authors:
       - name: "Zhangqiang Ming"
       - name: "Yuchong Hu"
@@ -41,6 +46,7 @@ all:
   - title: "ModelX: A Novel Transfer Learning Approach Across Heterogeneous Datasets"
     id: 6
     url: "./assets/slides/main_session/dey.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731593"
     authors:
       - name: "Arunavo Dey"
       - name: "Neil Antony"
@@ -52,6 +58,7 @@ all:
   - title: "FT2: First-Token-Inspired Online Fault Tolerance on Critical Layers for Generative Large Language Models"
     id: 7
     url: "./assets/slides/main_session/sun.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731570"
     authors:
       - name: "Yu Sun"
       - name: "Zhu Zhu"
@@ -63,6 +70,7 @@ all:
   - title: "Optimizing Data Distribution and Kernel Performance for Efficient Training of Chemistry Foundation Models: A Case Study with MACE"
     id: 8
     url: "./assets/slides/main_session/firoz.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731594"
     authors:
       - name: "Jesun Sahariar Firoz"
       - name: "Franco Pellegrini"
@@ -87,6 +95,7 @@ all:
   - title: "TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System"
     id: 9
     url: "./assets/slides/main_session/wei.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731577"
     authors:
       - name: "Zheng Wei"
       - name: "Jing Xing"
@@ -98,6 +107,7 @@ all:
   - title: "AutoSSD: CXL-Enhanced Autonomous SSDs for Low Tail Latency"
     id: 10
     url: "./assets/slides/main_session/shen.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731579"
     authors:
       - name: "Mingyao Shen"
       - name: "Suyash Mahar"
@@ -107,6 +117,7 @@ all:
   - title: "DPU-KV: On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
     id: 11
     url: "./assets/slides/main_session/kashyap.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731571"
     authors:
       - name: "Arjun Kashyap"
       - name: "Yuke Li"
@@ -114,6 +125,7 @@ all:
   - title: "CarbonEdge: Leveraging Mesoscale Spatial Carbon-Intensity Variations for Low Carbon Edge Computing"
     id: 12
     url: "./assets/slides/main_session/wu.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731576"
     authors:
       - name: "Li Wu"
       - name: "Walid Hanafy"
@@ -126,6 +138,7 @@ all:
   - title: "Advancing Scientific Data Compression via Cross-Field Prediction"
     id: 13
     url: "./assets/slides/main_session/liu.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731592"
     authors:
       - name: "Youyuan Liu"
       - name: "Wenqi Jia"
@@ -136,6 +149,7 @@ all:
   - title: "Parameterized Algorithms for Non-uniform All-to-all"
     id: 14
     url: "./assets/slides/main_session/fan.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731590"
     authors:
       - name: "Ke Fan"
       - name: "Jens Domke"
@@ -144,6 +158,7 @@ all:
   - title: "Top-Down SBP: Turning Graph Clustering Upside Down"
     id: 15
     url: "./assets/slides/main_session/wayne.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731589"
     authors:
       - name: "Frank Wanye"
       - name: "Vitaliy Gleyzer"
@@ -152,6 +167,7 @@ all:
   - title: "F3: An FPGA-accelerated FaaS Framework"
     id: 16
     url: "./assets/slides/main_session/koshiba.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731582"
     authors:
       - name: "Charalampos Mainas"
       - name: "Martin Lambeck"
@@ -162,12 +178,14 @@ all:
   - title: "PathFence: Reducing Cross-Path Dependencies in Microservices"
     id: 17
     url: "./assets/slides/main_session/gu.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731583"
     authors:
       - name: "Xuhang Gu"
       - name: "Qingyang Wang"
   - title: "FluidFaaS: A Dynamic Pipelined Solution for Serverless Computing with Strong Isolation-based GPU Sharing"
     id: 18
     url: "./assets/slides/main_session/hui.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731580"
     authors:
       - name: "Xinning Hui"
       - name: "Yuanchao Xu"
@@ -175,6 +193,7 @@ all:
   - title: "Grudon: A System for Deploying Graph Workloads on Disaggregated Architectures with Near-Data Processing"
     id: 19
     url: "./assets/slides/main_session/rao.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731585"
     authors:
       - name: "Vishal Rao"
       - name: "Nikhil Ram Shashidhar"
@@ -183,6 +202,7 @@ all:
   - title: "HYPERF: End-to-End Autotuning Framework for High-Performance Computing"
     id: 20
     url: "./assets/slides/main_session/park.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731588"
     authors:
       - name: "Juseong Park"
       - name: "Yongwon Shin"
@@ -194,6 +214,7 @@ all:
   - title: "Privacy-preserving of HPC Traces for Data Sharing and Analysis"
     id: 21
     url: "./assets/slides/main_session/solorzano.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731573"
     authors:
       - name: "Ana Luisa Veroneze Solórzano"
       - name: "Rohan Basu Roy"
@@ -204,12 +225,14 @@ all:
   - title: "Weight-Sharing NAS with Architecture-Agnostic Intermediate Representation"
     id: 22
     url: "./assets/slides/main_session/yu.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731587"
     authors:
       - name: "Sixing Yu"
       - name: "Arya Mazaheri"
       - name: "Ali Jannesari"
   - title: "<i><u>[BEST PAPER]</u></i> Out-of-Core Parallel Spatial Join Outperforming In-Memory Systems: A BFS-DFS Hybrid Approach"
     id: 23
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731572"
     authors:
       - name: "Lyuheng Yuan"
       - name: "Da Yan"
@@ -220,6 +243,7 @@ all:
   - title: "IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications"
     id: 24
     url: "./assets/slides/main_session/yang.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731578"
     authors:
       - name: "Zhuoxun Yang"
       - name: "Sheng Di"
@@ -233,6 +257,7 @@ all:
   - title: "<i><u>[BEST STUDENT PAPER]</u></i> LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data"
     id: 25
     url: "./assets/slides/main_session/guo.pdf"
+    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731591"
     authors:
       - name: "Chang Guo"
       - name: "Ning Yan"

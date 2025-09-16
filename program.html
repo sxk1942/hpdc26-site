@@ -204,11 +204,8 @@ slide_id: 4
                         <td width="20%" style="border: none">
                         </td>
                         <td colspan="2">
-                            {% if submission.url %}
-                            <p><a href={{submission.url}}><b>{{submission.title}}</b></a></p>
-                            {% else %}
-                            <p><b>{{submission.title}}</b></p>
-                            {% endif %}
+                            <p><b>{{submission.title}}</b>{%if submission.acm_url %} <a href={{submission.acm_url}}>(ACM publication)</a> {% endif %}{% if submission.url %} <a href={{submission.url}}>(slidedeck)</a> {% endif %} </p>
+
                             {% if submission.authors %}
                             <p>
                                 {% for author in submission.authors %}
