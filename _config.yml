@@ -62,7 +62,7 @@ exclude:
   - .github/
   - .gitignore
 
-timezone: America/Indianapolis
+timezone: America/New_York
 google_analytics: ""
 
 plugins:

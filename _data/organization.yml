@@ -1,59 +1,63 @@
 - title: General Chairs
   column: 1
   members:
-    - name: Douglas Thain 
-      org: University of Notre Dame, USA
-      homepage: "https://engineering.nd.edu/faculty/douglas-thain/"
+    - name: Sanmukh Kuppannagari
+      org: Case Western Reserve University, USA
+      homepage: "https://case.edu/engineering/about/faculty-and-staff-directory/sanmukh-kuppannagari"
 
-    - name: Jarek Nabrzyski
-      org: University of Notre Dame, USA
-      homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
+    - name: Mehmet Koyutürk
+      org: Case Western Reserve University, USA
+      homepage: "https://case.edu/engineering/about/faculty-and-staff-directory/mehmet-koyuturk"
+
+
+- title: Vice General Chair
+  column: 1
+  members:
+    - name: Vipin Chaudhary
+      org: Case Western Reserve University, USA
+      homepage: "https://case.edu/engineering/about/faculty-and-staff-directory/vipin-chaudhary"
 
 - title: Program Chairs
   column: 1
   members:
-    - name: Ivona Brandić
-      org: Technische Universität Wien (TU Wien), Austria
-      homepage: "https://www.ec.tuwien.ac.at/~ivona/"
-    - name: Robert Wisniewski
-      org: Hewlett-Packard Enterprise, USA
-      homepage: "https://www.hpe.com/psnow/doc/a00142505enw"
+    - name: Dimitrios S. Nikolopoulos
+      org: Virginia Tech, USA
+      homepage: "https://website.cs.vt.edu/people/faculty/dimitrios-nikolopoulos.html"
+    - name: Alfredo Goldman
+      org: São Paulo University, Brazil
+      homepage: "https://www.ime.usp.br/~gold/new/"
 
-- title: Local Arrangements Chair
+- title: Finance Chair
   column: 1
   members:
-    - name: Corrina Foggia
-      org: University of Notre Dame, USA
-      homepage: "https://crc.nd.edu/about/people/corrina-foggia/"
+    - name: Jay Lofstead
+      org: Sandia National Laboratory, USA
+      homepage: "http://www.lofstead.org/"
 
-- title: Workshop Chair
+- title: Workshops and Tutorials Chairs
   column: 1
   members:
-    - name: Maciej Malawski
-      org: AGH University of Krakow and Sano Centre, Poland
-      homepage: "https://home.agh.edu.pl/~malawski/"
+    - name: Jean Luca Bez
+      org: Lawrence Berkeley National Laboratory, USA
+      homepage: "https://profiles.lbl.gov/148621-jean-luca-bez"
+    - name: Suren Byna
+      org: Ohio State University, USA
+      homepage: "https://cse.osu.edu/people/byna.1"
 
 - title: Poster Chairs
   column: 1
   members:
-    - name: Spyridon Mastorakis
-      org: University of Notre Dame, USA
-      homepage: "https://engineering.nd.edu/faculty/spyridon-mastorakis/"
-
-    - name: Tanzima Islam
-      org: Texas State University, USA
-      homepage: "https://www.tanzimaislam.com/"
+    - name: Hariharan Devarajan
+      org:  Lawrence Livermore National Laboratory, USA
+      homepage: "https://people.llnl.gov/hariharandev1"
+    - name: TBD
 
 - title: Student Program and Awards Chairs
   column: 1
   members:
-    - name: Lavanya Ramakrishnan
-      org: Lawrence Berkeley National Laboratory, USA
-      homepage: "https://crd.lbl.gov/divisions/scidata/about-scidata/office-of-the-director/lavanya-ramakrishnan/"
-
-    - name: Rafael da Silva
-      org: Oak Ridge National Laboratory, USA
-      homepage: "https://rafaelsilva.com/#about-me"
+    - name: TBD
+      org: TBD
+      homepage: #
 
 - title: Achievement Award Chair
   column: 1
@@ -65,32 +69,21 @@
 - title: Publication Chair
   column: 1
   members:
-    - name: Jay Lofstead
-      org: Sandia National Laboratory, USA
-      homepage: "http://www.lofstead.org/"
+    - name: TBD
+      org: TBD
+      homepage: #
 
 - title: Publicity Chairs
   column: 1
   members:
-    - name: Tyler Skluzarek
-      org: Oak Ridge National Laboratory, USA
-      homepage: "https://www.ornl.gov/staff-profile/tyler-j-skluzacek"
-    - name: Ana Varbanescu
-      org: University of Amsterdam, Netherlands
-      homepage: "https://www.uva.nl/en/profile/v/a/a.l.varbanescu/a.l.varbanescu.html?cb"
-    - name: Hiroshi Inoue
-      org: IBM Research, Japan
-      homepage: "https://research.ibm.com/people/hiroshi-inoue"
-    - name: Christina Clark
-      org: University of Notre Dame, USA
-      homepage: "https://research.nd.edu/people/christina-clark/"
+    - name: Arnab K. Paul
+      org: Birla Institute of Technology and Science, Goa Campus, India
+      homepage: "https://arnab.dashlab.in/"
+
 
 - title: Sponsorship Chairs
   column: 1
   members:
-    - name: Richard Knepper
-      org: Cornell University, USA
-      homepage: "https://www.cac.cornell.edu/knepper/"
     - name: Jarek Nabrzyski
       org: University of Notre Dame, USA
       homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
@@ -98,9 +91,9 @@
   icon: "fa-solid fa-globe fa-flip"
   column: 1
   members:
-    - name: Thanh Son Phung
-      org: University of Notre Dame, USA
-      homepage: "https://www.linkedin.com/in/thanhsonphung/"
+    - name: Kutay Tasci
+      org: Case Western Reserve University, USA
+      homepage: #
 
 - title: Steering Committee
   column: 1
@@ -157,318 +150,7 @@
 - title: Technical Program Committee
   column: 2
   members:
-    - name: Abhinav Bhatele
-      org: University of Maryland, USA
+    - name: TBD
+      org: TBD
       homepage: #
-    - name: Abhinav Jangda
-      org: Microsoft Research, USA
-      homepage: #
-    - name: Abhinav Vishnu
-      org: Advanced Micro Devices Inc., USA
-      homepage: #
-    - name: Aleksandar Ilic
-      org: University of Lisbon, Portugal
-      homepage: #
-    - name: Alexandru Iosup
-      org: Vrije Universiteit Amsterdam, Netherlands
-      homepage: #
-    - name: Alfredo Goldman
-      org: USP, Brazil
-      homepage: #
-    - name: Ali Akoglu
-      org: University of Arizona, USA
-      homepage: #
-    - name: Ali Jannesari
-      org: Iowa State University, USA
-      homepage: #
-    - name: Amanda Bienz
-      org: University of New Mexico, USA
-      homepage: #
-    - name: Ana-Lucia Varbanescu
-      org: University of Twente, Netherlands
-      homepage: #
-    - name: Aniruddha Marathe
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Anthony Kougkas
-      org: Illinois Institute of Technology, USA
-      homepage: #
-    - name: Antonino Tumeo
-      org: Pacific Northwest National Laboratory, USA
-      homepage: #
-    - name: Antonio J. Peña
-      org: Barcelona Supercomputing Center, Spain
-      homepage: #
-    - name: Ashish Shenoy
-      org: Google Inc., USA
-      homepage: #
-    - name: Atakan Aral
-      org: University of Vienna, Austria
-      homepage: #
-    - name: Balazs Gerofi
-      org: Intel Corporation, USA
-      homepage: #
-    - name: Barnery MacCabe
-      org: University of Arizona, USA
-      homepage: #
-    - name: Bo Fang
-      org: Pacific Northwest National Laboratory, USA
-      homepage: #
-    - name: Bogdan Nicolae
-      org: Argonne National Laboratory, USA
-      homepage: #
-    - name: Brian Kocoloski
-      org: University of Southern California / Information Sciences Institute, USA
-      homepage: #
-    - name: Bronis De Supinski
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Changhee Jung
-      org: Purdue University, USA
-      homepage: #
-    - name: Costas Bekas
-      org: Citadel Securities, Switzerland
-      homepage: #
-    - name: Daniel Balouek
-      org: INRIA, France
-      homepage: #
-    - name: Daniele De Sensi
-      org: Sapienza University of Rome, Italy
-      homepage: #
-    - name: Danilo Ardagna
-      org: Politecnico di Milano, Italy
-      homepage: #
-    - name: David Abramson
-      org: Queensland University, Australia
-      homepage: #
-    - name: David Irwin
-      org: University of Massachusetts, Amherst, USA
-      homepage: #
-    - name: Dejan Milojicic
-      org: Hewlett Packard Labs, USA
-      homepage: #
-    - name: Devesh Tiwari
-      org: Northeastern University, USA
-      homepage: #
-    - name: Dieter Kranzlmüller
-      org: LMU Munich, Germany
-      homepage: #
-    - name: Dilma Da Silva
-      org: Texas A&M, USA
-      homepage: #
-    - name: Dimitris Nikolopoulos
-      org: Virginia Tech, USA
-      homepage: #
-    - name: Dong Li
-      org: UC Merced, USA
-      homepage: #
-    - name: Douglas Thain
-      org: University of Notre Dame, USA
-      homepage: #
-    - name: Franck Cappello
-      org: Argonne National Laboratory, USA
-      homepage: #
-    - name: Gabriel Antoniu
-      org: INRIA, France
-      homepage: #
-    - name: Gagan Agarwal
-      org: University of Georgia, USA
-      homepage: #
-    - name: Guanpeng Li
-      org: University of Iowa, USA
-      homepage: #
-    - name: Guillaume Pierre
-      org: University of Rennes, France
-      homepage: #
-    - name: Haiying Xu
-      org: UCAR, USA
-      homepage: #
-    - name: Hang Liu
-      org: Rutgers, The State University of New Jersey, USA
-      homepage: #
-    - name: Hao Wang
-      org: Stevens Institute of Technology, USA
-      homepage: #
-    - name: Hariharan Devarajan
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Harshitha Menon
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Ignacio Laguna
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Ivy Peng
-      org: KTH Royal Institute of Technology, Sweden
-      homepage: #
-    - name: Jack Lange
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Jaejin Lee
-      org: Seoul National University, South Korea
-      homepage: #
-    - name: Jai Dayal
-      org: Samsung, USA
-      homepage: #
-    - name: Jakob Latgau
-      org: University of Tennessee, Knoxville, USA
-      homepage: #
-    - name: Jay Lofstead
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Jean Luca Bez
-      org: Lawrence Berkeley National Laboratory, USA
-      homepage: #
-    - name: Jens Domke
-      org: RIKEN Center for Computational Science, USA
-      homepage: #
-    - name: Jerry Chou
-      org: National Tsing Hua University, Taiwan
-      homepage: #
-    - name: John Wilkes
-      org: Google Inc., USA
-      homepage: #
-    - name: Kartik Gopalan
-      org: Binghamton University, USA
-      homepage: #
-    - name: Kathryn Mohror
-      org: Lawrence Livermore National Laboratory, USA
-      homepage: #
-    - name: Kyle Chard
-      org: University of Chicago/Argonne National Laboratory, USA
-      homepage: #
-    - name: Larry Kaplan
-      org: Hewlett Packard Enterprise, USA
-      homepage: #
-    - name: Lúcia Drummond
-      org: Fluminense Federal University, Brazil
-      homepage: #
-    - name: Marco Netto
-      org: Microsoft Azure HPC, USA
-      homepage: #
-    - name: Martin Schulz
-      org: Technical University of Munich, Germany
-      homepage: #
-    - name: Matthew Wolf
-      org: Samsung, USA
-      homepage: #
-    - name: Matthias Mueller
-      org: RWTH Aachen University
-      homepage: #
-    - name: Metin Aktulga
-      org: Michigan State University, USA
-      homepage: #
-    - name: Michal Friedman
-      org: ETH Zurich, Switzerland
-      homepage: #
-    - name: Michela Becchi
-      org: North Carolina State University, USA
-      homepage: #
-    - name: Mustafa Rafique
-      org: Rochester Institute of Technology, USA
-      homepage: #
-    - name: Nathan Tallent
-      org: Pacific Northwest National Laboratory, USA
-      homepage: #
-    - name: Nikhil Jain
-      org: NVIDIA, USA
-      homepage: #
-    - name: Ningfang Mi
-      org: Northeastern University, USA
-      homepage: #
-    - name: Olivier Beaumont
-      org: INRIA, Brazil
-      homepage: #
-    - name: Patrick Bridges
-      org: University of New Mexico, USA
-      homepage: #
-    - name: Pedro Valero
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Peng Jiang
-      org: Univeristy of Iowa, USA
-      homepage: #
-    - name: Peter Dinda
-      org: Northwestern University, USA
-      homepage: #
-    - name: Radu Prodan
-      org: University of Klagenfurt, Austria
-      homepage: #
-    - name: Rafael Ferreira da Silva
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Raffaele Montella
-      org: University of Naples Parthenope, Italy
-      homepage: #
-    - name: Renato Figueiredo
-      org: Oregon State University, USA
-      homepage: #
-    - name: Rocío Carratalá-Sáez
-      org: Universitat Jaume I, Spain
-      homepage: #
-    - name: Rohan Basu Roy
-      org: University of Utah, USA
-      homepage: #
-    - name: Ron Brightwell
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Rong Ge
-      org: Clemson University, USA
-      homepage: #
-    - name: Samantika Sury
-      org: Hewlett-Packard Enterprise, USA
-      homepage: #
-    - name: Samer Al-Kiswany
-      org: University of Waterloo, Canada
-      homepage: #
-    - name: Sanmukh Kuppannagari
-      org: Case Western Reserve University, USA
-      homepage: #
-    - name: Sascha Hunold
-      org: TU Wien, Austria
-      homepage: #
-    - name: Scott Levy
-      org: Sandia National Laboratories, USA
-      homepage: #
-    - name: Shashikant Ilager
-      org: University van Amsterdam, Netherlands
-      homepage: #
-    - name: Shirley Moore
-      org: University of Texas El Paso, USA
-      homepage: #
-    - name: Siegfried Benkner
-      org: University of Vienna, Austria
-      homepage: #
-    - name: Sreepathi Pai
-      org: University of Rochester, USA
-      homepage: #
-    - name: Srikumar Venugopal
-      org: IBM Dublin, Ireland
-      homepage: #
-    - name: Stefano Markidis
-      org: KTH, Switzerland
-      homepage: #
-    - name: Swaroop Pophale
-      org: Oak Ridge National Laboratory, USA
-      homepage: #
-    - name: Taylor Groves
-      org: Lightmatter, USA
-      homepage: #
-    - name: Tekin Bicer
-      org: Argonne National Laboratory, USA
-      homepage: #
-    - name: Utz Haus
-      org: HPE, Sweden
-      homepage: #
-    - name: Valeria Cardellini
-      org: University of Rome Tor Vergata, Italy
-      homepage: #
-    - name: Weikuan Yu
-      org: Florida State University, USA
-      homepage: #
-    - name: Yue Cheng
-      org: University of Virginia, USA
-      homepage: #
-    - name: Zhiling Lan
-      org: University of Illiinois at Chicago, USA
-      homepage: #
+    

@@ -1,31 +1,31 @@
 locations:
   - title: Main Conference
-    name: Duncan Student Center,<br>7th Floor Ballroom<br>University of Notre Dame
-    address: Notre Dame, IN 46556 USA
-    lat: 41.6989
-    lng: -86.2364
+    name: TBD,<br>TBD<br>Case Western Reserve University
+    address: Cleveland, OH 44106 USA
+    lat: 41.5043
+    lng: -81.6084
   - title: Workshops
-    name: The Morris Inn<br>University of Notre Dame
-    address: Notre Dame, IN 46556 USA
-    lat: 41.6989
-    lng: -86.2364
+    name: TBD<br>Case Western Reserve University
+    address: Cleveland, OH 44106 USA
+    lat: 41.5043
+    lng: -81.6084
 
 conf_address: >
   <strong>
   Main Conference:
   </strong><br>
-  Duncan Student Center,<br>
-  7th Floor Ballroom,<br>
-  University of Notre Dame, <br>
-  Notre Dame, IN 46556 USA 
+  TBD,<br>
+  TBD,<br>
+  Case Western Reserve University,<br>
+  Cleveland, OH 44106 USA
 
 ws_address: >
   <strong>
   Workshops:
   </strong><br>
-  The Morris Inn<br>
-  University of Notre Dame,<br>
-  Notre Dame, IN 46556 USA 
+  TBD<br>
+  Case Western Reserve University,<br>
+  Cleveland, OH 44106 USA
 
 about: >
 

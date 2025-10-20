@@ -6,18 +6,18 @@ description: > # this means to ignore newlines until "baseurl:"
   and the use of parallel and distributed systems for high-end computing <a href="https://dl.acm.org/doi/proceedings/10.1145/3731545">(ACM Proceedings of HPDC25)</a>.
 
 sub_description: >
-  HPDC 2025 is hosted by the University of Notre Dame, USA. 
+  HPDC 2026 is hosted by the Case Western Reserve University, USA. 
 
-email: "dthain@nd.edu, naber@nd.edu"
+email: "sxk1942@case.edu, mxk331@case.edu"
 
-iteration: 34th
-full_title: 34th ACM International Symposium on High-Performance Parallel and Distributed Computing
-short_title: HPDC 2025
+iteration: 35th
+full_title: 35th ACM International Symposium on High-Performance Parallel and Distributed Computing
+short_title: HPDC 2026
 
-year: 2025
-date: July 20-23, 2025
+year: 2026
+date: July 13-16, 2026
 
-location: Notre Dame, IN
+location: Cleveland, OH
 country: USA
 
 logo: "./assets/images/logo.png" #
@@ -26,11 +26,11 @@ calls: "/calls.html"
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/spring-dome.jpg
-    description: HPDC 2025
-    photographer_name: "Notre Dame, IN, USA"
+    image_path: ./assets/images/slideshow/CWRU_misc.jpg
+    description: HPDC 2026
+    photographer_name: "Cleveland, OH, USA"
     photographer_link: ""
-    active: True
+    active: False
 
 navbar:
   - id: 0
@@ -57,98 +57,98 @@ navbar:
         visible: True
       - name: Posters
         url: "./calls-posters.html"
-        visible: True
+        visible: False
       - name: Award Nominations
         url: "./calls-awards.html"
-        visible: True
+        visible: False
       - name: Travel Grant
         url: "./travel-grant.html"
-        visible: True
+        visible: False
   - id: 4
     label: Program
     path:
-    visible: True
+    visible: False
     dropdown:
       - name: Schedule
         url: "./program.html"
-        visible: True
+        visible: False
       - name: Workshops and Tutorials
         url: "./workshops.html"
         visible: True
       - name: Speaker Instructions
         url: "./speaker_ins.html"
-        visible: True
+        visible: False
   - id: 5
     label: HPDC Award
     #path: /calls-awards.html
     path: /award.html
-    visible: True
+    visible: False
   - id: 8
     label: Registration
     path: /registration.html
-    visible: True
+    visible: False
   - id: 6
     label: Travel Grant
     path: /travel-grant.html
-    visible: True
+    visible: False
   - id: 7
     label: Venue
     path: /venue.html
-    visible: True
+    visible: False
 
 sponsors:
-  - name: platinum
-    display: "Platinum Sponsors:"
-    color: lightslategray
-    list:
-      - name: Notre Dame Research
-        logo: ./assets/images/sponsors/ndresearch.png
-        link: "https://research.nd.edu/"
-        code: platinum
-  - name: gold
-    display: "Gold Sponsors:"
-    color: gold
-    list:
-      - name: ND Center for Research Computing
-        logo: ./assets/images/sponsors/CRC_Logo.png
-        link: "https://crc.nd.edu/"
-        code: gold
-      - name: Google Cloud
-        logo: ./assets/images/sponsors/google_cloud_logo.png
-        link: "https://cloud.google.com/"
-        code: gold
-      - name: VAST Data
-        logo: ./assets/images/sponsors/vastdata-logo.png
-        link: "https://www.vastdata.com/"
-        code: gold
-      - name: AWS/NVIDIA
-        logo: ./assets/images/sponsors/aws-nvidia.png
-        link: ""
-        code: gold
-  - name: silver
-    display: "Silver Sponsors:"
-    color: silver
-    list:
-      - name: US Research Software Engineer Association
-        logo: ./assets/images/sponsors/ussea_logo.png
-        link: "https://us-rse.org/"
-        code: silver
-      - name: ND Department of Computer Science and Engineering
-        logo: ./assets/images/sponsors/nd_logo.jpg
-        link: "https://cse.nd.edu/"
-        code: silver
-      - name: Lenovo/AMD
-        logo: ./assets/images/sponsors/lenovo-amd.png
-        link: ""
-        code: silver
-  - name: bronze
-    display: "Bronze Sponsors:"
-    color: saddlebrown
-    list:
-      - name: The Pier Group
-        logo: ./assets/images/sponsors/pier_logo.png
-        link: "https://www.piergroup.com/"
-        code: bronze
+#   - name: platinum
+#     display: "Platinum Sponsors:"
+#     color: lightslategray
+#     list:
+#       - name: Notre Dame Research
+#         logo: ./assets/images/sponsors/ndresearch.png
+#         link: "https://research.nd.edu/"
+#         code: platinum
+#   - name: gold
+#     display: "Gold Sponsors:"
+#     color: gold
+#     list:
+#       - name: ND Center for Research Computing
+#         logo: ./assets/images/sponsors/CRC_Logo.png
+#         link: "https://crc.nd.edu/"
+#         code: gold
+#       - name: Google Cloud
+#         logo: ./assets/images/sponsors/google_cloud_logo.png
+#         link: "https://cloud.google.com/"
+#         code: gold
+#       - name: VAST Data
+#         logo: ./assets/images/sponsors/vastdata-logo.png
+#         link: "https://www.vastdata.com/"
+#         code: gold
+#       - name: AWS/NVIDIA
+#         logo: ./assets/images/sponsors/aws-nvidia.png
+#         link: ""
+#         code: gold
+#   - name: silver
+#     display: "Silver Sponsors:"
+#     color: silver
+#     list:
+#       - name: US Research Software Engineer Association
+#         logo: ./assets/images/sponsors/ussea_logo.png
+#         link: "https://us-rse.org/"
+#         code: silver
+#       - name: ND Department of Computer Science and Engineering
+#         logo: ./assets/images/sponsors/nd_logo.jpg
+#         link: "https://cse.nd.edu/"
+#         code: silver
+#       - name: Lenovo/AMD
+#         logo: ./assets/images/sponsors/lenovo-amd.png
+#         link: ""
+#         code: silver
+#   - name: bronze
+#     display: "Bronze Sponsors:"
+#     color: saddlebrown
+#     list:
+#       - name: The Pier Group
+#         logo: ./assets/images/sponsors/pier_logo.png
+#         link: "https://www.piergroup.com/"
+#         code: bronze
   - name: profSoc
     display: "Professional Society Sponsors:"
     color: black

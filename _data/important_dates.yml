@@ -1,66 +1,16 @@
 deadline_timezone: AoE
 deadlines:
-  - date: December 9, 2024
-    text: Workshop and Tutorial Proposal Submission Deadline
-    pass_due: true
-    type: WST
-  - date: December 16, 2024
-    text: Notification of Acceptance (Workshops and Tutorials)
-    pass_due: true
-    type: WST
-  - date: February 6, 2025
-    text: (Firm) Paper Submission Deadline (Technical Papers)
-    pass_due: true
-    type: CFP
-  - date: February 28, 2025
-    text: HPDC 2025 Achievement Award Nomination Deadline
-    pass_due: true
-    type: CFN
-  - date: March 13, 2025
-    text: Poster Submission Deadline
-    pass_due: true
-    type: POS
-  - date: March 21, 2025
-    text: Notification for HPDC 2025 Achievement Award
-    pass_due: true
-    type: CFN
-  - date: April 4, 2025
-    text: Notification of Acceptance (Technical Papers)
-    pass_due: true
-    type: CFP
-  - date: April 7, 2025
-    text: Notification of Acceptance (Posters)
-    pass_due: true
-    type: POS
-  - date: April 13, 2025
-    text: Travel Grant Application Deadline
-    pass_due: true
-    type: TRA
-  - date: April 21, 2025
-    text: Notification of Awards (Travel Grant)
-    pass_due: true
-    type: TRA
-  - date: May 1, 2025
-    text: Camera-ready Version (Technical Papers)
-    pass_due: true
-    type: CFP
-  - date: June 20, 2025
-    text: Hotel Booking Deadline
-    pass_due: true
+  - date: October 20, 2025
+    text: Website Online
+    pass_due: False
     type: EXT
-  - date: June 23, 2025
-    text: Late Registration Deadline
-    pass_due: true
-    type: EXT
-  - date: July 18, 2025
-    text: <a href="./speaker_ins.html">Slide and Poster PDF Submissions</a>
-    pass_due: true 
-    type: EXT
-  - date: July 20, 2025
-    text: HPDC Workshops
-    pass_due: true
-    type: EXT
-  - date: July 21-23, 2025
-    text: HPDC Main Conference
-    pass_due: true
-    type: EXT
+
+
+# Note: The "pass_due" field is used to indicate whether the deadline has passed
+#Type legend:
+# WST: Workshop and Tutorial Proposal Submission Deadline
+# CFP: (Firm) Paper Submission Deadline (Technical Papers)
+# CFN: HPDC Achievement Award Nomination Deadline
+# POS: Poster Submission Deadline
+# TRA: Travel Grant Application Deadline
+# EXT: Other Important Dates (Notifications, Camera-ready, Conference Dates, etc.)
