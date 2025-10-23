@@ -1,5 +1,29 @@
 deadline_timezone: AoE
 deadlines:
+  - date: April 30, 2026
+    text: Camera-ready Version (Technical Papers)
+    pass_due: False
+    type: CFP
+  - date: March 31, 2026
+    text: Notification of Acceptance (Technical Papers)
+    pass_due: False
+    type: CFP
+  - date: February 5, 2026
+    text: (Firm) Paper Submission Deadline (Technical Papers)
+    pass_due: False
+    type: CFP
+  - date: January 29, 2026
+    text: Abstract Registration (Technical Papers)
+    pass_due: False
+    type: CFP
+  - date: December 12, 2025
+    text: Notification of Acceptance
+    pass_due: False
+    type: WST
+  - date: December 5, 2025
+    text: Workshop and Tutorial Proposal Submissions
+    pass_due: False
+    type: WST
   - date: October 20, 2025
     text: Website Online
     pass_due: False

@@ -5,7 +5,7 @@
       org: Case Western Reserve University, USA
       homepage: "https://case.edu/engineering/about/faculty-and-staff-directory/sanmukh-kuppannagari"
 
-    - name: Mehmet Koyutürk
+    - name: Mehmet Koyuturk
       org: Case Western Reserve University, USA
       homepage: "https://case.edu/engineering/about/faculty-and-staff-directory/mehmet-koyuturk"
 
@@ -50,21 +50,23 @@
     - name: Hariharan Devarajan
       org:  Lawrence Livermore National Laboratory, USA
       homepage: "https://people.llnl.gov/hariharandev1"
-    - name: TBD
+    - name: Sarah Neuwirth
+      org: Johannes Gutenberg University, Germany
+      homepage: "https://researchprofiles.uni-mainz.de/19180-sarah-neuwirth"
 
 - title: Student Program and Awards Chairs
+  column: 1
+  members:
+    - name: Sanjukta Bhowmick
+      org: University of North Texas, USA
+      homepage: "https://engineering.unt.edu/people/sanjukta-bhowmick.html"
+
+- title: Achievement Award Chair
   column: 1
   members:
     - name: TBD
       org: TBD
       homepage: #
-
-- title: Achievement Award Chair
-  column: 1
-  members:
-    - name: Manish Parashar
-      org: University of Utah, USA
-      homepage: "https://www.manishparashar.org/"
 
 - title: Publication Chair
   column: 1
@@ -79,6 +81,9 @@
     - name: Arnab K. Paul
       org: Birla Institute of Technology and Science, Goa Campus, India
       homepage: "https://arnab.dashlab.in/"
+    - name: Alba Cristina Melo
+      org: University of Brasilia, Brazil
+      homepage: #
 
 
 - title: Sponsorship Chairs
@@ -87,6 +92,7 @@
     - name: Jarek Nabrzyski
       org: University of Notre Dame, USA
       homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
+
 - title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
   column: 1

@@ -1,6 +1,6 @@
 locations:
   - title: Main Conference
-    name: TBD,<br>TBD<br>Case Western Reserve University
+    name: TBD,<br>Case Western Reserve University
     address: Cleveland, OH 44106 USA
     lat: 41.5043
     lng: -81.6084
@@ -14,7 +14,6 @@ conf_address: >
   <strong>
   Main Conference:
   </strong><br>
-  TBD,<br>
   TBD,<br>
   Case Western Reserve University,<br>
   Cleveland, OH 44106 USA
