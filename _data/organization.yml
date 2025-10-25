@@ -119,15 +119,6 @@
     - name: Peter Dinda
       org: Northwestern University, USA
       homepage: #
-    - name: Salim Hariri
-      org: University of Arizona, USA
-      homepage: #
-    - name: Dean Hildebrand
-      org: Google Inc., USA
-      homepage: #
-    - name: David Irwin
-      org: UMass Amherst, USA
-      homepage: #
     - name: Jack Lange
       org: University of Pittsburgh and Oak Ridge National Laboratory USA
       homepage: #
@@ -139,9 +130,6 @@
       homepage: #
     - name: Manish Parashar
       org: Rutgers University, USA
-      homepage: #
-    - name: Lavanya Ramakrishnan
-      org: Lawrence Berkeley National Lab, USA
       homepage: #
     - name: Evgenia Smirni
       org: William and Mary, USA
