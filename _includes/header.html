@@ -116,12 +116,14 @@
                     {% assign active = "active" %}
                     {% endif %}
                     <div class="carousel-item {{active}}">
-                        <img class="img-fluid" src="{{ slide.image_path }}" alt="{{ slide.description }}">
+                        <img class="img-fluid" src="{{ slide.image_path }}" alt="{{ slide.description }}"
+                            style="width:100%; height:400px; display:block; object-fit:cover; object-position:bottom left;">
                         <div class="carousel-caption">
                             <h4>{{slide.description}}</h4>
                             <h6>July 13-16, 2026<br>Cleveland, OH, USA</h6>
                         </div>
                     </div>
+
                     {% endfor %}
                 </div>
             </div>
