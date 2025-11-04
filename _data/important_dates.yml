@@ -24,6 +24,14 @@ deadlines:
     text: Camera-ready Version (Technical Papers)
     pass_due: False
     type: CFP
+  - date: May 1, 2026
+    text: Poster Submission Deadline
+    pass_due: False
+    type: POS
+  - date: May 24, 2026
+    text: Notification of Acceptance (Posters)
+    pass_due: False
+    type: POS
 
 
 # Note: The "pass_due" field is used to indicate whether the deadline has passed

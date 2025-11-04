@@ -57,7 +57,7 @@ navbar:
         visible: True
       - name: Posters
         url: "./calls-posters.html"
-        visible: False
+        visible: True
       - name: Award Nominations
         url: "./calls-awards.html"
         visible: False
