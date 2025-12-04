@@ -74,9 +74,9 @@
 - title: Publication Chair
   column: 1
   members:
-    - name: TBD
-      org: TBD
-      homepage: #
+    - name: Manish Parashar
+      org: University of Utah, USA
+      homepage: "https://www.manishparashar.org/"
 
 - title: Publicity Chairs
   column: 1
@@ -93,6 +93,9 @@
     - name: Bogdan Nicolae
       org: Argonne National Lab, USA
       homepage: "https://www.anl.gov/profile/bogdan-nicolae"
+    - name: Amir Raoofy
+      org: Leibniz Supercomputing Centre, Germany
+      homepage: "https://amir-raoofy.github.io/amir-raoofy/"
 
 
 - title: Sponsorship Chairs
@@ -101,6 +104,17 @@
     - name: Jarek Nabrzyski
       org: University of Notre Dame, USA
       homepage: "https://crc.nd.edu/about/people/jaroslaw-nabrzyski/"
+
+- title: Social Media Chairs
+  column: 1
+  members:
+    - name: Aishwarya R Parab
+      org: Birla Institute of Technology and Science, Goa Campus, India
+      homepage: "-"
+    - name: Faruque Aziz
+      org: Birla Institute of Technology and Science, Goa Campus, India
+      homepage: "-"
+    
 
 - title: Web Chair
   icon: "fa-solid fa-globe fa-flip"
