@@ -60,7 +60,7 @@ navbar:
         visible: True
       - name: Award Nominations
         url: "./calls-awards.html"
-        visible: False
+        visible: True
       - name: Travel Grant
         url: "./travel-grant.html"
         visible: False

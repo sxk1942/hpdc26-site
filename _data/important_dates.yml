@@ -16,6 +16,10 @@ deadlines:
     text: (Firm) Paper Submission Deadline (Technical Papers)
     pass_due: False
     type: CFP
+  - date: March 2, 2026
+    text: HPDC Achievement Award Nomination Deadline
+    pass_due: False
+    type: CFN
   - date: March 31, 2026
     text: Notification of Acceptance (Technical Papers)
     pass_due: False
