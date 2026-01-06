@@ -67,16 +67,23 @@
 - title: Achievement Award Chair
   column: 1
   members:
-    - name: TBD
-      org: TBD
-      homepage: #
+    - name: Manish Parashar
+      org: University of Utah, USA
+      homepage: "https://www.manishparashar.org/"
+
+- title: Industry Events Chair
+  column: 1
+  members:
+    - name: Hang Liu
+      org:  Rutgers, The State University of New Jersey, USA
+      homepage: "https://asherliu.github.io/"
 
 - title: Publication Chair
   column: 1
   members:
-    - name: Manish Parashar
-      org: University of Utah, USA
-      homepage: "https://www.manishparashar.org/"
+    - name: TBD
+      org: TBD
+      homepage: "#"
 
 - title: Publicity Chairs
   column: 1

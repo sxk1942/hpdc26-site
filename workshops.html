@@ -10,14 +10,14 @@ slide_id: 3
 		{% if site.data.wst.workshops != nil %}
 		<p class="conference-text text-muted">
 			We are proud to announce that a large collection of workshops and tutorials will be co-located with HPDC
-			2025 and scheduled
-			on 20th July 2025. Workshop co-chairs have accepted
+			2026 and scheduled
+			on 13th July 2026. Workshop co-chairs have accepted
 			<b>{{site.data.wst.workshops | size}}</b> workshops and <b>{{site.data.wst.tutorials | size}}</b> tutorial
 			covering research topics strictly related to the HPDC conference series.
 		</p>
 		<p class="conference-text text-muted">
 			The table below report the <b>{{site.data.wst.workshops | size}}</b> accepted workshops that will be
-			co-located with HPDC 2025:
+			co-located with HPDC 2026:
 
 		</p>
 		<div class="conference-text text-muted">
@@ -79,7 +79,7 @@ slide_id: 3
 		{% include tba.html %}
 		{% endif %}
 	</div>
-	<div>
+	<!-- <div>
 		<h6>Archived Slides</h6>
 		<p class="conference-text text-muted">
 	        Please find the archived slidedecks of relevant sessions as listed below.
@@ -105,8 +105,20 @@ slide_id: 3
                     </li>
                     <li> <a href="./workshops.html">Tutorials</a>
                         <ul>
-                            <li> <a href="./assets/slides/tutorials/reprod.pdf">Reproducible Performance Measurement and Analysis for High-Performance Computing Applications</a>
-                            </li>
+                            {% assign sorted_tutorials = site.data.wst.tutorials | sort: 'title' %}
+							{% for tutorial in sorted_tutorials %}
+							<li><a href={{tutorial.url}}>{{tutorial.title}}</a>
+								<ul>
+								{% for slidedeck in tutorial.slidedecks %}
+									{% if slidedeck.url %}
+									<li><a href={{slidedeck.url}}>{{slidedeck.name}}</a></li>
+									{% else %}
+									<li>{{slidedeck.name}}</li>
+									{% endif %}
+								{% endfor %}
+								</ul>
+							</li>
+							{% endfor %}
                         </ul>
                     </li>
                     <li id="posters"> <a href="#posters">Posters</a>
@@ -121,5 +133,5 @@ slide_id: 3
                         </ul>
                     </li>
                 </ul>
-	</div>
+	</div> -->
 </div>

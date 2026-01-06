@@ -67,7 +67,7 @@ navbar:
   - id: 4
     label: Program
     path:
-    visible: False
+    visible: True
     dropdown:
       - name: Schedule
         url: "./program.html"
