@@ -174,7 +174,443 @@
 - title: Technical Program Committee
   column: 2
   members:
-    - name: TBD
-      org: TBD
+    - name: David Abramson
+      org: Queensland University
       homepage: #
+    - name: Gagan Agrawal
+      org: University of Georgia
+      homepage: #
+    - name: Ali Akoglu
+      org: University of Arizona
+      homepage: #
+    - name: Samer Al-Kiswany
+      org: University of Waterloo, Canada
+      homepage: #
+    - name: Rabab Alomairy
+      org: King Abdullah University of Science and Technology
+      homepage: #
+    - name: Danilo Ardagna
+      org: Politecnico di Milano
+      homepage: #
+    - name: David A. Bader
+      org: New Jersey Institute of Technology
+      homepage: #
+    - name: Daniel Balouek
+      org: INRIA
+      homepage: #
+    - name: Olivier Beaumont
+      org: Inria
+      homepage: #
+    - name: Costas Bekas
+      org: Citadel Securities
+      homepage: #
+    - name: Siegfried Benkner
+      org: University of Vienna
+      homepage: #
+    - name: Abhinav Bhatele
+      org: University of Maryland
+      homepage: #
+    - name: Tekin Bicer
+      org: Argonne National Laboratory
+      homepage: #
+    - name: Filip Blagojevic
+      org: Western Digital Corporation
+      homepage: #
+    - name: Patrick Bridges
+      org: University of New Mexico
+      homepage: #
+    - name: Ron Brightwell
+      org: Sandia National Laboratories
+      homepage: #
+    - name: Ali Butt
+      org: Virginia Tech
+      homepage: #
+    - name: Suren Byna
+      org: Ohio State University
+      homepage: #
+    - name: Silvina Caino-Lores
+      org: Inria
+      homepage: #
+    - name: Kirk Cameron
+      org: Virginia Tech Innovation Campus
+      homepage: #
+    - name: Franck Cappello
+      org: Argonne National Laboratory
+      homepage: #
+    - name: Valeria Cardellini
+      org: University of Roma Tor Vergata
+      homepage: #
+    - name: Emanuele Carlini
+      org: National Research Council of Italy (CNR)
+      homepage: #
+    - name: Jesus Carretero
+      org: Universidad Carlos III de Madrid
+      homepage: #
+    - name: Márcio Castro
+      org: Federal University of Santa Catarina
+      homepage: #
+    - name: Kyle Chard
+      org: University of Chicago and Argonne National Laboratory
+      homepage: #
+    - name: Yue Cheng
+      org: University of Virginia
+      homepage: #
+    - name: Jerry Chou
+      org: National Tsing Hua University
+      homepage: #
+    - name: Johanne Cohen
+      org: Université Paris-Saclay
+      homepage: #
+    - name: Massimo Coppola
+      org: Istituto di Scienza e Tecnologie dell'Informazione "Alessandro Faedo"
+      homepage: #
+    - name: Daniel Cordeiro
+      org: University of São Paulo
+      homepage: #
+    - name: Marco Danelutto
+      org: University of Pisa
+      homepage: #
+    - name: Maurizio Davini
+      org: University of Pisa
+      homepage: #
+    - name: Jai Dayal
+      org: Samsung
+      homepage: #
+    - name: Patrizio Dazzi
+      org: University of Pisa
+      homepage: #
+    - name: Hariharan Devarajan
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Karen Devine
+      org: Center for Computing Research at Sandia National Laboratories, retired
+      homepage: #
+    - name: Peter Dinda
+      org: Northwestern University
+      homepage: #
+    - name: Jens Domke
+      org: RIKEN Center for Computational Science
+      homepage: #
+    - name: Wenqian Dong
+      org: Oregon State University
+      homepage: #
+    - name: Bo Fang
+      org: University of Texas at Arlington
+      homepage: #
+    - name: Maria Fazio
+      org: University of Messina
+      homepage: #
+    - name: Renato Figueiredo
+      org: Oregon State University
+      homepage: #
+    - name: Stefano Forti
+      org: University of Pisa
+      homepage: #
+    - name: Rong Ge
+      org: Clemson University
+      homepage: #
+    - name: Balazs Gerofi
+      org: Intel Corporation
+      homepage: #
+    - name: Kartik Gopalan
+      org: Binghamton University
+      homepage: #
+    - name: Dalvan Griebler
+      org: PUCRS
+      homepage: #
+    - name: Taylor Groves
+      org: Lightmatter
+      homepage: #
+    - name: Philipp Gschwandtner
+      org: University of Innsbruck
+      homepage: #
+    - name: Vincenzo Gulisano
+      org: Chalmers University of Technology
+      homepage: #
+    - name: Izzat El Hajj
+      org: American University of Beirut
+      homepage: #
+    - name: Kyle Hale
+      org: Oregon State University
+      homepage: #
+    - name: Dennis Hoppe
+      org: High-Performance Computing Center Stuttgart
+      homepage: #
+    - name: Shashikant Ilager
+      org: University van Amsterdam
+      homepage: #
+    - name: Aleksandar Ilic
+      org: University of Lisbon
+      homepage: #
+    - name: Hiroshi Inoue
+      org: IBM Research
+      homepage: #
+    - name: David Irwin
+      org: University of Massachusetts Amherst
+      homepage: #
+    - name: Tanzima Islam
+      org: Texas State University
+      homepage: #
+    - name: Nikhil Jain
+      org: NVIDIA
+      homepage: #
+    - name: Ali Jannesari
+      org: Iowa State University
+      homepage: #
+    - name: Emmanuel Jeannot
+      org: Inria
+      homepage: #
+    - name: Peng Jiang
+      org: University of Iowa
+      homepage: #
+    - name: Changhee Jung
+      org: Purdue University
+      homepage: #
+    - name: Larry Kaplan
+      org: Hewlett Packard Enterprise
+      homepage: #
+    - name: Hanna Kavalionak
+      org: National Research Council of Italy (CNR)
+      homepage: #
+    - name: Ozgur Ozan Kilic
+      org: Brookhaven National Laboratory
+      homepage: #
+    - name: Anthony Kougkas
+      org: Illinois Institute of Technology
+      homepage: #
+    - name: Sanmukh Kuppannagari
+      org: Case Western Reserve University
+      homepage: #
+    - name: Ignacio Laguna
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Zhiling Lan
+      org: University of Illinois at Chicago
+      homepage: #
+    - name: Jack Lange
+      org: University of Pittsburgh and Oak Ridge National Laboratory
+      homepage: #
+    - name: Scott Levy
+      org: Sandia National Laboratories
+      homepage: #
+    - name: Guanpeng Li
+      org: University of Iowa
+      homepage: #
+    - name: Jiajia Li
+      org: North Carolina State University
+      homepage: #
+    - name: Dong Li
+      org: UC Merced
+      homepage: #
+    - name: Hang Liu
+      org: Rutgers, The State University of New Jersey
+      homepage: #
+    - name: Jay Lofstead
+      org: Sandia National Laboratories
+      homepage: #
+    - name: Tze Meng Low
+      org: Carnegie Mellon University
+      homepage: #
+    - name: David Lowenthal
+      org: University of Arizona
+      homepage: #
+    - name: Xiaoyi Lu
+      org: University of California, Merced
+      homepage: #
+    - name: Jakob Luettgau
+      org: INRIA
+      homepage: #
+    - name: "Arthur \"Barney\" Maccabe"
+      org: University of Arizona
+      homepage: #
+    - name: Kostas Magoutis
+      org: University of Crete and FORTH-ICS
+      homepage: #
+    - name: Maciej Malawski
+      org: AGH University of Krakow and Sano Centre
+      homepage: #
+    - name: Aniruddha Marathe
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Stefano Markidis
+      org: KTH
+      homepage: #
+    - name: Jacopo Massa
+      org: University of Pisa
+      homepage: #
+    - name: Gabriele Mencagli
+      org: University of Pisa
+      homepage: #
+    - name: Esteban Meneses
+      org: Technical University Costa Rica
+      homepage: #
+    - name: Harshitha Menon
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Ningfang Mi
+      org: Northeastern University
+      homepage: #
+    - name: Dejan Milojicic
+      org: Hewlett Packard Labs
+      homepage: #
+    - name: Esteban Mocskos
+      org: Universidad de Buenos Aires
+      homepage: #
+    - name: Kathryn Mohror
+      org: Lawrence Berkeley National Lab and Lawrence Livermore National Laboratory, USA
+      homepage: #
+    - name: Clément Mommessin
+      org: Univ. Grenoble Alpes
+      homepage: #
+    - name: Raffaele Montella
+      org: University Parthenope of Naples
+      homepage: #
+    - name: Shirley Moore
+      org: University of Texas El Paso
+      homepage: #
+    - name: Matteo Mordacchini
+      org: National Research Council of Italy (CNR)
+      homepage: #
+    - name: Stefan Nastic
+      org: TUWIEN
+      homepage: #
+    - name: Bogdan Nicolae
+      org: Argonne National Laboratory
+      homepage: #
+    - name: Guillaume Pallez
+      org: Inria Rennes
+      homepage: #
+    - name: Manish Parashar
+      org: University of Utah and Rutgers University
+      homepage: #
+    - name: Arnab Paul
+      org: BITS Pilani, K K Birla Goa
+      homepage: #
+    - name: Antonio J. Peña
+      org: Barcelona Supercomputing Center
+      homepage: #
+    - name: Ivy Peng
+      org: KTH Royal Institute of Technology
+      homepage: #
+    - name: Swaroop Pophale
+      org: Oak Ridge National Laboratory
+      homepage: #
+    - name: Viktor Prasanna
+      org: University of Southern California
+      homepage: #
+    - name: Radu Prodan
+      org: University of Klagenfurt, Austria
+      homepage: #
+    - name: Mustafa Rafique
+      org: Rochester Institute of Technology
+      homepage: #
+    - name: Omer Rana
+      org: Cardiff University
+      homepage: #
+    - name: César Augusto Fonticielha De Rose
+      org: PUCRS
+      homepage: #
+    - name: Rohan Basu Roy
+      org: University of Utah
+      homepage: #
+    - name: Rizos Sakellariou
+      org: University of Manchester
+      homepage: #
+    - name: Marco Santambrogio
+      org: Politecnico di Milano
+      homepage: #
+    - name: Martin Schulz
+      org: Technical University of Munich
+      homepage: #
+    - name: Daniele De Sensi
+      org: Sapienza University of Rome
+      homepage: #
+    - name: Ashish Shenoy
+      org: Google Inc.
+      homepage: #
+    - name: Dilma Da Silva
+      org: Texas A&M University
+      homepage: #
+    - name: Rafael Ferreira da Silva
+      org: Oak Ridge National Laboratory
+      homepage: #
+    - name: Bertrand Simon
+      org: Laboratoire d’Informatique de Grenoble
+      homepage: #
+    - name: Oliver Sinnen
+      org: University of Auckland
+      homepage: #
+    - name: Tyler Skluzarek
+      org: Oak Ridge National Laboratory
+      homepage: #
+    - name: Evgenia Smirni
+      org: College of William and Mary
+      homepage: #
+    - name: Leonel Sousa
+      org: DEEC-IST and INESC
+      homepage: #
+    - name: Bronis De Supinski
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Nathan Tallent
+      org: Pacific Northwest National Laboratory
+      homepage: #
+    - name: Dingwen Tao
+      org: University of Chinese Academy of Sciences
+      homepage: #
+    - name: Michela Taufer
+      org: University of Tennessee
+      homepage: #
+    - name: Douglas Thain
+      org: University of Notre Dame
+      homepage: #
+    - name: Devesh Tiwari
+      org: Northeastern University
+      homepage: #
+    - name: Dimitrios Tsoumakos
+      org: National Technical University
+      homepage: #
+    - name: Antonino Tumeo
+      org: Pacific Northwest National Laboratory
+      homepage: #
+    - name: Ana-Lucia Varbanescu
+      org: University of Twente and University of Amsterdam
+      homepage: #
+    - name: Blesson Varghese
+      org: University of St. Andrews
+      homepage: #
+    - name: Srikumar Venugopal
+      org: IBM Dublin, Ireland
+      homepage: #
+    - name: Frederic Vivien
+      org: Inria
+      homepage: #
+    - name: Hao Wang
+      org: Stevens Institute of Technology
+      homepage: #
+    - name: Jon Weissman
+      org: University of Minnesota
+      homepage: #
+    - name: Robert Wisniewski
+      org: Hewlett-Packard Enterprise
+      homepage: #
+    - name: Matthew Wolf
+      org: Without affiliation
+      homepage: #
+    - name: Haiying Xu
+      org: UCAR
+      homepage: #
+    - name: Lishan Yang
+      org: George Mason University
+      homepage: #
+    - name: Jae-seung Yeom
+      org: Lawrence Livermore National Laboratory
+      homepage: #
+    - name: Weikuan Yu
+      org: Florida State University
+      homepage: #
+    - name: Jidong Zhai
+      org: Tsinghua University
+      homepage: #
+
     
