@@ -1,8 +1,8 @@
 workshops:
   - acronym: QUASAR
     title: 3rd Workshop on Quantum Algorithms, Software and Applied Research
-    url: "-"
-    paperdeadline: TBA
+    url: "https://sites.google.com/view/quasar26"
+    paperdeadline: March 16, 2026
     # slidedecks:
     #   - name: "Dataflow under the von Neumann Machine: A New Paradigm for Computing Systems"
     #     url: "https://permavost.github.io/files/hpdc25-s.pdf"
@@ -15,8 +15,8 @@ workshops:
 
   - acronym: FlexScience
     title: 16th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
-    url: "-"
-    paperdeadline: TBA
+    url: "https://sites.google.com/view/flexscience"
+    paperdeadline: April 17th, 2025
     # slidedecks:
     #   - name: "Rusty-Cracker: A Multi-core Connected Components Library in Rust"
     #   - name: "Towards a Federated Approach to Complex Digital Twins"
@@ -27,8 +27,8 @@ workshops:
 
   - acronym: REX-IO
     title: 6th Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads
-    url: "-"
-    paperdeadline: TBA
+    url: "https://sites.google.com/view/rexio/"
+    paperdeadline: March 31, 2026
     # slidedecks:
     #   - name: "Can Large Language Models Predict Parallel Code Performance?"
     #     url: "./assets/slides/workshops/AI4Sys/bolet.pdf"
@@ -40,15 +40,15 @@ workshops:
 
   - acronym: AI4Sys
     title: 4th Workshop on AI for Systems
-    url: "-"
-    paperdeadline: TBA
+    url: "https://ai4sys.github.io/"
+    paperdeadline: April 18, 2026
     #slidedecks:
       # - name: "Jointly organized with FlexScience!"
 
   - acronym: PERMAVOST
     title: Performance EngineeRing, Modelling, Analysis, and VisualizatiOn STrategy
-    url: "-"
-    paperdeadline: TBA
+    url: "https://permavost.github.io/"
+    paperdeadline: April 3rd, 2026
     # slidedecks:
     #   - name: "Quantum Computing for Mere Mortals"
     #   - name: "High-level quantum algorithm programming using Silq"
@@ -137,28 +137,51 @@ tutorials:
     # acronym: Performance Analysis
     # slidedeck:
     #   - url: "./assets/slides/tutorials/reprod.pdf"
+    link: "https://nowlab.cse.ohio-state.edu/tutorials/hpdc2026_hpn"
     speakers:
       - name: Dhabaleswar K. (DK) Panda 
         affiliation: The Ohio State University, USA
       - name: Benjamin Michalowicz
         affiliation: The Ohio State University, USA
     description: >
-      To be announced.
+      As InfiniBand (IB), High-speed Ethernet (HSE), RoCE, and Omni-Path technologies mature, they are being used to design and deploy 
+      various High-End Computing (HEC) systems: HPC clusters with GPGPUs supporting MPI, Storage and Parallel File Systems, Cloud 
+      Computing systems with SR-IOV Virtualization, Grid Computing systems, and Deep Learning systems. These systems are bringing 
+      new challenges in terms of performance, scalability, portability, reliability and network congestion. Many scientists, engineers, 
+      researchers, managers and system administrators are becoming interested in learning about these challenges, approaches being used 
+      to solve these challenges, and the associated impact on performance and scalability. This tutorial will start with an overview of 
+      these systems. Advanced hardware and software features of IB, Omni-Path, HSE, and RoCE and their capabilities to address these 
+      challenges will be emphasized. Next, we will focus on Open Fabrics RDMA and Libfabrics programming, and network management 
+      infrastructure and tools to effectively use these systems. A common set of challenges being faced while designing these systems 
+      will be presented. Case studies focusing on domain-specific challenges in designing these systems, their solutions and sample 
+      performance numbers will be presented. We will conduct hands-on exercises throughout the tutorial with IB-Verbs tests and 
+      MPI-based communication for CPU and GPU-Aware systems.
   - title: PRINCIPLES AND PRACTICE OF HIGH PERFORMANCE DEEP LEARNING TRAINING AND INFERENCE
     # acronym: Performance Analysis
     # slidedeck:
     #   - url: "./assets/slides/tutorials/reprod.pdf"
+    link: "https://nowlab.cse.ohio-state.edu/tutorials/hidl_HPDC26/"
     speakers:
       - name: Dhabaleswar K. (DK) Panda 
         affiliation: The Ohio State University, USA
       - name:  Nawras Alnaasan
         affiliation: The Ohio State University, USA
     description: >
-      To be announced.
+      Recent advances in Deep Learning (DL) have led to many exciting challenges and opportunities. Modern DL frameworks including 
+      TensorFlow, PyTorch, Horovod, and DeepSpeed enable high-performance training, inference, and deployment for various types of 
+      Deep Neural Networks (DNNs) such as GPT, BERT, ViT, and ResNet. This tutorial provides an overview of recent trends in DL and 
+      the role of cutting-edge hardware architectures and interconnects in moving the field forward. We will also present an overview 
+      of different DNN architectures, DL frameworks and DL Training and Inference with special focus on parallelization strategies 
+      for model training. We highlight new challenges and opportunities for communication runtimes to exploit high-performance 
+      CPU/GPU architectures to efficiently support large-scale distributed training. We also highlight some of our co-design efforts 
+      to utilize MPI for large-scale DNN training on cutting-edge CPU and GPU architectures available on modern HPC clusters. Throughout 
+      the tutorial, we include several hands-on exercises to enable attendees to gain first-hand experience of running distributed DL 
+      training and inference on a modern GPU cluster.
   - title: When Error-Bounded Lossy Compression Meets Large-Scale AI Model Training in Federated Environments
     # acronym: Performance Analysis
     # slidedeck:
     #   - url: "./assets/slides/tutorials/reprod.pdf"
+    link: "-"
     speakers:
       - name: Xiaoyi Lu
         affiliation: The University of California, Merced, USA
@@ -167,4 +190,17 @@ tutorials:
       - name: Zhaorui Zhang
         affiliation:  The Hong Kong Polytechnic University, Hong Kong
     description: >
-      To be announced.
+      Federated learning has emerged as an effective approach for scaling large-scale AI model training across geographically distributed 
+      data silos while preserving the privacy of training data. This paradigm has attracted increasing attention for its ability to 
+      address critical data privacy concerns. However, communication efficiency and privacy preservation remain two primary challenges 
+      in the practical deployment of federated learning systems, largely due to the substantial transmission of model gradients and 
+      parameters over public networks with limited bandwidth. Error-bounded lossy compression has proven to be an effective technique 
+      for compressing model parameters and gradients, thereby reducing communication overhead while simultaneously addressing privacy 
+      issues. In this tutorial, we will provide an overview of the background and current research landscape in federated learning, 
+      error-bounded lossy compression, and differential privacy. Then, we discuss the motivations for employing an error-bounded lossy 
+      compressor to compress parameters and gradients in large-scale federated learning environments. Furthermore, we will detail the 
+      application of error-bounded lossy compression methods for model parameter and gradient compression and demonstrate how these 
+      techniques can simultaneously mitigate communication costs and privacy leakage risks. Finally, the tutorial will include a 
+      half-hour hands-on session, during which participants will learn how to deploy federated learning frameworks, apply error-bounded 
+      lossy compression techniques within these frameworks, and utilize our proposed federated learning simulator to analyze system 
+      performance.

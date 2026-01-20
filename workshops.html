@@ -56,11 +56,11 @@ slide_id: 3
 				{% for tutorial in site.data.wst.tutorials %}
 				<tr>
 					<td class="w-25">
-						<p><b>{{tutorial.title}}</b></p>
+						<p><b><a target="_blank" href="{{tutorial.link}}">{{tutorial.title}}</a></b></p>
 						<p>
 							{% for speaker in tutorial.speakers %}
 							{% if forloop.first %}<b>Speakers:</b> {% else %}, {% endif %}
-                                                        <i><u>{{speaker.name}}</u> ({{speaker.affiliation}})</i>
+														<i><u>{{speaker.name}}</u> ({{speaker.affiliation}})</i>
 							{% endfor %}
 						</p>
 					</td>
