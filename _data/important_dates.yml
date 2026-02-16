@@ -2,19 +2,19 @@ deadline_timezone: AoE
 deadlines:
   - date: December 5, 2025
     text: Workshop and Tutorial Proposal Submissions
-    pass_due: False
+    pass_due: true
     type: WST
   - date: December 12, 2025
     text: Notification of Acceptance
-    pass_due: False
+    pass_due: true
     type: WST
   - date: January 29, 2026
     text: Abstract Registration (Technical Papers)
-    pass_due: False
+    pass_due: true
     type: CFP
   - date: February 5, 2026
     text: (Firm) Paper Submission Deadline (Technical Papers)
-    pass_due: False
+    pass_due: true
     type: CFP
   - date: March 2, 2026
     text: HPDC Achievement Award Nomination Deadline

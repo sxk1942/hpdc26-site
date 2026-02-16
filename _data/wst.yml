@@ -181,7 +181,7 @@ tutorials:
     # acronym: Performance Analysis
     # slidedeck:
     #   - url: "./assets/slides/tutorials/reprod.pdf"
-    link: "-"
+    link: "https://hpc-and-ai.github.io/"
     speakers:
       - name: Xiaoyi Lu
         affiliation: The University of California, Merced, USA

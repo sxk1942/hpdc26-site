@@ -189,17 +189,23 @@
     - name: Rabab Alomairy
       org: King Abdullah University of Science and Technology
       homepage: #
+    - name: Christos D. Antonopoulos
+      org: University of Thessaly, Greece
+      homepage: #
     - name: Danilo Ardagna
-      org: Politecnico di Milano
+      org: Politecnico di Milano, Italy
       homepage: #
     - name: David A. Bader
       org: New Jersey Institute of Technology
       homepage: #
     - name: Daniel Balouek
-      org: INRIA
+      org: INRIA, France
       homepage: #
     - name: Olivier Beaumont
-      org: Inria
+      org: INRIA, France
+      homepage: #
+    - name: Michela Becchi
+      org: North Carolina State University, USA
       homepage: #
     - name: Costas Bekas
       org: Citadel Securities
@@ -221,6 +227,9 @@
       homepage: #
     - name: Ron Brightwell
       org: Sandia National Laboratories
+      homepage: #
+    - name: Pedro Bruel
+      org: Hewlett Packard Labs, USA
       homepage: #
     - name: Ali Butt
       org: Virginia Tech
@@ -267,6 +276,12 @@
     - name: Daniel Cordeiro
       org: University of São Paulo
       homepage: #
+    - name: Matthew Curtis-Maury
+      org: NetApp
+      homepage: #
+    - name: Dilma Da Silva
+      org: Texas A&M University
+      homepage: #
     - name: Marco Danelutto
       org: University of Pisa
       homepage: #
@@ -278,6 +293,15 @@
       homepage: #
     - name: Patrizio Dazzi
       org: University of Pisa
+      homepage: #
+    - name: Cesar De Rose 
+      org: PUCRS
+      homepage: #
+    - name: Daniele De Sensi
+      org: Sapienza University of Rome
+      homepage: #
+    - name: Bronis De Supinski
+      org: Lawrence Livermore National Laboratory
       homepage: #
     - name: Hariharan Devarajan
       org: Lawrence Livermore National Laboratory
@@ -294,11 +318,17 @@
     - name: Wenqian Dong
       org: Oregon State University
       homepage: #
+    - name: Pierre-François Dutot
+      org: Grenoble University
+      homepage: #
     - name: Bo Fang
       org: University of Texas at Arlington
       homepage: #
     - name: Maria Fazio
       org: University of Messina
+      homepage: #
+    - name: Rafael Ferreira da Silva
+      org: Oak Ridge National Laboratory
       homepage: #
     - name: Renato Figueiredo
       org: Oregon State University
@@ -306,11 +336,17 @@
     - name: Stefano Forti
       org: University of Pisa
       homepage: #
+    - name: Emílio Francesquini
+      org: UFABC
+      homepage: #
     - name: Rong Ge
       org: Clemson University
       homepage: #
     - name: Balazs Gerofi
       org: Intel Corporation
+      homepage: #
+    - name: Alfredo Goldman
+      org: USP
       homepage: #
     - name: Kartik Gopalan
       org: Binghamton University
@@ -329,6 +365,9 @@
       homepage: #
     - name: Kyle Hale
       org: Oregon State University
+      homepage: #
+    - name: Paul Harvey
+      org: University of Glasgow
       homepage: #
     - name: Dennis Hoppe
       org: High-Performance Computing Center Stuttgart
@@ -474,6 +513,9 @@
     - name: Bogdan Nicolae
       org: Argonne National Laboratory
       homepage: #
+    - name: Dimitrios Nikolopoulos 
+      org: Virginia Tech
+      homepage: #
     - name: Guillaume Pallez
       org: Inria Rennes
       homepage: #
@@ -496,16 +538,13 @@
       org: University of Southern California
       homepage: #
     - name: Radu Prodan
-      org: University of Klagenfurt, Austria
+      org: University of Innsbruck, Austria
       homepage: #
     - name: Mustafa Rafique
       org: Rochester Institute of Technology
       homepage: #
     - name: Omer Rana
       org: Cardiff University
-      homepage: #
-    - name: César Augusto Fonticielha De Rose
-      org: PUCRS
       homepage: #
     - name: Rohan Basu Roy
       org: University of Utah
@@ -519,17 +558,8 @@
     - name: Martin Schulz
       org: Technical University of Munich
       homepage: #
-    - name: Daniele De Sensi
-      org: Sapienza University of Rome
-      homepage: #
     - name: Ashish Shenoy
       org: Google Inc.
-      homepage: #
-    - name: Dilma Da Silva
-      org: Texas A&M University
-      homepage: #
-    - name: Rafael Ferreira da Silva
-      org: Oak Ridge National Laboratory
       homepage: #
     - name: Bertrand Simon
       org: Laboratoire d’Informatique de Grenoble
@@ -545,9 +575,6 @@
       homepage: #
     - name: Leonel Sousa
       org: DEEC-IST and INESC
-      homepage: #
-    - name: Bronis De Supinski
-      org: Lawrence Livermore National Laboratory
       homepage: #
     - name: Nathan Tallent
       org: Pacific Northwest National Laboratory
@@ -569,6 +596,9 @@
       homepage: #
     - name: Antonino Tumeo
       org: Pacific Northwest National Laboratory
+      homepage: #
+    - name: Hans Vandierendonck
+      org: Queens University Belfast
       homepage: #
     - name: Ana-Lucia Varbanescu
       org: University of Twente and University of Amsterdam
@@ -608,6 +638,9 @@
       homepage: #
     - name: Jidong Zhai
       org: Tsinghua University
+      homepage: #
+    - name: Shaoshuai Zhang
+      org: University of Electronic Science and Technology of China
       homepage: #
 
     
