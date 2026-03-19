@@ -78,12 +78,19 @@
       org:  Rutgers, The State University of New Jersey, USA
       homepage: "https://asherliu.github.io/"
 
+- title: Research Software Engineer Programming Chair
+  column: 1
+  members:
+    - name: Karen Tomko
+      org: Ohio Super Computer Center, USA
+      homepage: "https://www.osc.edu/staff/karen-tomko"
+
 - title: Publication Chair
   column: 1
   members:
-    - name: TBD
-      org: TBD
-      homepage: "#"
+    - name: Helen Xu
+      org: Georgia Institute of Technology, USA
+      homepage: "https://itshelenxu.github.io/"
 
 - title: Publicity Chairs
   column: 1
@@ -103,6 +110,7 @@
     - name: Amir Raoofy
       org: Leibniz Supercomputing Centre, Germany
       homepage: "https://amir-raoofy.github.io/amir-raoofy/"
+    
 
 
 - title: Sponsorship Chairs
@@ -306,6 +314,9 @@
     - name: Hariharan Devarajan
       org: Lawrence Livermore National Laboratory
       homepage: #
+    - name: Frederic Desprez
+      org: Inria
+      homepage: #
     - name: Karen Devine
       org: Center for Computing Research at Sandia National Laboratories, retired
       homepage: #
@@ -492,6 +503,9 @@
     - name: Esteban Mocskos
       org: Universidad de Buenos Aires
       homepage: #
+    - name: Bernd Mohr
+      org: Forschungszentrum Jülich GmbH
+      homepage: #
     - name: Kathryn Mohror
       org: Lawrence Berkeley National Lab and Lawrence Livermore National Laboratory, USA
       homepage: #
@@ -506,6 +520,9 @@
       homepage: #
     - name: Matteo Mordacchini
       org: National Research Council of Italy (CNR)
+      homepage: #
+    - name: Lev Mukhanov
+      org: IMEC and Queen Mary University of London (UK)
       homepage: #
     - name: Stefan Nastic
       org: TUWIEN
@@ -554,6 +571,9 @@
       homepage: #
     - name: Marco Santambrogio
       org: Politecnico di Milano
+      homepage: #
+    - name: Erik Saule
+      org: University of North Carolina
       homepage: #
     - name: Martin Schulz
       org: Technical University of Munich

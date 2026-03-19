@@ -18,7 +18,7 @@ deadlines:
     type: CFP
   - date: March 2, 2026
     text: HPDC Achievement Award Nomination Deadline
-    pass_due: False
+    pass_due: true
     type: CFN
   - date: March 31, 2026
     text: Notification of Acceptance (Technical Papers)
@@ -32,10 +32,18 @@ deadlines:
     text: Poster Submission Deadline
     pass_due: False
     type: POS
+  - date: May 1, 2026
+    text: Lightning Talk Submission Deadline
+    pass_due: False
+    type: RSE
   - date: May 24, 2026
     text: Notification of Acceptance (Posters)
     pass_due: False
     type: POS
+  - date: May 24, 2026
+    text: Notification of Acceptance (RSE Lightning Talks)
+    pass_due: False
+    type: RSE
 
 
 # Note: The "pass_due" field is used to indicate whether the deadline has passed
