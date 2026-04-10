@@ -2,7 +2,7 @@ workshops:
   - acronym: QUASAR
     title: 3rd Workshop on Quantum Algorithms, Software and Applied Research
     url: "https://sites.google.com/view/quasar26"
-    paperdeadline: March 16, 2026
+    paperdeadline: March 26, 2026 (Extended)
     # slidedecks:
     #   - name: "Dataflow under the von Neumann Machine: A New Paradigm for Computing Systems"
     #     url: "https://permavost.github.io/files/hpdc25-s.pdf"
@@ -28,7 +28,7 @@ workshops:
   - acronym: REX-IO
     title: 6th Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads
     url: "https://sites.google.com/view/rexio/"
-    paperdeadline: March 31, 2026
+    paperdeadline: April 13, 2026 (Extended)
     # slidedecks:
     #   - name: "Can Large Language Models Predict Parallel Code Performance?"
     #     url: "./assets/slides/workshops/AI4Sys/bolet.pdf"
@@ -48,7 +48,7 @@ workshops:
   - acronym: PERMAVOST
     title: Performance EngineeRing, Modelling, Analysis, and VisualizatiOn STrategy
     url: "https://permavost.github.io/"
-    paperdeadline: April 3rd, 2026
+    paperdeadline: April 13, 2026 (Extended)
     # slidedecks:
     #   - name: "Quantum Computing for Mere Mortals"
     #   - name: "High-level quantum algorithm programming using Silq"

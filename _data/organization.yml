@@ -63,6 +63,9 @@
     - name: Arindam Khanda
       org: Missouri University of Science and Technology, USA
       homepage: "https://ieeexplore.ieee.org/author/37088995232"
+    - name: Jay Lofstead
+      org: Sandia National Laboratory, USA
+      homepage: "http://www.lofstead.org/"
 
 - title: Achievement Award Chair
   column: 1
@@ -77,6 +80,9 @@
     - name: Hang Liu
       org:  Rutgers, The State University of New Jersey, USA
       homepage: "https://asherliu.github.io/"
+    - name: Matthew Martineau
+      org: Nvidia, USA
+      homepage: "#"
 
 - title: Research Software Engineer Programming Chair
   column: 1

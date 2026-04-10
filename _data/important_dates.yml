@@ -22,8 +22,16 @@ deadlines:
     type: CFN
   - date: March 31, 2026
     text: Notification of Acceptance (Technical Papers)
-    pass_due: False
+    pass_due: true
     type: CFP
+  - date: April 15, 2026
+    text: Student Program CFP Submission Deadline (Extended)
+    pass_due: False
+    type: StudentPOS
+  - date: April 30, 2026
+    text: Student Program CFP Notification of Acceptance
+    pass_due: False
+    type: StudentPOS
   - date: April 30, 2026
     text: Camera-ready Version (Technical Papers)
     pass_due: False
@@ -36,6 +44,10 @@ deadlines:
     text: Lightning Talk Submission Deadline
     pass_due: False
     type: RSE
+  - date: May 15, 2026
+    text: Industry Talks Submission Deadline
+    pass_due: False
+    type: IndustryCFP
   - date: May 24, 2026
     text: Notification of Acceptance (Posters)
     pass_due: False
@@ -44,6 +56,10 @@ deadlines:
     text: Notification of Acceptance (RSE Lightning Talks)
     pass_due: False
     type: RSE
+  - date: June 1, 2026
+    text: Notification of Acceptance (Industry Talks)
+    pass_due: False
+    type: IndustryCFP
 
 
 # Note: The "pass_due" field is used to indicate whether the deadline has passed

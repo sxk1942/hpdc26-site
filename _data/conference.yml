@@ -58,6 +58,12 @@ navbar:
       - name: Posters
         url: "./calls-posters.html"
         visible: True
+      - name: Student Program CFP
+        url: "./calls-student-posters.html"
+        visible: True
+      - name: Industry Talks CFP
+        url: "./calls-industry-talks.html"
+        visible: True
       - name: RSE Lightning Talks
         url: "./calls-rse-talks.html"
         visible: True
