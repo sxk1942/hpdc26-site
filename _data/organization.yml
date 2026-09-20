@@ -63,6 +63,9 @@
     - name: Arindam Khanda
       org: Missouri University of Science and Technology, USA
       homepage: "https://ieeexplore.ieee.org/author/37088995232"
+- title: Student Research Competition Chairs
+  column: 1
+  members:
     - name: Jay Lofstead
       org: Sandia National Laboratory, USA
       homepage: "http://www.lofstead.org/"
@@ -173,13 +176,13 @@
       org: Lawrence Berkeley National Lab, USA
       homepage: #
     - name: Manish Parashar
-      org: Rutgers University, USA
+      org: University of Utah, USA
       homepage: #
     - name: Evgenia Smirni
       org: William and Mary, USA
       homepage: #
     - name: Michela Taufer
-      org: University of Delaware, USA
+      org: The University of Tennessee, USA
       homepage: #
     - name: Douglas Thain
       org: University of Notre Dame, USA
@@ -543,7 +546,7 @@
       org: Inria Rennes
       homepage: #
     - name: Manish Parashar
-      org: University of Utah and Rutgers University
+      org: University of Utah
       homepage: #
     - name: Arnab Paul
       org: BITS Pilani, K K Birla Goa
@@ -609,7 +612,7 @@
       org: University of Chinese Academy of Sciences
       homepage: #
     - name: Michela Taufer
-      org: University of Tennessee
+      org: The University of Tennessee, USA
       homepage: #
     - name: Douglas Thain
       org: University of Notre Dame

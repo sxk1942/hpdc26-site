@@ -3,7 +3,7 @@ short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
   The ACM International Symposium on High-Performance, Parallel and Distributed Computing (HPDC) 
   is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
-  and the use of parallel and distributed systems for high-end computing <a href="https://dl.acm.org/doi/proceedings/10.1145/3731545">(ACM Proceedings of HPDC25)</a>.
+  and the use of parallel and distributed systems for high-end computing <a href="https://dl.acm.org/doi/proceedings/10.1145/3806645">(ACM Proceedings of HPDC26)</a>.
 
 sub_description: >
   HPDC 2026 is hosted by the Case Western Reserve University, USA. 
@@ -80,32 +80,62 @@ navbar:
     dropdown:
       - name: Schedule
         url: "./program.html"
-        visible: False
+        visible: True
       - name: Workshops and Tutorials
         url: "./workshops.html"
         visible: True
       - name: Speaker Instructions
         url: "./speaker_ins.html"
         visible: False
+      - name: Keynotes
+        url: "./keynotes.html"
+        visible: True
+      - name: Panels
+        url: "./panels.html"
+        visible: True
+      - name: Kizashi Talks
+        url: "./kizashi.html"
+        visible: True
   - id: 5
     label: HPDC Award
     #path: /calls-awards.html
     path: /award.html
-    visible: False
+    visible: True
   - id: 8
     label: Registration
     path: /registration.html
-    visible: False
+    visible: True
   - id: 6
     label: Travel Grant
     path: /travel-grant.html
-    visible: False
+    visible: True
   - id: 7
     label: Venue
     path: /venue.html
-    visible: False
+    visible: True
 
 sponsors:
+  - name: gold
+    display: "Gold Sponsors:"
+    color: gold
+    list:
+      - name: Case Western Reserve University
+        logo: ./assets/images/sponsors/cwru.png
+        link: "https://case.edu/"
+        code: gold
+  - name: silver
+    display: "Silver Sponsors:"
+    color: silver
+    list:
+      - name: Intel 
+        logo: ./assets/images/sponsors/intel.jpg
+        link: "https://www.intel.com/"
+        code: silver
+      - name: Dell
+        logo: ./assets/images/sponsors/dell.png
+        link: "https://www.dell.com/"
+        code: silver
+
 #   - name: platinum
 #     display: "Platinum Sponsors:"
 #     color: lightslategray

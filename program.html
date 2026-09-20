@@ -34,7 +34,7 @@ slide_id: 4
                 <thead>
                     <tr>
                         <th class="w-25"></th>
-                        <th colspan="3" class="bg-light text-center h6 align-middle"><a href='./workshops.html'>Workshops and Tutorials</a></th>
+                        <th colspan="6" class="bg-light text-center h6 align-middle"><a href='./workshops.html'>Workshops and Tutorials</a></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -44,12 +44,12 @@ slide_id: 4
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </td>
                         {% if timeslot.type == "service" %}
-                        <td colspan=5 class="table-warning text-center align-middle">
+                        <td colspan=6 class="table-warning text-center align-middle">
                             <h6 class="text-center mb-1 mt-1">{{timeslot.title}}</h6>
                         </td>
                         {% elsif timeslot.type == "social" %}
                         <tr>
-                        <td colspan=5 class="table-dark text-center align-middle">
+                        <td colspan=6 class="table-dark text-center align-middle">
                             <h6 class="text-light mb-1 mt-1">{{timeslot.title}}</h6>
                             {% if timeslot.text %}
                             <td width="20%" style="border: none">
@@ -62,9 +62,8 @@ slide_id: 4
                         </tr>
                         {% else %}
                             {% for ws in timeslot.workshops %}
-                            <td colspan=1 width="27%" class="text-center align-middle"><a href="{{ ws.link }}">{{ ws.name }}</a><br> Room: {{ ws.roomName }} </td>
+                            <td class="text-center align-middle"><a href="{{ ws.link }}">{{ ws.name }}</a><br> Room: {{ ws.roomName }} </td>
                             {% endfor %}
-       
                         {% endif %}
 
                     </tr>
@@ -129,20 +128,21 @@ slide_id: 4
 
                         {% elsif timeslot.type == "panelservice" %}
                         <th colspan="2" class="table-secondary text-center align-middle">
-                            <h5 class="text-center mt-1 mb-1">{{timeslot.title}}</h5>
+                            <h5 class="text-center mt-1 mb-1"><a href="{{timeslot.link}}">{{timeslot.title}}</a></h5>
                             <br>
                             <h5 class="text-center mt-1 mb-1">{{timeslot.subtitle}}</h5>
+                            <!-- <p>{{timeslot.subtitle}}</p> 
                             <details>
                                 <summary>Abstract</summary>
                                 {{timeslot.abstract}}
                             </details>
                             <br>
                             <p> Members: <i>{{timeslot.members}}</i> </p>
-                            <br>
-                            <p>Chair: <i>{{timeslot.chair}}</i></p>
+                            <br>-->
+                            <p>Moderator: <i>{{timeslot.chair}}</i></p>
                         {% elsif timeslot.type == "keynote" %}
                         <th colspan="2" class="table-success text-center align-middle">
-                            <h5 class="text-center">{% if timeslot.prefixKeynote %}<u>{{timeslot.prefixKeynote}}</u> {% endif %}Keynote {% if timeslot.url %} <i><a href={{timeslot.url}}>{{timeslot.title}}</a></i>{% else %}<i>{{timeslot.title}}</i>{% endif %}</h5>
+                            <h5 class="text-center">{% if timeslot.prefixKeynote %}<u>{{timeslot.prefixKeynote}}</u> {% endif %}Keynote: {% if timeslot.url %} <i><a href={{timeslot.url}}>{{timeslot.title}}</a></i>{% else %}<i>{{timeslot.title}}</i>{% endif %}</h5>
                             {% if timeslot.abstract %}
                                     <details>
                                         <summary>Abstract</summary>
@@ -164,7 +164,7 @@ slide_id: 4
                                       </details>
                                     {% endif %}
                                     {% if timeslot.chair %}
-                                    <br>Session Chair: <i>{{timeslot.chair}}</i>
+                                    <br>Session Chair: <i>{% if timeslot.chair_email %}<a href="mailto:{{timeslot.chair_email}}">{{timeslot.chair}}</a>{% else %}{{timeslot.chair}}{% endif %}</i>
                                     {% endif %}
                                     
                                     
@@ -190,7 +190,7 @@ slide_id: 4
                         <th colspan="2" class="table-info text-center align-middle">
                             <h5 class="text-center mb-1 mt-1">{{timeslot.title}}</h5>
                             {% if timeslot.chair %}
-                            <p>Session Chair: <i>{{timeslot.chair}}</i></p>
+                            <p> <i>{% if timeslot.chair_email %}<a href="mailto:{{timeslot.chair_email}}">{{timeslot.chair}}</a>{% else %}{{timeslot.chair}}{% endif %}</i></p>
                             {% endif %}
                         </th>
                         {% endif %}

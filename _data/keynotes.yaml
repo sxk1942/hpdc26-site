@@ -1,2 +1,76 @@
 keynotes:
-  - title: "TBA"
+  - title: "The Social Life of Distributed Systems: From Virtual Organizations to Intentional Systems"
+    speaker: "Carl Kesselman"
+    role: "William H. Keck Professor of Engineering, USC Viterbi School of Engineering"
+    affiliation: "University of Southern California, Information Sciences Institute"
+    image: "assets/images/keynotes/carl_kesselman.jpg"
+    date: "14th of July, 2026"
+    time: "9:00 AM - 10:00 AM"
+    abstract: >
+      Twenty-five years ago, the "Grid Problem" was defined as flexible, secure, and coordinated resource sharing among dynamic collections of individuals and institutions — the Virtual Organization (VO). The Anatomy of the Grid (2001) focused on the technical "brawn" required for multi-institutional interoperability, but it soon became clear that infrastructure alone could not solve the challenges of collaborative discovery. In Brain Meets Brawn: Why Grid and Agents Need Each Other (2004), we argued that autonomous agents would provide the necessary "brains" to manage the complexity, coordination, and scale of these distributed environments.
+
+      Over the following two decades, this perspective evolved toward socio-technical systems in which data, policy, organizational structure, and human interaction became first-class concerns. Our work on Deriva and Deriva-ML treats continuously evolving, curated data collections as the core organizing principle for collaborative discovery, making explicit the rich relationships among data, processes, collaborators, and outcomes across the lifetime of a scientific project. This shift also reframes a long-standing challenge: existing approaches to reproducibility preserve computational artifacts and execution histories, but perfect reconstruction of an experiment does not guarantee reproduction of scientific understanding — one can faithfully reproduce the wrong answer.
+
+      By making context explicit and persistent, data-centric systems create the foundation for a new class of intentional systems: systems that represent, maintain, and act upon the goals, assumptions, and shared understanding that give scientific results their meaning, not merely the artifacts they produce. The emergence of Large Language Models now makes this practical. Earlier agent-based systems were constrained by narrow reasoning and brittle coordination; LLMs supply a reasoning substrate powerful enough to finally realize the long-envisioned potential of agent-mediated science, shifting the focus from process-centric automation to managing the interactional layer of discovery itself.
+
+      In this talk, I will discuss recent work in which agent-based systems perform a dual role: executing computational tasks, and — in coordination with a data-centric ecosystem — serving as the "social glue" that captures intent, maintains semantic alignment, and manages shared state across long-running human-agent collaborations. Consider a multi-institutional effort to develop deep learning models for detecting referable glaucoma from fundus photographs collected through a Los Angeles County safety-net teleretinal screening program. As cohorts are refined, label conventions evolve, and foundation-model and supervised approaches are compared across sites, the surrounding agents capture not just the resulting models and metrics, but the clinical and methodological rationale behind each choice — so that when a collaborator, a reviewer, or a downstream agent revisits the work months later, the reasoning behind the result is recoverable, not just the result itself. If the Grid was originally conceived as enabling coordinated resource sharing among dynamic collections of individuals and institutions, the convergence of AI, data-centric systems, and agent-based computing now lets us deliver on a larger vision: coordinating understanding, intent, and discovery across long-lived human-agent collectives.
+    bio: >
+      Carl Kesselman is the William M. Keck Professor of Engineering at the University of Southern California, with appointments in the Daniel J. Epstein Department of Industrial and Systems Engineering, the Thomas Lord Department of Computer Science, the Keck School of Medicine, and the Herman Ostrow School of Dentistry. He is Director of the Informatics Systems Research Division at the USC Information Sciences Institute and is internationally recognized as one of the pioneers of Grid Computing and distributed cyberinfrastructure.
+
+      Kesselman co-founded the Globus Project, whose technologies and concepts helped establish the foundations for modern distributed, cloud, and data-intensive computing systems. His research has spanned distributed systems, scientific cyberinfrastructure, data integration, security, and large-scale collaborative science platforms. More recently, his work has focused on data-centric socio-technical ecosystems, AI-enabled scientific infrastructure, and agent-mediated systems that support long-running human-machine scientific interactions. He has co-authored four papers recognized in HPDC's retrospective list of the most important papers from the conference's first twenty years.
+
+      Kesselman is a Fellow of the ACM, IEEE, and the British Computer Society. His honors include the British Computer Society's Lovelace Medal, the IEEE Internet Award, and the IEEE Computer Society's Goode Memorial Award.
+
+  - title: "Misconceptions in Parallel Computing"
+    speaker: "William Gropp"
+    role: "Grainger Distinguished Chair in Engineering, Siebel School of Computing and Data Science"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    image: "assets/images/keynotes/william_gropp.jpg"
+    date: "15th of July, 2026"
+    time: "9:00 AM - 10:00 AM"
+    abstract: >
+      Abstract: For many years, parallel computing was driven by the steady advance of commodity processors. Clusters of commodity CPUs provided ever greater computing power. Simple parallel performance models made it easy to analyze algorithms and implementations. Systems with mostly nodes of identical type became common, simplifying the application environment. Since 2005, the situation has become increasingly complicated. The end of Dennard scaling has spurred ever greater degrees of parallelism within a single processor chip, as well as specialization in GPUs and other processors. AI has driven systems to sizes never seen before, as well as changing the mix of operations. The way we think about parallel systems needs to be reexamined. In this talk, I will talk about what I think are misconceptions in parallel computing that are a result of the changes in computing, especially since 2005. These include: Is Moore's Law over? Do we still have good performance models? Are we prepared for systems with dissimilar node types? Are standards still useful? I will close with a few challenges for the community.
+    bio: >
+      William Gropp is a professor in the Siebel School of Computing and Data Science at the University of Illinois Urbana‑Champaign, where he holds a Grainger Distinguished Chair in Engineering. He earned his Ph.D. in Computer Science from Stanford University in 1982 and has held research and leadership positions at Yale University and Argonne National Laboratory. Gropp’s research focuses on parallel computing, scientific software, and numerical methods for partial differential equations. He is widely known for his contributions to high‑performance computing, including foundational work on the MPI message‑passing standard and the development of influential software tools used throughout computational science. From 2016 to 2025, he served as Director of the National Center for Supercomputing Applications (NCSA), guiding major initiatives in advanced computing and data‑intensive research. He currently chairs the Computing Community Consortium for the Computing Research Association, helping shape long‑term research directions for the computing field. Gropp is a Fellow of AAAS, ACM, IEEE, and SIAM, a member of the National Academy of Engineering, and the recipient of numerous awards recognizing his impact on high‑performance computing.
+
+  - title: "From Scalable Systems to Quantum Computing: Navigating New Computing Frontiers"
+    speaker: "Dilma M Da Silva"
+    role: "Regents Professor and holder of the Ford Design Professorship II in the Department of Computer Science and Engineering"
+    affiliation: "Texas A&M University"
+    image: "assets/images/keynotes/Dilma_M_Da_Silva.png"
+    date: "16th of July, 2026"
+    time: "9:00 AM - 10:00 AM"
+    abstract: >
+      Over the past several decades, the high-performance parallel and distributed computing
+      community has played a central role in advancing computing infrastructures, from
+      operating systems to cloud platforms and large-scale distributed environments. These
+      systems challenges are now reappearing in the context of emerging scientific
+      application workflows that leverage advances in artificial intelligence (AI) and quantum
+      information science.
+      This talk connects a long-standing research trajectory in scalable systems with more
+      recent work in quantum computing. It discusses how a researcher grounded in high-
+      performance and distributed systems can approach the quantum computing landscape,
+      identify familiar abstractions and challenges, and contribute to the emerging quantum
+      software and systems stack. As quantum technologies evolve toward larger and more
+      programmable platforms, issues such as orchestration of hybrid quantum–classical
+      workflows, runtime systems, compilation, resource management, distributed control,
+      and reliability are becoming increasingly important. Advances in AI and quantum
+      computing point toward a future in which scalable systems expertise may play a
+      foundational role in shaping new computing paradigms and scientific capabilities.
+      The presentation will also provide an overview of the evolving U.S. federal research
+      funding landscape in quantum computing, quantum networking, and quantum sensing.
+    bio: >
+      Dilma Da Silva is a Regents Professor and holder of the Ford Design Professorship II in the
+      Department of Computer Science and Engineering at Texas A&M University. From July 2022 to
+      June 2026, she served in several leadership positions at the U.S. National Science Foundation.
+      Her roles at Texas A&M include Department Head (2014-2019), Associate Dean (2019-2020),
+      interim Director of the Texas A&M Institute of Data Science, and interim Director of the Texas
+      A&M Cybersecurity Center. Her primary research interests are high performance computing,
+      computer science education, and quantum computing. Before joining Texas A&M, she worked at
+      Qualcomm Research (2012-2014), IBM Research (2000-2012), and the University of São Paulo
+      (1996-2000). Dilma is an ACM Distinguished Scientist. She received her doctoral degree in
+      computer science from Georgia Tech in 1997 and her bachelor&#39;s and master&#39;s degrees from the
+      University of São Paulo, Brazil. She is passionate about mentoring and supporting the next
+      generation of computing researchers and practitioners.
+
+  

@@ -1,50 +1,48 @@
 about: Please click on the button at the bottom of the page to register for the conference.
 closed: False
 open_soon: False
-visa: | 
-  If you are travelling internationally to attend HPDC and require a "Visa Support Letter", please fill out the <a href="https://supportletters.acm.org">ACM Visa Support Letter Form</a>. Letters can be issued to authors of accepted papers, attendees who have completed registration, and conference committee members. Please allow 10 days for the letter to be completed. 
-  
 
-email: "luca.ferrucci@unipi.it, hanna.kavalionak@isti.cnr.it"
-url: "https://web.cvent.com/event/02f08347-321b-43c1-acda-066a6efd97be/summary?tm=9k9AQRRGnwxoVTBEccsdfQCLfKd3EWjGN0KxXnZ2Tgw"
+visa: | 
+  If you are travelling internationally to attend HPDC and require a "Visa Support Letter", please fill out the <a href="https://supportletters.acm.org">ACM Visa Support Letter Form</a>. Letters can be issued to authors of accepted papers, attendees who have completed registration, and conference committee members. Please allow 10 days for the letter to be completed.
+
+email: ""
+url: "https://cvent.me/DyZkAR"
 
 deadline:
-  early: "May 15th, 2025"
-  late: "June 23rd, 2025"
+  early: "May 31st, 2026"
+  regular: "June 15th, 2026"
+  late: "July 16th, 2026"
 
 full:
   - status: "Regular ACM Member"
-    early: "700"
-    late: "800"
+    early: "750"
+    regular: "850"
+    late: "975"
   - status: "Regular Non-Member"
-    early: "800"
-    late: "900"
+    early: "875"
+    regular: "975"
+    late: "1150"
   - status: "Student ACM Member"
     early: "400"
-    late: "500"
+    regular: "500"
+    late: "600"
   - status: "Student Non-Member"
     early: "475"
-    late: "550"
+    regular: "550"
+    late: "650"
 
-
-wtp:
-  - status: "Member"
-    early: "450"
-    late: "500"
-  - status: "Non-Member"
-    early: "500"
-    late: "550"
+wtp: []
 
 required_type:
   - paper_type: "HPDC main track paper"
     required: |
       FULL conference NON-student registration.
-      <p class='text-danger font-weight-bold'>even ACM student members have to register as NON-student.</p>
+      <p class='text-danger font-weight-bold'>At least one author must register with a regular (non-student) registration.</p>
   - paper_type: "HPDC EU-track paper"
     required: |
-      FULL conference NON-student registration
-      <p class='text-danger font-weight-bold'>even ACM student members have to register as NON-student.</p>
+      FULL conference NON-student registration.
+      <p class='text-danger font-weight-bold'>At least one author must register with a regular (non-student) registration.</p>
   - paper_type: "PhD Symposium paper"
     required: "FULL conference STUDENT registration"
   - paper_type: "Workshops, tutorials and posters papers"
-    equired: "WTP registration"
+    required: "WTP registration"

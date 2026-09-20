@@ -24,41 +24,49 @@ deadlines:
     text: Notification of Acceptance (Technical Papers)
     pass_due: true
     type: CFP
-  - date: April 15, 2026
-    text: Student Program CFP Submission Deadline (Extended)
-    pass_due: False
-    type: StudentPOS
-  - date: April 30, 2026
-    text: Student Program CFP Notification of Acceptance
-    pass_due: False
-    type: StudentPOS
   - date: April 30, 2026
     text: Camera-ready Version (Technical Papers)
-    pass_due: False
+    pass_due: true
     type: CFP
-  - date: May 1, 2026
-    text: Poster Submission Deadline
-    pass_due: False
+  - date: May 8, 2026
+    text: Poster Submission Deadline (Extended)
+    pass_due: true
     type: POS
-  - date: May 1, 2026
-    text: Lightning Talk Submission Deadline
-    pass_due: False
+  - date: May 8, 2026
+    text: RSE Lightning Talks Submission Deadline (Extended)
+    pass_due: true
     type: RSE
+  - date: May 8, 2026
+    text: Student Program CFP Submission Deadline (Extended)
+    pass_due: true
+    type: StudentPOS
   - date: May 15, 2026
-    text: Industry Talks Submission Deadline
-    pass_due: False
+    text: Student Program CFP Notification of Acceptance (Extended)
+    pass_due: true
+    type: StudentPOS
+  - date: May 20, 2026
+    text: Industry Talks Submission Deadline (Extended)
+    pass_due: true
     type: IndustryCFP
-  - date: May 24, 2026
-    text: Notification of Acceptance (Posters)
-    pass_due: False
-    type: POS
+  - date: May 20, 2026
+    text: Travel Grant Application Deadline
+    pass_due: true
+    type: TRA
   - date: May 24, 2026
     text: Notification of Acceptance (RSE Lightning Talks)
-    pass_due: False
+    pass_due: true
     type: RSE
+  - date: May 24, 2026
+    text: Notification of Awards (Travel Grants)
+    pass_due: true
+    type: TRA
+  - date: May 31, 2026
+    text: Notification of Acceptance (Posters)
+    pass_due: true
+    type: POS
   - date: June 1, 2026
     text: Notification of Acceptance (Industry Talks)
-    pass_due: False
+    pass_due: true
     type: IndustryCFP
 
 

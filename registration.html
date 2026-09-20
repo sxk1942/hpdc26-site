@@ -13,7 +13,7 @@ slide_id: 6
                 <b class="h5">Registrations are closed.</b>
             </div>
             {% elsif site.data.registration.open_soon %}
-            <div class="alert alert-danger rounded text-center mx-3 my-3">
+            <div class="alert alert-warning rounded text-center mx-3 my-3">
                 <b class="h5">Registrations will open shortly.</b>
             </div>
             {% else %}
@@ -25,34 +25,44 @@ slide_id: 6
             {% endif %}
 
             <h4>What's Included in Registration</h4>
-            <p>Conference registration includes all of the workshops and tutorials, the main conference speakers and technical sessions, meals and coffee breaks, and the evening poster session and conference dinner at the Studebaker museum. </p>
+            <p>
+                Conference registration includes all workshops and tutorials, main conference speakers and technical sessions, meals and coffee breaks, and one ticket to the evening poster session and conference dinner at the <a href="https://www.cmnh.org/" target="_blank" rel="noopener noreferrer">Cleveland Museum of Natural History</a>.
+                Additional dinner tickets can be purchased through the registration website.
+            </p>
             <br>
 
             <h4>Registration Deadlines</h4>
-            <p> Early Registration Deadline: <b>{{site.data.registration.deadline.early}}</b>.<br>
-                Late Registration Deadline: <b>{{site.data.registration.deadline.late}}</b>.<br>
-            <p><b class="text-warning">Note:</b>
-                <b><i>We do not offer on-site registration.
-                        All attendees must register online before the deadline.</i></b>
+            <p>
+                Early Registration Deadline: <b>{{site.data.registration.deadline.early}}</b>.<br>
+                Regular Registration Deadline: <b>{{site.data.registration.deadline.regular}}</b>.<br>
+                Late Registration Deadline (Capacity Permitting): <b>{{site.data.registration.deadline.late}}</b>.
             </p>
+            <p>
+                <b class="text-warning">Note:</b>
+                <b><i>We encourage users to register by the Regular Registration deadline. Capacity of the venue permitting, limited late registration may be made available but cannot be guaranteed.</i></b>
             </p>
             <br>
+
             <h4>Registration Costs</h4>
             <table class="table table-bordered table-striped table-hover table-sm">
                 <tr>
                     <th>Status</th>
                     <th>Early</th>
+                    <th>Regular</th>
                     <th>Late</th>
                 </tr>
                 {% for r in site.data.registration.full %}
                 <tr>
                     <td>{{r.status}}</td>
                     <td>{{r.early}} USD</td>
+                    <td>{{r.regular}} USD</td>
                     <td>{{r.late}} USD</td>
                 </tr>
                 {% endfor %}
             </table>
-            <p><b class="text-warning">Note:</b>
+
+            <p>
+                <b class="text-warning">Note:</b>
                 <b><i>Each technical paper in the main track of the conference must be accompanied by at least one regular conference registration by one of the authors.</i></b>
             </p>
             <br>
@@ -64,27 +74,34 @@ slide_id: 6
             </p>
             {% endif %}
             <br>
-            <h4>Registration site</h4>
+
+            <h4>Registration Site</h4>
             {% if site.data.registration.closed %}
             <div class="alert alert-danger rounded text-center mx-3 my-5">
                 <b class="h5">Registrations are closed.</b>
             </div>
             {% elsif site.data.registration.open_soon %}
-            <div class="alert alert-danger rounded text-center mx-3 my-3">
-                <b class="h5">Registrations will open shortly.</b>
+            <div class="alert alert-warning rounded text-center mx-3 my-3">
+                <b class="h5">Registration site will be available soon.</b>
             </div>
             {% else %}
-            {% if site.data.registration.about %}
-            Please click the button below to start the registration process:
+            {% if site.data.registration.url %}
+            <p>Please click the button below to start the registration process:</p>
             <p>
                 <center>
                     <button name="button" class="btn btn-success btn-lg shadowedbutton"
-                        onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
+                        onclick="parent.open('{{site.data.registration.url}}')">
+                        HPDC Registration Site
+                    </button>
                 </center>
             </p>
+            {% else %}
+            <div class="alert alert-warning rounded text-center mx-3 my-3">
+                <b class="h5">Registration site will be available soon.</b>
+            </div>
             {% endif %}
-            {% endif %}      
-            
+            {% endif %}
+
         </div>
     </div>
 </div>

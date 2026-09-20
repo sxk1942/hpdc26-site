@@ -1,0 +1,39 @@
+---
+title: Kizashi Talks
+layout: page
+slide_id: 10
+---
+
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+    <div class="col text-justify conference">
+        <div>
+            <h2>Kizashi Talks</h2>
+            {% if site.data.kizashi.talks %}
+            <br>
+            {% for talk in site.data.kizashi.talks %}
+            <div class="row">
+                <div class="col-12">
+                    <h3>{{ talk.title }}</h3>
+                    <h4 class="mb-2">by <i>{{ talk.speaker }}</i></h4>
+                    {% if talk.role %}
+                    <p class="mb-2">{{ talk.role }}
+                        {% endif %}
+                        {% if talk.affiliation %}
+                        | <i>{{ talk.affiliation }}</i>
+                        {% endif %}
+                    </p>
+                    <p class="alert alert-info h6 lead">
+                        <strong>Session:</strong> {{ talk.session }} | <strong>Date:</strong> {{ talk.date }} | <strong>Time:</strong> {{ talk.time }}
+                    </p>
+                    <p><strong>Abstract:</strong><br> {{ talk.abstract }}</p>
+                </div>
+            </div>
+            <hr>
+
+            {% endfor %}
+            {% else %}
+            {% include tba.html %}
+            {% endif %}
+        </div>
+    </div>
+</div>

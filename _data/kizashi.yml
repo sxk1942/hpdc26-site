@@ -1,0 +1,70 @@
+talks:
+  - number: 1
+    session: 1
+    date: 14th July
+    time: 11:05 AM - 11:25 AM
+    speaker: Michael Papka
+    role: Deputy Associate Laboratory Director | Director, ALCF
+    affiliation: Argonne National Laboratory
+    title: "The Next User Never Sleeps"
+    abstract: >
+      Over the years, the front of an HPC facility barely changed. New machines
+      arrived on a steady cadence, vector to MPP to GPU to exascale, but science
+      still reached them the same way: a login, a shell, a batch script, and the
+      patience to wait in a queue. That human access model earned its keep. It was
+      built for a person at the keyboard. Why should software that never sleeps
+      wait its turn in a queue? Autonomous agents now write code, launch
+      campaigns, and drive instruments, spawning by the thousand and negotiating
+      for resources by the second. The queue itself is not the enemy. Compute
+      stays scarce, and a thousand agents make fairness, prioritization, and
+      arbitration harder, not optional. What must change is how a user asks: an
+      agent-ready path into the same operations, behind a policy-enforcing control
+      plane, with multi-tenancy built to respect real resource limits. The
+      machines do not change, the way in does.
+
+  - number: 2
+    session: 2
+    date: 14th July
+    time: 12:15 PM - 12:35 PM
+    speaker: Jeffrey Vetter
+    role: Section Head - Advanced Computing Systems Research
+    affiliation: Oak Ridge National Laboratory
+    title: "Five Bets on the Physical Future of Computing"
+    abstract: >
+      Moore's Law and Dennard Scaling have ended. The power grid is next. By
+      2041, computing runs in orbit, beside reactors, on physics itself, and
+      programmed by software no human wrote.
+
+  - number: 3
+    session: 7
+    date: 15th July
+    time: 2:15 PM - 2:35 PM
+    speaker: Glenn Lockwood
+    role: Principal Technical Strategist
+    affiliation: VAST Data
+    title: "Taking the Seatbelts Out of the Supercomputer"
+    abstract: >
+      In supercomputing, the biggest challenges often involve getting people to
+      change their behavior. What happens when people are taken out of the
+      picture, and agents become the predominant users of supercomputers? What
+      decades-long methods, software stacks, and fundamental architectures exist
+      solely for human convenience, and what optimizations are possible in a
+      parallel computing stack that is not user-friendly at all? In this talk, I
+      will explore this idea through a few specific cases where technologies we
+      take for granted in HPC are actually attractive nuisances in an environment
+      used by agents.
+
+  - number: 4
+    session: 10
+    date: 16th July
+    time: 12:15 PM - 12:35 PM
+    speaker: Sharona Hoffman
+    role: Edgar A. Hahn Professor of Law, Professor of Bioethics, and Co-Director of Law-Medicine Center
+    affiliation: Case Western Reserve University (CWRU)
+    title: "Legal Prescriptions for AI Medical Scribes"
+    abstract: >
+      AI medical scribes are easing clinician burnout and documentation burden,
+      but recent lawsuits show that privacy, consent, and liability questions
+      remain unresolved. This talk examines those legal risks and proposes
+      reforms to HIPAA, state law, and health care employer policies to address
+      these risks while preserving the technology's benefits.

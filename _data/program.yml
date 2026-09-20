@@ -4,27 +4,30 @@ online:
   url:
 
 schedule:
-  - location: Morris Inn
+  - location: Tinkham Veale University Center, Case Western Reserve University
     type: wst
-    date: "2025-07-20"
-    dateReadable: July 20
+    date: "2026-07-13"
+    dateReadable: Workshops - 13th July 
     timeslots:
       - startTime: "8:00 AM"
         endTime: "9:00 AM"
         type: service
-        title: "Registration Opens at Morris Inn"
+        title: "Breakfast + Registration"
       - startTime: "9:00 AM"
         endTime: "10:30 AM"
         workshops:
-          - name: PERMAVOST
-            link: "https://permavost.github.io/"
-            roomName: "Carmichael"
-          - name: AI4SYS
-            link: "https://ai4sys.github.io/"
-            roomName: "Hesburgh"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
-            roomName: "Joyce"
+          - name: "Tutorial: High-Performance and Smart Networking Technologies for HPC and AI"
+            roomName: "First floor conference room"
+            link: "https://nowlab.cse.ohio-state.edu/tutorials/hpdc2026_hpn"
+          - name: "QUASAR"
+            roomName: "Second Floor Conference Room"
+            link: "https://sites.google.com/view/quasar26"
+          - name: "REX-IO"
+            roomName: "Senior Classroom B"
+            link: "https://sites.google.com/view/rexio/"
+          - name: "FlexScience"
+            roomName: "Senior Classroom A"
+            link: "https://sites.google.com/view/flexscience"
       - startTime: "10:30 AM"
         endTime: "11:00 AM"
         type: service
@@ -32,15 +35,18 @@ schedule:
       - startTime: "11:00 AM"
         endTime: "12:30 PM"
         workshops:
-          - name: PERMAVOST
-            link: "https://permavost.github.io/"
-            roomName: "Carmichael"
-          - name: AI4SYS
-            link: "https://ai4sys.github.io/"
-            roomName: "Hesburgh"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
-            roomName: "Joyce"
+          - name: "Tutorial: High-Performance and Smart Networking Technologies for HPC and AI"
+            roomName: "First floor conference room"
+            link: "https://nowlab.cse.ohio-state.edu/tutorials/hpdc2026_hpn"
+          - name: "QUASAR"
+            roomName: "Second Floor Conference Room"
+            link: "https://sites.google.com/view/quasar26"
+          - name: "REX-IO"
+            roomName: "Senior Classroom B"
+            link: "https://sites.google.com/view/rexio/"
+          - name: "FlexScience"
+            roomName: "Senior Classroom A"
+            link: "https://sites.google.com/view/flexscience"
       - startTime: "12:30 PM"
         endTime: "1:30 PM"
         type: service
@@ -48,15 +54,21 @@ schedule:
       - startTime: "1:30 PM"
         endTime: "3:00 PM"
         workshops:
-          - name: "Tut.: Reproducible Perf Analysis"
-            link: "./workshops.html"
-            roomName: "Carmichael"
-          - name: FlexScience (+ FRAME)
-            link: "https://sites.google.com/view/flexscience"
-            roomName: "Hesburgh"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
-            roomName: "Joyce"
+          - name: "Tutorial: Principles and Practice of High Performance Deep Learning Training and Inference"
+            roomName: "First Floor Conference Room"
+            link: "https://nowlab.cse.ohio-state.edu/tutorials/hidl_HPDC26/"
+          - name: "QUASAR"
+            roomName: "Second Floor Conference Room"
+            link: "https://sites.google.com/view/quasar26"
+          - name: "PERMAVOST"
+            roomName: "Senior Classroom A"
+            link: "	https://permavost.github.io/"
+          - name: "AI4Sys"
+            roomName: "Senior Classroom B"
+            link: "	https://ai4sys.github.io/"
+          - name: "Tutorial: When Error-Bounded Lossy Compression Meets Large-Scale AI Model Training in Federated Environments"
+            roomName: "Student Organization Center"
+            link: "https://hpc-and-ai.github.io/"
       - startTime: "3:00 PM"
         endTime: "3:30 PM"
         type: service
@@ -64,376 +76,337 @@ schedule:
       - startTime: "3:30 PM"
         endTime: "5:00 PM"
         workshops:
-          - name: "Tut.: Reproducible Perf Analysis"
-            link: "./workshops.html"
-            roomName: "Carmichael"
-          - name: FlexScience (+ FRAME)
-            link: "https://sites.google.com/view/flexscience"
-            roomName: "Hesburgh"
-          - name: QUASAR
-            link: "https://sites.google.com/view/quasar25"
-            roomName: "Joyce"
+          - name: "Tutorial: Principles and Practice of High Performance Deep Learning Training and Inference"
+            roomName: "First Floor Conference Room"
+            link: "https://nowlab.cse.ohio-state.edu/tutorials/hidl_HPDC26/"
+          - name: "QUASAR"
+            roomName: "Second Floor Conference Room"
+            link: "https://sites.google.com/view/quasar26"
+          - name: "PERMAVOST"
+            roomName: "Senior Classroom A"
+            link: "	https://permavost.github.io/"
+          - name: "AI4Sys"
+            roomName: "Senior Classroom B"
+            link: "	https://ai4sys.github.io/"
+          - name: "Tutorial: When Error-Bounded Lossy Compression Meets Large-Scale AI Model Training in Federated Environments"
+            roomName: "Student Organization Center"
+            link: "https://hpc-and-ai.github.io/"
 
-
-
-  - location: Duncan Student Center 7th Floor
-    date: "2025-07-21"
-    dateReadable: July 21
-    timeslots:
-      - startTime: "8:00 AM"
-        endTime: "8:45 AM"
-        title: "Registration Opens at Duncan Student Center 7th Floor"
-        type: service
-
-      - startTime: "8:45 AM"
-        endTime: "9:00 AM"
-        title: "Welcome and Introductions"
-        generalChairs: "Douglas Thain, Jarek Nabrzyski"
-        programChairs: "Robert Wisniewski, Ivona Brandic"
-        type: intro
-
-      - startTime: "9:00 AM"
-        endTime: "10:00 AM"
-        title: "#1: Has HPC Changed Forever? And What Is Next?"
-        abstract: >-
-          This keynote will discuss how the world of HPC has changed in recent years, including the impact of large investments in supercomputing by the AI sector, and other themes such as GPUs, cloud, maturity, skills, etc. The speaker will share some observations from planning and operating the world’s largest supercomputers, comparing with experiences of HPC for “everyday scale” use cases, and will speculate on possible futures for the world of HPC.
-        bio: >-
-          Andrew Jones leads the Future Capabilities for Supercomputing and AI within Microsoft Azure Engineering. He joined Microsoft in early 2020, following nearly 25 years of experience with scientific computing and supercomputing. He was initially a computational science researcher using HPC, later focusing on HPC technology research and performance evaluation, and then a HPC service architect and manager, and finally an impartial consultant with specialism in HPC strategy, technology evaluation, metrics, and cost/risk/value models. Known for his impartial advice, Andrew regularly shares insights on supercomputing, AI, cloud infrastructure, and related topics via social media @hpcnotes.
-        speaker: "Andrew Jones, Microsoft"
-        chair: "Robert Wisniewski"
-        image: "./assets/images/keynotes/andrew_jones.jpg"
-        altText: "Andrew Jones' image"
-        size: "20%"
-        type: keynote
-
-      - startTime: "10:00 AM"
-        endTime: "10:30 AM"
-        title: "Coffee Break"
-        type: service
-      
-      - startTime: "10:30 AM"
-        endTime: "12:15 PM"
-        title: "Numerical Methods"
-        type: presentation
-        chair: "Jay Lofstead"
-        submissions:
-          - 1
-          - 2
-          - 3
-          - 4
-
-      - startTime: "12:15 PM"
-        endTime: "1:15 PM"
-        title: "Lunch - Duncan Student Center"
-        type: service
-
-      - startTime: "1:15 PM"
-        endTime: "3:00 PM"
-        title: "Model Training"
-        type: presentation
-        chair: "Ali Jannesari"
-        submissions:
-          - 5
-          - 6
-          - 7
-          - 8
-
-      - startTime: "3:00 PM"
-        endTime: "3:30 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "3:30 PM"
-        endTime: "4:45 PM"
-        title: "Storage Systems"
-        type: presentation
-        chair: "Hariharan Devarajan"
-        submissions:
-          - 9
-          - 10
-          - 11
-
-      - startTime: "6:00 PM"
-        endTime: "9:00 PM"
-        title: "<a href=\"./workshops.html#posters\">Evening Posters</a> and Reception in Duncan Student Center"
-        type: social
-        text: "The conference opening reception will be held in the <em><a href=\"https://experience.nd.edu/gather/venues/dahnke-ballroom-duncan-student-center/\">Dahnke Ballroom</a></em> on the 7th floor of the <em><a href=\"https://duncanstudentcenter.nd.edu/\">Duncan Student Center</a></em>, overlooking the historic football stadium. (This is the same area as the conference main sessions.) A buffet dinner will be served, with meat, vegan, and gluten free options. The conference posters will be presented at this evening event, please use the opportunity to mingle and learn more.<br><br> <a href=\"./workshops.html#posters\">Poster presentations</a> will include the refereed poster submissions, posters from workshop papers, and posters from summer students at Notre Dame. All poster presenters are requested to set up their posters by 6:00PM, and then stand by their posters to present them from 6:30 to 7:30, after which you are free to mingle.<br><br> Presenters should print and bring their own posters, maximum of 48x36 inches. There is a FedEx Office <a href=\"https://local.fedex.com/en-us/in/notre-dame/office-5037\">location on campus</a> where posters can be printed and picked up. The conference will provide easels, poster board, and tacks to mount posters."
-
-  - date: "2025-07-22"
-    dateReadable: July 22
-    location: Duncan Student Center 7th Floor
+  - location: Foster-Castele Great Hall
+    date: "2026-07-14"
+    dateReadable: 14th July
     timeslots:
       - startTime: "8:00 AM"
         endTime: "9:00 AM"
-        title: "Registration in Duncan Student Center 7th Floor"
+        title: "Breakfast + Opening Remarks (8:45 AM)"
         type: service
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: ": Physics-Aware, Full-Stack Software to Accelerate Practical Quantum Computing"
-        abstract: >-
-          Quantum software can be a force multiplier that can significantly
-          shorten the timeline for utility-scale results from quantum hardware.
-          In particular, several key research directions will help realize
-          practical quantum advantage. Physics-aware, cross-layer optimizations
-          will continue to yield important efficiencies to allow
-          applications to make the most of quantum resources. Software-directed
-          noise-aware optimization and error correction, in particular, will be key to increasing
-          gate depths and maintaining acceptable output fidelity.
-          Pulse-level optimizations and specialized native gates will
-          also be key enablers. Additionally, applications will be hybrid
-          computations involving high-performance classical resources
-          as well as quantum hardware serving as special-purpose accelerators.
-          Effectively partitioning computations between these
-          classical and quantum resources will be necessary to support
-          realistic applications. Additionally, deep compiler optimization
-          and classical simulation of Clifford and near-Clifford circuits
-          can also be important classical investments towards more
-          efficient quantum computations. Finally, defining abstractions
-          that control compiler complexity yet selectively expose key
-          physical machine properties will also be a key area of
-          research.
-        bio: >-
-          Fred Chong is the Seymour Goodman Professor in the Department of Computer
-          Science at the University of Chicago and the Chief Scientist for Quantum
-          Software at Infleqtion. Chong is a member of the National Quantum Advisory
-          Committee (NQIAC) which provides advice to the President on the National
-          Quantum Initiative Program. In 2020, he co-founded Super.tech, a quantum
-          software company, which was acquired by Infleqtion (formerly ColdQuanta) in
-          2022. Chong received his Ph.D. from MIT in 1996 and was a faculty member
-          and Chancellor's fellow at UC Davis from 1997-2005. He was also a Professor
-          of Computer Science, Director of Computer Engineering, and Director of the
-          Greenscale Center for Energy-Efficient Computing at UCSB from 2005-2015. He
-          is a fellow of the ACM and the IEEE, a recipient of the NSF CAREER award,
-          the Intel Outstanding Researcher Award, and 16 best paper awards. He is
-          also a recipient of the Quantrell Award, the oldest undergraduate teaching
-          award in the United States, as well as the University of Chicago's Graduate
-          Teaching and Mentoring Award.
-        speaker: "Fred Chong, University of Chicago"
-        chair: "Devesh Tiwari"
-        image: "./assets/images/keynotes/fred_chong.jpg"
-        url: "./assets/slides/main_session/chong.pdf"
-        altText: "Fred Chong image"
-        size: "20%"
-        type: keynote
-
-      - startTime: "10:00 AM"
-        endTime: "10:30 AM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "10:30 AM"
-        endTime: "12:15 PM"
-        title: "Efficiency and Sustainability"
-        type: presentation
-        chair: "Jarek Nabrzyski"
-        submissions:
-          - 12
-          - 13
-          - 14
-          - 15
-
-      - startTime: "12:15 PM"
-        endTime: "1:00 PM"
-        title: "Lunch - Duncan Student Center"
-        type: service
-
-      - startTime: "1:00 PM"
-        endTime: "2:00 PM"
-        title: "Industry Talk"
-        type: indTalk
-        chair: "Jarek Nabrzyski"
-        sponsors:
-          - title_id: "Talk #1: "
-            title: "The HPC Revolution: Accelerating the Future of Science and AI"
-            abstract: "High-Performance Computing (HPC) is not just a service we offer; it is part of Google's foundational DNA. This presentation explores the deep history of HPC within Google, from the early days of massive-scale indexing and distributed computing with technologies like MapReduce and Borg, to the sophisticated infrastructure that powers our global services today. We will trace this unique evolutionary path, demonstrating how decades of internal innovation in running planetary-scale workloads have directly informed the architecture and capabilities of Google Cloud's HPC offerings.
-
-Attendees will learn how this heritage translates into a robust and flexible cloud ecosystem designed to support the most demanding research challenges. Furthermore, we will delve into how Generative AI is revolutionizing the very methods of HPC development and management. We will discuss how services like Gemini Code Assist are accelerating the creation of complex simulation code and simplifying workflow scripting, while platforms like Google Colab provide an accessible environment for prototyping and analysis.
-
-Through real-world case studies in fields such as genomics and climate science, we will highlight how our infrastructure, now augmented by AI-powered tools, is empowering researchers to push the boundaries of discovery. Finally, we will look to the future, discussing how Google is continuing to democratize access to world-class HPC, fostering innovation, and helping the scientific community solve the grand challenges of tomorrow."
-            speaker: "Charles Elliot, Google"
-            bio: "Charles Elliott is a Head of Industry at Google Cloud, leading initiatives that transform education through the power of technology, particularly generative AI. Building on a successful consulting career focused on Big Data, Analytics, and AI, Charles now leverages his extensive expertise to guide educational institutions and ed-tech companies in realizing the potential of personalized learning at scale. With over 14 years of experience, he specializes in bridging cutting-edge cloud solutions with the specific needs of the education sector. As a trusted advisor, he empowers organizations to enhance learning experiences, improve accessibility, and drive measurable educational outcomes. His work spans early childhood education, machine learning applications, and strategic cloud implementation, with a focus on leveraging generative AI to unlock new possibilities in personalized learning. Charles continues to contribute to Google's Customer Advisory Boards, fostering innovation across the industry."
-            image: "./assets/images/sponsors/CharlesElliotPhoto.jpg"
-            size: "28%"
-            altText: "Sponsor image"
-          - title_id: "Talk #2: "
-            title: "Unified Data Engine for Accelerated Research: Modernizing Scientific Data Lakes for the AI Era"
-            abstract: "Scientific discovery increasingly relies on vast and diverse datasets that span simulation outputs, sensor data, experimental results, and AI models. Yet many research computing environments still operate with fragmented storage silos and brittle data movement pipelines — slowing insight, increasing cost, and limiting reproducibility.<br>In this session, we’ll explore how VAST Data’s <b>unified data platform</b> transforms traditional scientific data lakes into high-performance, AI-ready data engines. We’ll demonstrate how consolidating structured and unstructured data on a single, scalable namespace dramatically simplifies pipeline complexity, accelerates time to insight, and enables seamless collaboration across HPC and AI workflows.<br>We’ll dive into real-world examples showing how research organizations leverage the VAST Data Platform to:<br>1) Eliminate unnecessary data copies and staging<br>2) Provide insights into data sets to simplify analytics<br>3) Run large-scale training and inference directly from shared storage<br>4) Accelerate reproducibility and scientific throughput<br>Whether you’re supporting physics simulations, biomedical research, or climate modeling, this session will provide practical strategies to modernize your data architecture and empower AI-powered science at scale."
-            speaker: "Kyle Lamb, VAST Data"
-            bio: "Kyle Lamb has over 25 years of experience in computing, with 15 years specifically focused on HPC.  His most recent role is as the Field CTO for HPC at VAST Data, where he has been since November 2020. Previously, he managed federal systems engineering at DDN Storage and was a Senior Staff Engineer at Seagate Government Solutions. His significant tenure at Los Alamos National Laboratory as a Computer Engineer included roles such as HPC Storage Team Lead and Architect. Kyle began his career as a Computer Engineer with the US Army, where he worked for over a decade. His expertise spans high-performance computing, AI/ML, systems architecture, and engineering support for critical government and military infrastructure."
-            image: "./assets/images/sponsors/kyle_lamb.jpeg"
-            url: "./assets/slides/main_session/lamb.pdf"
-            size: "23%"
-
-      - startTime: "2:00 PM"
-        endTime: "3:00 PM"
-        title: "Panel Discussion"
-        subtitle: "Tomorrow’s HPC/HPDC: Golden Age, Cambrian Explosion, Both, Something Else?"
-        chair: "Peter Kogge, University of Notre Dame"
-        members: "<u>Michela Taufer</u>, University of Tennessee - Knoxville; <u>Tom Conte</u>, Georgia Tech;<br> <u>Siddarth Joshi</u>, University of Notre Dame; <u>Scott Pakin</u>, Los Alamos National Laboratory"
-        type: panelservice
-        abstract: >-
-          In their 2017 Turing Lecture, Hennessy and Patterson declared that we were entering a “Golden Age” of computer architecture, and in fact it seems that high end computing using advanced architecture has become central to everything we now do daily. Multi-core chips and GPUs rule unchallenged but were virtually unheard of 20 years ago. New 100MW data centers appear daily. However, it is becoming clear that we may need to consider rebooting what we mean by “computation,” especially at the high end. It took 7 years longer to get from classical “petascale” computation to “exascale” than it did from “terascale” to “petascale.” Is another 1000X (“zettascale”) even possible?<br>At the same time radically new computational “lifeforms” are crawling onshore. To suggest a few, photonics already rules all but nearest neighbor networking, novel technologies are emerging that allow “memory” to do computation that breaks the von Neumann bottleneck, and quantum totally changes what it means to do computation. AI seems poised to invade every aspect, even classical “scientific” computation. The rise of social media means that we are dealing with graph-like structures with billions of vertices and trillions of edges. Networking everything means that computation now occurs “everywhere.”<br>This panel will discuss these phenomena and what that means we might see featured at HPDC five and ten years from now.
-
-        
-
-      - startTime: "3:00 PM"
-        endTime: "3:30 PM"
-        title: "Coffee Break"
-        type: service
-
-      - startTime: "3:30 PM"
-        endTime: "4:50 PM"
-        title: "Clouds and FaaS"
-        type: presentation
-        chair: "Hao Wang"
-        submissions:
-          - 16
-          - 17
-          - 18
-
-      - startTime: "6:00 PM"
-        endTime: "9:30 PM"
-        title: "Dinner Reception at Studebaker National Museum"
-        type: social
-        text: "Join us for an evening dinner reception at the <em><a href=\"https://studebakermuseum.org/\">Studebaker National Museum</a></em> in downtown South Bend. Conference attendees will be free to explore the entire museum full of classic vehicles and exhibits of South Bend history. A buffet dinner will be served.<br><br> Buses will leave the <b>Morris Inn</b> at 5:30pm, 5:45pm, 6:00pm, 6:15pm, 6:30pm, pickup people from the <b>Inn at St Marys</b> and the <b>Hilton Garden Inn</b>, and then arrive at the Studebaker Museum.<br><br> Appetizers are served from 6:00pm to 7:00pm. The buffet dinner is served from 7:00pm to 8:30pm, followed by dessert. Both meat, vegan, and gluten-free choices are available. We also serve an open bar with a selection of beer, wine, and soft drinks.<br><br> Buses will depart from the museum between 7:30pm and 10:00pm every 30 minutes, return to the <b>Hilton Garden Inn</b>, the <b>Inn at St Marys</b>, and finally the <b>Morris Inn</b>."
-
-
-  - date: "2025-07-23"
-    dateReadable: July 23
-    location: Duncan Student Center 7th Floor
-    timeslots:
-      - startTime: "8:00 AM"
-        endTime: "9:00 AM"
-        title: "Registration in Duncan Student Center 7th Floor"
-        type: service
-
-      - startTime: "9:00 AM"
-        endTime: "10:00 AM"
-        prefixKeynote: "2025 HPDC Achievement Award"
-        title: ": Designing for Trust, Transparency, and Efficiency in Scientific Computing"
-        abstract: >-
-          Today, scientific computing workflows are increasingly operating at scales where nondeterminism, opaque AI decisions, and rising energy demands are no longer exceptions—they have become the norm. In this talk, I will present the concrete methods we are using to address these challenges within the scientific discovery process. Specifically, I will demonstrate how graph-based analysis can reveal sources of nondeterminism in large High-Performance Computing (HPC) simulations, how fine-grained provenance frameworks can enhance transparency in AI-driven workflows, and how predictive engines can eliminate redundant computations in neural architecture search, thereby significantly reducing energy costs.<br> Beyond individual solutions, I will outline a broader vision for computing that integrates data, experiments, and computation into comprehensive scientific ecosystems, exemplified by the National Science Data Fabric (NSDF). The talk will connect technical advancements to the larger goal of producing scientific results that are trustworthy, explainable, and efficiently generated at scale.
-
-        speaker: "Michela Taufer, University of Tennessee - Knoxville"
-        bio: >-
-          Dr. Michela Taufer, an American Association for the Advancement of Science
-          Fellow and Association for Computing Machinery Distinguished Scientist,
-          holds the Jack Dongarra Professorship in High-Performance Computing (HPC)
-          at the University of Tennessee, Knoxville. She earned her B.S. in Computer
-          Engineering (University of Padova, Italy) and Ph.D. in Computer Science
-          (ETH Zurich, Switzerland). A former postdoctoral fellow at the University
-          of California, San Diego and The Scripps Research Institute, Dr. Taufer is
-          dedicated to multidisciplinary research, connecting computational and
-          experimental sciences. Her work focuses on designing HPC, cloud, and
-          volunteer computing solutions, applying artificial intelligence/machine
-          learning to scientific applications, and advancing algorithms and workflows
-          with a solid commitment to reproducibility and transparency in research.
+        title: "The Social Life of Distributed Systems: From Virtual Organizations to Intentional Systems"
+        speaker: "Carl Kesselman"
+        image: "assets/images/keynotes/carl_kesselman.jpg"
+        size: "200"
         chair: "Manish Parashar"
-        image: "./assets/images/keynotes/michela_taufer.jpg"
-        altText: "Michela Taufer image"
-        size: "30%"
+        abstract: >
+          Twenty-five years ago, the "Grid Problem" was defined as flexible, secure, and coordinated resource sharing among dynamic collections of individuals and institutions — the Virtual Organization (VO). The Anatomy of the Grid (2001) focused on the technical "brawn" required for multi-institutional interoperability, but it soon became clear that infrastructure alone could not solve the challenges of collaborative discovery. In Brain Meets Brawn: Why Grid and Agents Need Each Other (2004), we argued that autonomous agents would provide the necessary "brains" to manage the complexity, coordination, and scale of these distributed environments.
+
+          Over the following two decades, this perspective evolved toward socio-technical systems in which data, policy, organizational structure, and human interaction became first-class concerns. Our work on Deriva and Deriva-ML treats continuously evolving, curated data collections as the core organizing principle for collaborative discovery, making explicit the rich relationships among data, processes, collaborators, and outcomes across the lifetime of a scientific project. This shift also reframes a long-standing challenge: existing approaches to reproducibility preserve computational artifacts and execution histories, but perfect reconstruction of an experiment does not guarantee reproduction of scientific understanding — one can faithfully reproduce the wrong answer.
+
+          By making context explicit and persistent, data-centric systems create the foundation for a new class of intentional systems: systems that represent, maintain, and act upon the goals, assumptions, and shared understanding that give scientific results their meaning, not merely the artifacts they produce. The emergence of Large Language Models now makes this practical. Earlier agent-based systems were constrained by narrow reasoning and brittle coordination; LLMs supply a reasoning substrate powerful enough to finally realize the long-envisioned potential of agent-mediated science, shifting the focus from process-centric automation to managing the interactional layer of discovery itself.
+
+          In this talk, I will discuss recent work in which agent-based systems perform a dual role: executing computational tasks, and — in coordination with a data-centric ecosystem — serving as the "social glue" that captures intent, maintains semantic alignment, and manages shared state across long-running human-agent collaborations. Consider a multi-institutional effort to develop deep learning models for detecting referable glaucoma from fundus photographs collected through a Los Angeles County safety-net teleretinal screening program. As cohorts are refined, label conventions evolve, and foundation-model and supervised approaches are compared across sites, the surrounding agents capture not just the resulting models and metrics, but the clinical and methodological rationale behind each choice — so that when a collaborator, a reviewer, or a downstream agent revisits the work months later, the reasoning behind the result is recoverable, not just the result itself. If the Grid was originally conceived as enabling coordinated resource sharing among dynamic collections of individuals and institutions, the convergence of AI, data-centric systems, and agent-based computing now lets us deliver on a larger vision: coordinating understanding, intent, and discovery across long-lived human-agent collectives.
+        bio: >
+          Carl Kesselman is the William M. Keck Professor of Engineering at the University of Southern California, with appointments in the Daniel J. Epstein Department of Industrial and Systems Engineering, the Thomas Lord Department of Computer Science, the Keck School of Medicine, and the Herman Ostrow School of Dentistry. He is Director of the Informatics Systems Research Division at the USC Information Sciences Institute and is internationally recognized as one of the pioneers of Grid Computing and distributed cyberinfrastructure.
+
+          Kesselman co-founded the Globus Project, whose technologies and concepts helped establish the foundations for modern distributed, cloud, and data-intensive computing systems. His research has spanned distributed systems, scientific cyberinfrastructure, data integration, security, and large-scale collaborative science platforms. More recently, his work has focused on data-centric socio-technical ecosystems, AI-enabled scientific infrastructure, and agent-mediated systems that support long-running human-machine scientific interactions. He has co-authored four papers recognized in HPDC's retrospective list of the most important papers from the conference's first twenty years.
+
+          Kesselman is a Fellow of the ACM, IEEE, and the British Computer Society. His honors include the British Computer Society's Lovelace Medal, the IEEE Internet Award, and the IEEE Computer Society's Goode Memorial Award.
+
         type: keynote
 
       - startTime: "10:00 AM"
-        endTime: "10:30 AM"
+        endTime: "10:20 AM"
         title: "Coffee Break"
         type: service
 
-      - startTime: "10:30 AM"
-        endTime: "12:15 PM"
-        title: "Tuning and Performance"
+      - startTime: "10:20 AM"
+        endTime: "11:20 AM"
+        title: "Session 1 — LLM Inference: Scheduling & Serving"
         type: presentation
-        chair: "Jay Lofstead"
+        chair: "Satish Puri"
+        chair_email: "satishpuri.dgp@gmail.com"
         submissions:
-          - 19
-          - 20
-          - 21
-          - 22
+          - 93
+          - 290
+          - 122
+          - -1
 
-      - startTime: "12:15 PM"
-        endTime: "1:00 PM"
+      - startTime: "11:30 AM"
+        endTime: "12:30 PM"
+        title: "Session 2 — Scaling Generative Inference"
+        type: presentation
+        chair: "Bogdan Nicolae"
+        chair_email: "bogdan.nicolae@gmail.com"
+        submissions:
+          - 357
+          - 97
+          - 295
+          - -2
+
+      - startTime: "12:30 PM"
+        endTime: "1:30 PM"
         title: "Lunch"
         type: service
 
-      - startTime: "1:00 PM"
+      - startTime: "1:30 PM"
         endTime: "2:30 PM"
-        title: "Best Paper and Best Student Paper Finalists"
+        title: "Session 3 — MoE Systems & Distributed LLM Training"
         type: presentation
-        chair: "Robert Wisniewski"
+        chair: "Peter Dinda"
+        chair_email: "pdinda@northwestern.edu"
         submissions:
-          - 23
-          - 24
-          - 25
+          - 283
+          - 124
+          - 178
 
-      - startTime: "2:30 PM"
-        endTime: "3:00 PM"
-        title: "Awards and Closing Remarks"
+      - startTime: "2:40 PM"
+        endTime: "3:40 PM"
+        title: "Session 4 — Programming Models, Frameworks & Compilers"
+        type: presentation
+        chair: "Dhabaleswar K (DK) Panda"
+        chair_email: "panda@cse.ohio-state.edu"
+        submissions:
+          - 70
+          - 73
+          - 376
+          - 276
+
+      - startTime: "3:40 PM"
+        endTime: "4:00 PM"
+        title: "Coffee Break"
+        type: service
+  
+      - startTime: "4:00 PM"
+        endTime: "5:00 PM"
+        title: "The Five Most Important Research Problems for the Next Decade"
+        chair: Manish Parashar
+        link: "panels.html"
+        type: panelservice
+
+  - location: Foster-Castele Great Hall
+    date: "2026-07-15"
+    dateReadable: 15th July
+    timeslots:
+      - startTime: "8:00 AM"
+        endTime: "9:00 AM"
+        title: "Breakfast"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: "Misconceptions in Parallel Computing"
+        speaker: "William Gropp"
+        image: "assets/images/keynotes/william_gropp.jpg"
+        size: "200"
+        chair: "Devesh Tiwari"
+        abstract: >
+          Abstract: For many years, parallel computing was driven by the steady advance of commodity processors. Clusters of commodity CPUs provided ever greater computing power. Simple parallel performance models made it easy to analyze algorithms and implementations. Systems with mostly nodes of identical type became common, simplifying the application environment. Since 2005, the situation has become increasingly complicated. The end of Dennard scaling has spurred ever greater degrees of parallelism within a single processor chip, as well as specialization in GPUs and other processors. AI has driven systems to sizes never seen before, as well as changing the mix of operations. The way we think about parallel systems needs to be reexamined. In this talk, I will talk about what I think are misconceptions in parallel computing that are a result of the changes in computing, especially since 2005. These include: Is Moore's Law over? Do we still have good performance models? Are we prepared for systems with dissimilar node types? Are standards still useful? I will close with a few challenges for the community.
+        bio:
+          William Gropp is a professor in the Siebel School of Computing and Data Science at the University of Illinois Urbana‑Champaign, where he holds a Grainger Distinguished Chair in Engineering. He earned his Ph.D. in Computer Science from Stanford University in 1982 and has held research and leadership positions at Yale University and Argonne National Laboratory. Gropp’s research focuses on parallel computing, scientific software, and numerical methods for partial differential equations. He is widely known for his contributions to high‑performance computing, including foundational work on the MPI message‑passing standard and the development of influential software tools used throughout computational science. From 2016 to 2025, he served as Director of the National Center for Supercomputing Applications (NCSA), guiding major initiatives in advanced computing and data‑intensive research. He currently chairs the Computing Community Consortium for the Computing Research Association, helping shape long‑term research directions for the computing field. Gropp is a Fellow of AAAS, ACM, IEEE, and SIAM, a member of the National Academy of Engineering, and the recipient of numerous awards recognizing his impact on high‑performance computing.
+        type: keynote
+
+      - startTime: "10:00 AM"
+        endTime: "10:20 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "10:20 AM"
+        endTime: "11:20 AM"
+        title: "Session 5 — Scientific Applications at Scale"
+        type: presentation
+        chair: "Michael Papka"
+        chair_email: "papka@anl.gov"
+        submissions:
+          - 2
+          - 176
+          - 428
+          - 278
+
+      - startTime: "11:30 AM"
+        endTime: "12:30 PM"
+        title: "Session 6 — Scientific Data Compression"
+        type: presentation
+        chair: "Jay Lofstead"
+        chair_email: "jlofstead@acm.org"
+        submissions:
+          - 40
+          - 41
+          - 79
+          - 170
+
+      - startTime: "12:30 PM"
+        endTime: "1:30 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "1:30 PM"
+        endTime: "2:30 PM"
+        title: "Session 7 — Graph Processing & Community Detection"
+        type: presentation
+        chair: "Dilma Da Silva"
+        chair_email: "dilma@cse.tamu.edu"
+        submissions:
+          - 309
+          - 429
+          - 450
+          - -7
+
+      - startTime: "2:40 PM"
+        endTime: "3:40 PM"
+        title: "Session 8 — Storage & I/O for Data-Intensive Workloads"
+        type: presentation
+        chair: "Sarah Neuwirth"
+        submissions:
+          - 194
+          - 231
+          - 209
+          - 453
+
+      - startTime: "3:40 PM"
+        endTime: "4:00 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:00 PM"
+        endTime: "5:00 PM"
+        title: "Data Centers: Information, Misinformation, and the future of large scale computing"
+        chair: Barney Maccabe
+        link: "panels.html"
+        type: panelservice
+
+      - startTime: "6:00 PM"
+        endTime: "7:00 PM"
+        title: "Poster Reception — Student, Conference, RSE, Industry"
+        type: social
+
+      - startTime: "7:30 PM"
+        endTime: "10:00 PM"
+        title: "Banquet Dinner and Museum Visit"
+        type: social
+
+  - location: Foster-Castele Great Hall
+    date: "2026-07-16"
+    dateReadable: 16th July
+    timeslots:
+      - startTime: "8:00 AM"
+        endTime: "9:00 AM"
+        title: "Breakfast"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: "From Scalable Systems to Quantum Computing: Navigating New Computing Frontiers"
+        speaker: "Dilma M Da Silva"
+        image: "assets/images/keynotes/Dilma_M_Da_Silva.png"
+        size: "200"
+        chair: "Dimitrios Nikolopoulos"
+        abstract: >
+          Over the past several decades, the high-performance parallel and distributed computing
+          community has played a central role in advancing computing infrastructures, from
+          operating systems to cloud platforms and large-scale distributed environments. These
+          systems challenges are now reappearing in the context of emerging scientific
+          application workflows that leverage advances in artificial intelligence (AI) and quantum
+          information science.
+          This talk connects a long-standing research trajectory in scalable systems with more
+          recent work in quantum computing. It discusses how a researcher grounded in high-
+          performance and distributed systems can approach the quantum computing landscape,
+          identify familiar abstractions and challenges, and contribute to the emerging quantum
+          software and systems stack. As quantum technologies evolve toward larger and more
+          programmable platforms, issues such as orchestration of hybrid quantum–classical
+          workflows, runtime systems, compilation, resource management, distributed control,
+          and reliability are becoming increasingly important. Advances in AI and quantum
+          computing point toward a future in which scalable systems expertise may play a
+          foundational role in shaping new computing paradigms and scientific capabilities.
+          The presentation will also provide an overview of the evolving U.S. federal research
+          funding landscape in quantum computing, quantum networking, and quantum sensing.
+        bio: >
+          Dilma Da Silva is a Regents Professor and holder of the Ford Design Professorship II in the
+          Department of Computer Science and Engineering at Texas A&M University. From July 2022 to
+          June 2026, she served in several leadership positions at the U.S. National Science Foundation.
+          Her roles at Texas A&M include Department Head (2014-2019), Associate Dean (2019-2020),
+          interim Director of the Texas A&M Institute of Data Science, and interim Director of the Texas
+          A&M Cybersecurity Center. Her primary research interests are high performance computing,
+          computer science education, and quantum computing. Before joining Texas A&M, she worked at
+          Qualcomm Research (2012-2014), IBM Research (2000-2012), and the University of São Paulo
+          (1996-2000). Dilma is an ACM Distinguished Scientist. She received her doctoral degree in
+          computer science from Georgia Tech in 1997 and her bachelor&#39;s and master&#39;s degrees from the
+          University of São Paulo, Brazil. She is passionate about mentoring and supporting the next
+          generation of computing researchers and practitioners.
+        type: keynote
+
+      - startTime: "10:00 AM"
+        endTime: "10:20 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "10:20 AM"
+        endTime: "11:20 AM"
+        title: "Session 9 — Cloud, Serverless & Microservices"
+        type: presentation
+        chair: "Santonu Sarkar"
+        chair_email: "santonus@goa.bits-pilani.ac.in"
+        submissions:
+          - 17
+          - 224
+          - 247
+          - -9
+
+      - startTime: "11:30 AM"
+        endTime: "12:30 PM"
+        title: "Session 10 — Data Systems for AI & Analytics"
+        type: presentation
+        chair: "Xiaoyi Lu"
+        chair_email: "xiaoylu@ufl.edu"
+        submissions:
+          - 35
+          - 189
+          - 371
+          - -10
+
+      - startTime: "12:30 PM"
+        endTime: "1:30 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "1:30 PM"
+        endTime: "2:30 PM"
+        title: "Session 11 — Communication, Workflows & Sustainability"
+        type: presentation
+        chair: "Mehmet Koyuturk"
+        chair_email: "mxk331@case.edu"
+        submissions:
+          - 37
+          - 162
+          - 272
+          - 274
+
+      - startTime: "2:40 PM"
+        endTime: "3:40 PM"
+        title: "Session 12 — Emerging Generative & Agentic AI Workloads"
+        type: presentation
+        chair: "Stefan Andrei"
+        chair_email: "s.andrei@csuohio.edu"
+        submissions:
+          - 106
+          - 455
+
+      - startTime: "3:40 PM"
+        endTime: "4:00 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:00 PM"
+        endTime: "5:00 PM"
+        title: "Awards Announcements and Closing Remarks"
         type: lastservice
-        items:
-          - title: "HPDC 2026 Announcement"
-          - title: "Best Poster Award"
-          - title: "Best Student Paper Award"
-          - title: "Best Paper Award"
-         
-
-
-
-
-
-
-
-
-showRawPaperList: false
-
-rawPaperList:
-  - title: "FT2: First-Token-Inspired Online Fault Tolerance on Critical Layers for Generative Large Language Models"
-    authors: "Yu Sun, Zhu Zhu, Cherish Mulpuru, Roberto Gioiosa, Zhao Zhang, Bo Fang, Lishan Yang"
-  - title: "On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
-    authors: "Arjun Kashyap, Yuke Li, Xiaoyi Lu"
-  - title: "Out-of-Core Parallel Spatial Join Outperforming In-Memory Systems: A BFS-DFS Hybrid Approach"
-    authors: "Lyuheng Yuan, Da Yan, Akhlaque Ahmad, Jiao Han, Saugat Adhikari, Yang Zhou"
-  - title: "Privacy-preserving of HPC Traces for Data Sharing and Analysis"
-    authors: "Ana Luisa Veroneze Solórzano, Rohan Basu Roy, Devesh Tiwari, Benjamin Schwaller, Sara Petra Walton, Jim M. Brandt"
-  - title: "LiteForm: Lightweight and Automatic Format Composition for Sparse Matrix-Matrix Multiplication on GPUs"
-    authors: "Zhen Peng, Polykarpos Thomadakis, Jacques Pienaar, Gokcen Kestor"
-  - title: "Optimization of GNN Training Through Half-precision"
-    authors: "Arnab Tarafder, Yidong Gong, Pradeep Kumar"
-  - title: "CarbonEdge: Leveraging Mesoscale Spatial Carbon-Intensity Variations for Low Carbon Edge Computing"
-    authors: "Li Wu, Walid Hanafy, Abel Souza, Khai Nguyen, Jan Harkes, David Irwin, Mahadev Satyanarayanan, Prashant Shenoy"
-  - title: "TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System"
-    authors: "Zheng Wei, Jing Xing, Yida Gu, Wenjing Huang, Dong Dai, Guangming Tan, Dingwen Tao"
-  - title: "IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications"
-    authors: "Zhuoxun Yang, Sheng Di, Longtao Zhang, Ruoyu Li, Ximiao Li, Jiajun Huang, Jinyang Liu, Franck Cappello, Kai Zhao"
-  - title: "AutoSSD: CXL-Enhanced Autonomous SSDs for Low Tail Latency"
-    authors: "Mingyao Shen, Suyash Mahar, Heewoo Kim, Joseph Izraelevitz, Steven Swanson"
-  - title: "FluidFaaS: A Dynamic Pipelined Solution for Serverless Computing with Strong Isolation-based GPU Sharing"
-    authors: "Xinning Hui, Yuanchao Xu, Xipeng Shen"
-  - title: "SAFusion: Efficient Tensor Fusion with Sparsification Ahead for High-Performance Distributed DNN Training"
-    authors: "Zhangqiang Ming, Yuchong Hu, Xinjue Zheng, Wenxiang Zhou, Dan Feng"
-  - title: "F3: An FPGA-accelerated FaaS Framework"
-    authors: "Charalampos Mainas, Martin Lambeck, Bruno Scheufler, Laurent Bindschaedler, Atsushi Koshiba, Pramod Bhatotia"
-  - title: "PathFence: Reducing Cross-Path Dependencies in Microservices"
-    authors: "Xuhang Gu, Qingyang Wang"
-  - title: "Virtualization So Light, it Floats! Accelerating Floating Point Virtualization"
-    authors: "Nicholas Wanninger, Nadharm Dhiantravan, Peter Dinda"
-  - title: "Grudon: A System for Deploying Graph Workloads on Disaggregated Architectures with Near-Data Processing"
-    authors: "Vishal Rao, Nikhil Ram Shashidhar, Ada Gavrilovska"
-  - title: "FloatGuard: Efficient Whole-Program Detection of Floating-Point Exceptions in AMD GPUs"
-    authors: "Dolores Miao, Ignacio Laguna, Cindy Rubio-González"
-  - title: "Weight-Sharing NAS with Architecture-Agnostic Intermediate Representation"
-    authors: "Sixing Yu, Arya Mazaheri, Ali Jannesari"
-  - title: "HYPERF: End-to-End Autotuning Framework for High-Performance Computing"
-    authors: "Juseong Park, Yongwon Shin, Junghyun Lee, Junseo Lee, Juyeon Kim, Oh-Kyoung Kwon, Hyojin Sung"
-  - title: "Top-Down SBP: Turning Graph Clustering Upside Down"
-    authors: "Frank Wanye, Vitaliy Gleyzer, Edward Kao, Wu-chun Feng"
-  - title: "Parameterized Algorithms for Non-uniform All-to-all"
-    authors: "Ke Fan, Jens Domke, Seydou Ba, Sidharth Kumar"
-  - title: "LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data"
-    authors: "Chang Guo, Ning Yan, Lipeng Wan, Zhichao Cao"
-  - title: "Advancing Scientific Data Compression via Cross-Field Prediction"
-    authors: "Youyuan Liu, Wenqi Jia, Taolue Yang, Jiang Bo, Miao Yin, Sian Jin"
-  - title: "ModelX : A Novel Transfer Learning Approach Across Heterogeneous Datasets"
-    authors: "Arunavo Dey, Neil Antony, Aakash Raj Dhakal, Tapasya Patki, Aniruddha Marathe, Jae Seung Yeom, Tanzima Islam"
-  - title: "Optimizing Data Distribution and Kernel Performance for Efficient Training of Chemistry Foundation Models: A Case Study with MACE"
-    authors: "Jesun Sahariar Firoz, Franco Pellegrini, Mario Geiger, Darren Hsu, Jenna A. Bilbrey, Han-Yi Chou, Maximilian Stadler, Markus Hoehnerbach, Tingyu Wang, Dejun Lin, Emine Kucukbenli, Henry W. Sprueill, Ilyes Batatia, Sotiris S. Xantheas, MalSoon Lee, Chris Mundy, Gabor Csanyi, Justin S. Smith, Ponnuswamy Sadayappan, Sutanay Choudhury"

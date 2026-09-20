@@ -1,266 +1,504 @@
 all:
-  - title: "Virtualization So Light, it Floats! Accelerating Floating Point Virtualization"
-    id: 1
-    url: "./assets/slides/main_session/wanninger.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731584"
+  # Session 1 — LLM Inference: Scheduling & Serving
+  - title: "STAR: Decode-Phase Rescheduling for LLM Inference"
+    id: 93
+    submission_id: 93
     authors:
-      - name: "Nicholas Wanninger"
-      - name: "Nadharm Dhiantravan"
-      - name: "Peter Dinda"
-  - title: "FloatGuard: Efficient Whole-Program Detection of Floating-Point Exceptions in AMD GPUs"
-    id: 2
-    url: "./assets/slides/main_session/miao.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731586"
-    authors:
-      - name: "Dolores Miao"
-      - name: "Ignacio Laguna"
-      - name: "Cindy Rubio-González"
-  - title: "LiteForm: Lightweight and Automatic Format Composition for Sparse Matrix-Matrix Multiplication on GPUs"
-    id: 3
-    url: "./assets/slides/main_session/peng.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731574"
-    authors:
-      - name: "Zhen Peng"
-      - name: "Polykarpos Thomadakis"
-      - name: "Jacques Pienaar"
-      - name: "Gokcen Kestor"
-  - title: "Optimization of GNN Training Through Half-precision"
-    id: 4
-    url: "./assets/slides/main_session/tarafder.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731575"
-    authors:
-      - name: "Arnab Tarafder"
-      - name: "Yidong Gong"
-      - name: "Pradeep Kumar"
+      - name: "Zhibin Wang"
+      - name: "Zetao Hong"
+      - name: "Xue Li"
+      - name: "Zibo Wang"
+      - name: "Shipeng Li"
+      - name: "Qingkai Meng"
+      - name: "Qing Wang"
+      - name: "Chengying Huan"
+      - name: "Rong Gu"
+      - name: "Sheng Zhong"
+      - name: "Chen Tian"
 
-  - title: "SAFusion: Efficient Tensor Fusion with Sparsification Ahead for High-Performance Distributed DNN Training"
-    id: 5
-    url: "./assets/slides/main_session/ming.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731581"
+  - title: "PKAS: Predictive KVCache-Aware Scheduling"
+    id: 290
+    submission_id: 290
     authors:
-      - name: "Zhangqiang Ming"
-      - name: "Yuchong Hu"
-      - name: "Xinjue Zheng"
-      - name: "Wenxiang Zhou"
-      - name: "Dan Feng"
-  - title: "ModelX: A Novel Transfer Learning Approach Across Heterogeneous Datasets"
-    id: 6
-    url: "./assets/slides/main_session/dey.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731593"
+      - name: "Jie Ye"
+      - name: "Avinash Maurya"
+      - name: "Krishna Teja Chitty-Venkata"
+      - name: "Bogdan Nicolae"
+      - name: "Anthony Kougkas"
+      - name: "Xian-He Sun"
+
+  - title: "Omnia: RAG Serving through Speculative Scheduling"
+    id: 122
+    submission_id: 122
     authors:
-      - name: "Arunavo Dey"
-      - name: "Neil Antony"
-      - name: "Aakash Raj Dhakal"
-      - name: "Tapasya Patki"
-      - name: "Aniruddha Marathe"
-      - name: "Jae Seung Yeom"
-      - name: "Tanzima Islam"
-  - title: "FT2: First-Token-Inspired Online Fault Tolerance on Critical Layers for Generative Large Language Models"
-    id: 7
-    url: "./assets/slides/main_session/sun.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731570"
+      - name: "Rongtian Fu"
+      - name: "Shigang Li"
+      - name: "Youxuan Xu"
+      - name: "Tong Wu"
+      - name: "Zhi Ma"
+      - name: "Jinliang Shi"
+
+  - title: "SAGA: Workflow-Atomic Scheduling for AI Agent Inference on GPU Clusters"
+    id: 372
+    submission_id: 372
     authors:
-      - name: "Yu Sun"
-      - name: "Zhu Zhu"
-      - name: "Cherish Mulpuru"
-      - name: "Roberto Gioiosa"
-      - name: "Zhao Zhang"
-      - name: "Bo Fang"
-      - name: "Lishan Yang"
-  - title: "Optimizing Data Distribution and Kernel Performance for Efficient Training of Chemistry Foundation Models: A Case Study with MACE"
-    id: 8
-    url: "./assets/slides/main_session/firoz.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731594"
+      - name: "Dongxin Guo"
+      - name: "Jikun Wu"
+      - name: "Siu-Ming Yiu"
+
+  # Session 2 — Scaling Generative Inference
+  - title: "Scaling Attention Beyond GPUs for LLM Inference"
+    id: 357
+    submission_id: 357
     authors:
-      - name: "Jesun Sahariar Firoz"
-      - name: "Franco Pellegrini"
-      - name: "Mario Geiger"
-      - name: "Darren Hsu"
-      - name: "Jenna A. Bilbrey"
-      - name: "Han-Yi Chou"
-      - name: "Maximilian Stadler"
-      - name: "Markus Hoehnerbach"
-      - name: "Tingyu Wang"
-      - name: "Dejun Lin"
-      - name: "Emine Kucukbenli"
-      - name: "Henry W. Sprueill"
-      - name: "Ilyes Batatia"
-      - name: "Sotiris S. Xantheas"
-      - name: "MalSoon Lee"
-      - name: "Chris Mundy"
-      - name: "Gabor Csanyi"
-      - name: "Justin S. Smith"
-      - name: "Ponnuswamy Sadayappan"
-      - name: "Sutanay Choudhury"
-  - title: "TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System"
-    id: 9
-    url: "./assets/slides/main_session/wei.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731577"
+      - name: "Weishu Deng"
+      - name: "Yujie Yang"
+      - name: "Peiran Du"
+      - name: "Lingfeng Xiang"
+      - name: "Zhen Lin"
+      - name: "Chen Zhong"
+      - name: "Faraz Ahmed"
+      - name: "Lianjie Cao"
+      - name: "Puneet Sharma"
+      - name: "Song Jiang"
+      - name: "Hui Lu"
+      - name: "Jia Rao"
+
+  - title: "Accelerating Block Low-Rank Foundation Model Inference on Memory-Constrained GPUs"
+    id: 97
+    submission_id: 97
     authors:
-      - name: "Zheng Wei"
-      - name: "Jing Xing"
-      - name: "Yida Gu"
+      - name: "Pierre Abillama"
+      - name: "Changwoo Lee"
+      - name: "Juechu Dong"
+      - name: "David Blaauw"
+      - name: "Dennis Sylvester"
+      - name: "Hun-Seok Kim"
+
+  - title: "MoE-Lens: High-Throughput MoE LLM Inference at the Hardware Limit"
+    id: 295
+    submission_id: 295
+    authors:
+      - name: "Yichao Yuan"
+      - name: "Lin Ma"
+      - name: "Nishil Talati"
+
+  - title: "DiTango: Cost-Effective Parallel Diffusion Generation with Selective Attention State Reuse"
+    id: 106
+    submission_id: 106
+    authors:
+      - name: "Yuyang Chen"
+      - name: "Runxin Zhong"
+      - name: "Zan Zong"
+      - name: "Hengjie Li"
+      - name: "Yuyang Jin"
+      - name: "Jidong Zhai"
+
+  # Session 3 — MoE Systems & Distributed LLM Training
+  - title: "UniEP: Unified Expert-Parallel MoE MegaKernel for Training"
+    id: 283
+    submission_id: 283
+    authors:
+      - name: "Size Zheng"
+      - name: "Xuegui Zheng"
+      - name: "Li-Wen Chang"
+      - name: "Jidong Zhai"
+
+  - title: "Dynamo-MoE: Accelerating Sparse Large Model Inference"
+    id: 455
+    submission_id: 455
+    authors:
+      - name: "Jiahao Chen"
+      - name: "Shigang Li"
+      - name: "Rongtian Fu"
+      - name: "Tong Wu"
+      - name: "Zhi Ma"
+      - name: "Jingkun Dong"
+
+  - title: "ResiHP: Taming LLM Training Failures with Dynamic Hybrid Parallelism"
+    id: 124
+    submission_id: 124
+    authors:
+      - name: "Tenghui Ma"
+      - name: "Jihu Guo"
+      - name: "Wei Gao"
+      - name: "Sitian Lu"
+      - name: "Zhisheng Ye"
+      - name: "Hanjing Wang"
+      - name: "Dahua Lin"
+
+  - title: "TACO: Communication Compression for Tensor-Parallel LLM Training"
+    id: 178
+    submission_id: 178
+    authors:
+      - name: "Man Liu"
+      - name: "Xingchen Liu"
+      - name: "Xingjian Tian"
+      - name: "Bing Lu"
+      - name: "Shengkai Lyu"
+      - name: "Shengquan Yin"
       - name: "Wenjing Huang"
-      - name: "Dong Dai"
+      - name: "Zheng Wei"
+      - name: "Hairui Zhao"
       - name: "Guangming Tan"
       - name: "Dingwen Tao"
-  - title: "AutoSSD: CXL-Enhanced Autonomous SSDs for Low Tail Latency"
-    id: 10
-    url: "./assets/slides/main_session/shen.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731579"
+
+  # Session 4 — Programming Models, Frameworks & Compilers
+  - title: "SYCL++: Unified Programming for Heterogeneous Supercomputers at Scale"
+    id: 70
+    submission_id: 70
     authors:
-      - name: "Mingyao Shen"
-      - name: "Suyash Mahar"
-      - name: "Heewoo Kim"
-      - name: "Joseph Izraelevitz"
-      - name: " Steven Swanson"
-  - title: "DPU-KV: On the Benefits of DPU Offloading for In-Memory Key-Value Stores at the Edge"
-    id: 11
-    url: "./assets/slides/main_session/kashyap.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731571"
+      - name: "Zitao Shen"
+      - name: "Yuyang Jin"
+      - name: "Kinman Lei"
+      - name: "Zixuan Ma"
+      - name: "Wenqiang Wang"
+      - name: "Yinuo Wang"
+      - name: "Wenhao Zhou"
+      - name: "Zhenchuan Chen"
+      - name: "Di Wei"
+      - name: "Qi Zhang"
+      - name: "Fei Wang"
+      - name: "Ying Liu"
+      - name: "Lin Gan"
+      - name: "Jidong Zhai"
+
+  - title: "Floating Point Virtualization With Tiny Numbers"
+    id: 73
+    submission_id: 73
     authors:
-      - name: "Arjun Kashyap"
-      - name: "Yuke Li"
-      - name: "Xiaoyi Lu"
-  - title: "CarbonEdge: Leveraging Mesoscale Spatial Carbon-Intensity Variations for Low Carbon Edge Computing"
-    id: 12
-    url: "./assets/slides/main_session/wu.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731576"
+      - name: "Kevin Hayes"
+      - name: "Peter Dinda"
+
+  - title: "FAME: Framework for Multi-Agent RL on Heterogeneous Platforms"
+    id: 376
+    submission_id: 376
     authors:
-      - name: "Li Wu"
-      - name: "Walid Hanafy"
-      - name: "Abel Souza"
-      - name: "Khai Nguyen"
-      - name: "Jan Harkes"
-      - name: "David Irwin"
-      - name: "Mahadev Satyanarayanan"
-      - name: "Prashant Shenoy"
-  - title: "Advancing Scientific Data Compression via Cross-Field Prediction"
-    id: 13
-    url: "./assets/slides/main_session/liu.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731592"
+      - name: "Samuel Wiggins"
+      - name: "Nikunj Gupta"
+      - name: "Grace Zgheib"
+      - name: "Mahesh A. Iyer"
+      - name: "Viktor Prasanna"
+
+  # Session 5 — Scientific Applications at Scale
+  - title: "POLAR-PIC: Matrixized PIC for Plasma Physics"
+    id: 2
+    submission_id: 2
     authors:
-      - name: "Youyuan Liu"
-      - name: "Wenqi Jia"
-      - name: "Taolue Yang"
-      - name: "Jiang Bo"
-      - name: "Miao Yin"
-      - name: "Sian Jin"
-  - title: "Parameterized Algorithms for Non-uniform All-to-all"
-    id: 14
-    url: "./assets/slides/main_session/fan.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731590"
+      - name: "Yizhuo Rao"
+      - name: "Xingjian Cui"
+      - name: "Shangzhi Pang"
+      - name: "Jiabin Xie"
+      - name: "Guangnan Feng"
+      - name: "Ziyan Zhang"
+      - name: "Jinhui Wei"
+      - name: "Languang Gao"
+      - name: "Zhenyu Wang"
+      - name: "Zhiguang Chen"
+      - name: "Yutong Lu"
+
+  - title: " A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States"
+    id: 176
+    submission_id: 176
     authors:
-      - name: "Ke Fan"
-      - name: "Jens Domke"
-      - name: "Seydou Ba"
-      - name: "Sidharth Kumar"
-  - title: "Top-Down SBP: Turning Graph Clustering Upside Down"
-    id: 15
-    url: "./assets/slides/main_session/wayne.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731589"
+      - name: "Daran Sun"
+      - name: "Bowen Kan"
+      - name: "Haoquan Long"
+      - name: "Hairui Zhao"
+      - name: "Haoxu Li"
+      - name: "Yicheng Liu"
+      - name: "Pengyu Zhou"
+      - name: "Ankang Feng"
+      - name: "Wenjing Huang"
+      - name: "Yida Gu"
+      - name: "Zhenyu Li"
+      - name: "Honghui Shang"
+      - name: "Yunquan Zhang"
+      - name: "Dingwen Tao"
+      - name: "Ninghui Sun"
+      - name: "Guangming Tan"
+
+  - title: "Full-Core Fluid-Structure-Interaction Simulation of Nuclear Reactor"
+    id: 428
+    submission_id: 428
     authors:
-      - name: "Frank Wanye"
-      - name: "Vitaliy Gleyzer"
-      - name: "Edward Kao"
-      - name: "Wu-chun Feng"
-  - title: "F3: An FPGA-accelerated FaaS Framework"
-    id: 16
-    url: "./assets/slides/main_session/koshiba.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731582"
+      - name: "Xue Miao"
+      - name: "Jue Wang"
+      - name: "Qida Lin"
+      - name: "Shufei Zhang"
+      - name: "Rongqiang Cao"
+      - name: "Chunbao Zhou"
+      - name: "Ningming Nie"
+      - name: "He Bai"
+      - name: "Yangang Wang"
+
+  - title: "Endeavor: PairHMM for DNA Variant Detection at Genome Scale"
+    id: 278
+    submission_id: 278
     authors:
-      - name: "Charalampos Mainas"
-      - name: "Martin Lambeck"
-      - name: "Bruno Scheufler"
-      - name: "Laurent Bindschaedler"
-      - name: "Atsushi Koshiba"
-      - name: "Pramod Bhatotia"
-  - title: "PathFence: Reducing Cross-Path Dependencies in Microservices"
-    id: 17
-    url: "./assets/slides/main_session/gu.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731583"
+      - name: "Miguel Graça"
+      - name: "Aleksandar Ilic"
+
+  # Session 6 — Scientific Data Compression
+  - title: "OPAL: On-demand Progressive Accelerated Scientific Lossy Compression"
+    id: 40
+    submission_id: 40
     authors:
-      - name: "Xuhang Gu"
-      - name: "Qingyang Wang"
-  - title: "FluidFaaS: A Dynamic Pipelined Solution for Serverless Computing with Strong Isolation-based GPU Sharing"
-    id: 18
-    url: "./assets/slides/main_session/hui.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731580"
-    authors:
-      - name: "Xinning Hui"
-      - name: "Yuanchao Xu"
-      - name: "Xipeng Shen"
-  - title: "Grudon: A System for Deploying Graph Workloads on Disaggregated Architectures with Near-Data Processing"
-    id: 19
-    url: "./assets/slides/main_session/rao.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731585"
-    authors:
-      - name: "Vishal Rao"
-      - name: "Nikhil Ram Shashidhar"
-      - name: "Suyeon Lee"
-      - name: "Ada Gavrilovska"
-  - title: "HYPERF: End-to-End Autotuning Framework for High-Performance Computing"
-    id: 20
-    url: "./assets/slides/main_session/park.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731588"
-    authors:
-      - name: "Juseong Park"
-      - name: "Yongwon Shin"
-      - name: "Junghyun Lee"
-      - name: "Junseo Lee"
-      - name: "Juyeon Kim"
-      - name: "Oh-Kyoung Kwon"
-      - name: "Hyojin Sung"
-  - title: "Privacy-preserving of HPC Traces for Data Sharing and Analysis"
-    id: 21
-    url: "./assets/slides/main_session/solorzano.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731573"
-    authors:
-      - name: "Ana Luisa Veroneze Solórzano"
-      - name: "Rohan Basu Roy"
-      - name: "Devesh Tiwari"
-      - name: "Benjamin Schwaller"
-      - name: "Sara Petra Walton"
-      - name: "Jim M. Brandt"
-  - title: "Weight-Sharing NAS with Architecture-Agnostic Intermediate Representation"
-    id: 22
-    url: "./assets/slides/main_session/yu.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731587"
-    authors:
-      - name: "Sixing Yu"
-      - name: "Arya Mazaheri"
-      - name: "Ali Jannesari"
-  - title: "<i><u>[BEST PAPER]</u></i> Out-of-Core Parallel Spatial Join Outperforming In-Memory Systems: A BFS-DFS Hybrid Approach"
-    id: 23
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731572"
-    authors:
-      - name: "Lyuheng Yuan"
-      - name: "Da Yan"
-      - name: "Akhlaque Ahmad"
-      - name: "Jiao Han"
-      - name: "Saugat Adhikari"
-      - name: "Yang Zhou"
-  - title: "IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications"
-    id: 24
-    url: "./assets/slides/main_session/yang.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731578"
-    authors:
-      - name: "Zhuoxun Yang"
-      - name: "Sheng Di"
       - name: "Longtao Zhang"
       - name: "Ruoyu Li"
-      - name: "Ximiao Li"
+      - name: "Zhuoxun Yang"
+      - name: "Robert Underwood"
+      - name: "Sheng Di"
+      - name: "Daoce Wang"
+      - name: "Jinyang Liu"
       - name: "Jiajun Huang"
+      - name: "Franck Cappello"
+      - name: "Kai Zhao"
+
+  - title: "TZ: High-Ratio Scientific Data Compression on GPUs"
+    id: 41
+    submission_id: 41
+    authors:
+      - name: "Zhuoxun Yang"
+      - name: "Ruoyu Li"
+      - name: "Amit Subrahmanya"
+      - name: "Vishwas Rao"
+      - name: "Sheng Di"
+      - name: "Robert Underwood"
+      - name: "Longtao Zhang"
       - name: "Jinyang Liu"
       - name: "Franck Cappello"
       - name: "Kai Zhao"
-  - title: "<i><u>[BEST STUDENT PAPER]</u></i> LegoIndex: A Scalable and Modular Indexing Framework for Efficient Analysis of Extreme-Scale Particle Data"
-    id: 25
-    url: "./assets/slides/main_session/guo.pdf"
-    acm_url: "https://dl.acm.org/doi/10.1145/3731545.3731591"
-    authors:
-      - name: "Chang Guo"
-      - name: "Ning Yan"
-      - name: "Lipeng Wan"
-      - name: "Zhichao Cao"
 
+  - title: " QProR: An Efficient Framework for Quantity-of-Interest Based Progressive Retrieval with Guaranteed Error Control"
+    id: 79
+    submission_id: 79
+    authors:
+      - name: "Wenbo Li"
+      - name: "Qian Gong"
+      - name: "Xuan Wu"
+      - name: "Jieyang Chen"
+      - name: "Qing Liu"
+      - name: "Xubin He"
+      - name: "Norbert Podhorszki"
+      - name: "Scott Klasky"
+      - name: "Xin Liang"
+
+  - title: "Bridging Information Theory and Practice for Scientific Lossy Compression"
+    id: 170
+    submission_id: 170
+    authors:
+      - name: "Sujata Sinha"
+      - name: "Sheng Di"
+      - name: "Vishwas Rao"
+      - name: "Robert Underwood"
+      - name: "David Lenz"
+      - name: "Zizhe Jian"
+      - name: "Zhuoxun Yang"
+      - name: "Kai Zhao"
+      - name: "Lingjia Liu"
+      - name: "Franck Cappello"
+
+  # Session 7 — Graph Processing & Community Detection
+  - title: "SAGA: State-Aware Graph Analytics for Combinatorial Optimization on Dynamic Graphs"
+    id: 309
+    submission_id: 309
+    authors:
+      - name: "Rohit Prajapati"
+      - name: "Prajjwal Nijhara"
+      - name: "Dip Sankar Banerjee"
+
+  - title: "Efficient Tracking of Communities on Evolving Graphs with Leiden"
+    id: 429
+    submission_id: 429
+    authors:
+      - name: "Subhajit Sahu"
+
+  - title: "νMG-LPA and νBM-LPA: Memory Efficient GPU-based Label Propagation Algorithms (LPA) for Community Detection"
+    id: 450
+    submission_id: 450
+    authors:
+      - name: "Subhajit Sahu"
+
+  # Session 8 — Best Paper Nominees
+  - title: "CARBS: Compiler Autotuning via Randomized Biased Search (Best Paper Award Nominee)"
+    id: 276
+    submission_id: 276
+    authors:
+      - name: "Wei Li"
+      - name: "Bin Gao"
+      - name: "Weng-Fai Wong"
+
+  - title: "Pome: Parallelizing I/Os and Computations for LSM-tree Storage (Best Paper Winner)"
+    id: 453
+    submission_id: 453
+    authors:
+      - name: "Yanpeng Hu"
+      - name: "Li Zhu"
+      - name: "Lei Jia"
+      - name: "Chundong Wang"
+
+  - title: "PowerQuant: Architecture-Agnostic GPU Power Estimation via Quantile Regression (Best Paper Nominee)"
+    id: 274
+    submission_id: 274
+    authors:
+      - name: "Aditya Challa"
+      - name: "Tanish Desai"
+      - name: "Gargi Alavani Prabhu"
+      - name: "Snehanshu Saha"
+      - name: "Santonu Sarkar"
+
+  # Session 9 — Storage & I/O for Data-Intensive Workloads
+  - title: "A High-Performance Persistent Transactional Memory System via Cooperative Concurrency"
+    id: 194
+    submission_id: 194
+    authors:
+      - name: "Hao Hu"
+      - name: "Xinrui Zheng"
+      - name: "Yizou Chen"
+      - name: "Xiangyu Zou"
+      - name: "Erci Xu"
+      - name: "Hongpeng Wang"
+      - name: "Wen Xia"
+
+  - title: "GLANCED-IO: Taming I/O Optimization for Deep Learning at Scale"
+    id: 231
+    submission_id: 231
+    authors:
+      - name: "Ray A. O. Sinurat"
+      - name: "William Nixon"
+      - name: "Philip Carns"
+      - name: "Huihuo Zheng"
+      - name: "Sandeep Madireddy"
+      - name: "Sam Foreman"
+      - name: "Troy Arcomano"
+      - name: "Robert Ross"
+      - name: "Haryadi S. Gunawi"
+      - name: "Hariharan Devarajan"
+
+  - title: "Merkle-Tree Weight Snapshot Deduplication for NN Training Provenance"
+    id: 209
+    submission_id: 209
+    authors:
+      - name: "Kin Wai Ng"
+      - name: "Francesco Antici"
+      - name: "Nigel Tan"
+      - name: "Befikir Bogale"
+      - name: "Caleb Han"
+      - name: "Florence Tama"
+      - name: "Osamu Miyashita"
+      - name: "Bogdan Nicolae"
+      - name: "Michela Taufer"
+
+  # Session 10 — Cloud, Serverless & Microservices
+  - title: "Enabling High-Utilization and Low-Contention FaaS: A Request-Level Resource Provisioning Approach"
+    id: 17
+    submission_id: 17
+    authors:
+      - name: "Runfu Li"
+      - name: "Zishu Yu"
+      - name: "Yifan Wang"
+      - name: "Xiaohui Peng"
+      - name: "Ninghui Sun"
+      - name: "Zhiwei Xu"
+
+  - title: "Cremes: Cost-Efficient Microservice Execution on Spot Instances"
+    id: 224
+    submission_id: 224
+    authors:
+      - name: "Liao Chen"
+      - name: "Chenyu Lin"
+      - name: "Junlin Chen"
+      - name: "Shutian Luo"
+      - name: "Huanle Xu"
+      - name: "ChengZhong Xu"
+
+  - title: "Krysha: Cost-Efficient Geo-Distributed Serverless Microservices"
+    id: 247
+    submission_id: 247
+    authors:
+      - name: "Yuqiu Zhang"
+      - name: "Hans-Arno Jacobsen"
+
+  # Session 11 — Data Systems for AI & Analytics
+  - title: "SIVF: GPU-Resident IVF Index for Streaming Vector Analytics"
+    id: 35
+    submission_id: 35
+    authors:
+      - name: "Dongfang Zhao"
+
+  - title: "BCCE: Block-Centric GPU Co-Design for Real-Time Range-Top-K Query at Scale"
+    id: 189
+    submission_id: 189
+    authors:
+      - name: "Chengying Huan"
+      - name: "Ziheng Meng"
+      - name: "Zhengyi Yang"
+      - name: "Yongchao Liu"
+      - name: "Jie Zhang"
+      - name: "Qing Wang"
+      - name: "Jing Wang"
+      - name: "Shaonan Ma"
+      - name: "Zhibin Wang"
+      - name: "Mingxing Zhang"
+      - name: "Rong Gu"
+      - name: "Baokun Wang"
+      - name: "Guihai Chen"
+      - name: "Chen Tian"
+
+  - title: "ATLAS: Out-of-Core Inference for Billion-Scale GNNs"
+    id: 371
+    submission_id: 371
+    authors:
+      - name: "Pranjal Naman"
+      - name: "Yogesh Simmhan"
+
+  # Session 12 — Communication, Workflows & Sustainability
+  - title: "GICC: GPU-Initiated Communication and Coordination Runtime"
+    id: 37
+    submission_id: 37
+    authors:
+      - name: "Baodi Shan"
+      - name: "Mauricio Araya-Polo"
+      - name: "Barbara Chapman"
+
+  - title: "When RDMA Goes Long-Haul: Characterization, Modeling, and Verbs-Level Emulation with Implications for Federated Learning"
+    id: 162
+    submission_id: 162
+    authors:
+      - name: "Yuke Li"
+      - name: "Zhonghao Chen"
+      - name: "Xiaoyi Lu"
+
+  - title: "JANUS: Resilient and Adaptive Data Transmission for Enabling Timely and Efficient"
+    id: 272
+    submission_id: 272
+    authors:
+      - name: "Vladislav Esaulov"
+      - name: "Jieyang Chen"
+      - name: "Norbert Podhorszki"
+      - name: "Fred Suter"
+      - name: "Scott Klasky"
+      - name: "Anu G. Bourgeois"
+      - name: "Lipeng Wan"
+
+  - title: "Kizashi Talks Session 1: The Next User Never Sleeps by Michael Papka (11:05 AM - 11:25 AM)"
+    id: -1
+    submission_id: -1
+    authors: []
+  - title: "Kizashi Talks Session 2: Five Bets on the Physical Future of Computing by Jeffrey Vetter (12:15 PM - 12:35 PM)"
+    id: -2
+    submission_id: -2
+    authors: []
+  - title: "Kizashi Talks Session 7: Taking the Seatbelts Out of the Supercomputer by Glenn Lockwood (2:15 PM - 2:35 PM)"
+    id: -7
+    submission_id: -7
+    authors: []
+  - title: "Kizashi Talks Session 10: Legal Prescriptions for AI Medical Scribes by Sharona Hoffman (12:15 PM - 12:35 PM)"
+    id: -10
+    submission_id: -10
+    authors: []
+  - title: "ACM SRC Presentations (11:05 AM - 11:25 AM)"
+    id: -9
+    submission_id: -9
+    authors: []
